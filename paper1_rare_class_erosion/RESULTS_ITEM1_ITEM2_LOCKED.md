@@ -162,3 +162,21 @@ CI overlap alone does not establish or rule out superiority (the 5 runs share se
 - **External validity.** One dataset (ISOT), one client partition (frozen Dirichlet allocation over 91 sessions, 15 clients), one architecture (a 2-hidden-layer MLP). FedAvg-SGD's headline numbers are conditional on 3/5 seeds — a 40% divergence rate at its own frozen learning rate is itself a validity-relevant finding, not a nuisance to be averaged away.
 - **Statistical conclusion validity.** n=5 seeds (n=3 for FedAvg-SGD) is small; Student's-t (not normal-approximation) CIs are used throughout for this reason, and superiority claims are backed by paired tests, not CI-overlap heuristics. The cluster-bootstrap CIs over 28 test sessions are wide because 28 is a small, heterogeneous session population — this is a property of the test set, not a contradiction of the seed-level findings.
 - **Dataset/simulation limits.** Divergence events (SCAFFOLD-uniform at lr=0.2/round 31; FedAvg-SGD at lr=0.5/round 2 for 2 seeds; multiple lr≥1.0 NaN collapses) are all on real network-traffic features at production-scale learning rates for this architecture; they are not claimed to generalize to other architectures or feature scales without re-verification.
+
+## 7. Correction — §3's "300 observations" Unit-of-Analysis Error (2026-08-22, appended after manuscript review; no number in §3 above is altered, this corrects only how they are described)
+
+**Error identified:** §3's opening paragraph describes "every one of 300 (seed × round × class × holder × eval-set) logged observations" in a way that reads as 300 independent measurements of the local-to-global gap. **This is incorrect.** The 300 rows in `update_conflict_mechanistic.csv` are not 300 independent global-recall observations — `recall_post_aggregation` on validation is a property of **the single global model at that (seed, round, class)**, identical across every holder client of that class, and duplicated once per holder row purely because the diagnostic script logs one row per (class, holder) pair. Re-verified directly from the raw CSV (300 rows, re-checked 2026-08-22):
+
+| Quantity | Correct count |
+|---|---|
+| Total logged rows | 300 (5 seeds × 6 rounds × 5 holder-slots [2 Manipulation + 3 Replay] × 2 eval-sets) |
+| **Unique global evaluations** (seed × round × class, the true independent unit for the global-recall claim) | **60** (5 seeds × 6 rounds × 2 classes) |
+| Global recall on validation, exactly 0.0 | **60/60** unique global evaluations (equivalently 150/150 duplicated validation rows) |
+| Local (pre-aggregation) recall on validation rows, **> 0** | **96/150** |
+| Local (pre-aggregation) recall on validation rows, **≥ 0.05** (practical threshold) | **91/150** |
+
+**Corrected framing (replaces the "every one of 300... observations" sentence in §3 for any future citation of this finding):**
+
+> Global post-aggregation recall on validation was exactly zero in all 60 unique (seed, round, class) evaluations logged for Manipulation and Replay. The corresponding local, pre-aggregation model — the same round, evaluated on the same validation rows — reached positive recall in 96 of 150 holder-level local evaluations (≥0.05 in 91/150). Because only the model differs between the local and global measurements at a fixed (seed, round, class), the drop cannot be attributed to a train/validation distribution mismatch.
+
+This does not change any number reported elsewhere in §3 (the cosine-similarity, margin-change, and non-holder-dominance figures were already computed correctly at the per-holder level, where holder identity is a genuine degree of freedom); it corrects only the global-recall sample-size framing in the opening paragraph.

@@ -3,8 +3,8 @@
   "root": "paper1_rare_class_erosion",
   "locked_results_document": {
     "paper1_rare_class_erosion/RESULTS_ITEM1_ITEM2_LOCKED.md": {
-      "sha256": "8c04c8149ffbee2ac5687cd03e0c03eb13a58e6c55e782fe8928668cbcb9df5b",
-      "size_bytes": 20037
+      "sha256": "6ac114daa78de0260cd6a10898f3e38702db83d11c464bf8c98debd6f6208b7f",
+      "size_bytes": 22539
     }
   },
   "design_frozen_document": {
@@ -115,6 +115,10 @@
     "paper1_rare_class_erosion/results/item2_five_seed_final_round_metrics.csv": {
       "sha256": "d6764315cf6bd7b388514825d277ff4fe1f963728db2e025d0cd307e63156394",
       "size_bytes": 1250944
+    },
+    "paper1_rare_class_erosion/results/item2_five_seed_validation_summary_LOCKED.md": {
+      "sha256": "95cfb21141063e2eb03a71223ae1a636066ff5c7ed21de9a36676bcc3f71f60b",
+      "size_bytes": 3975
     },
     "paper1_rare_class_erosion/results/item2_optimizer_screening_round_metrics.csv": {
       "sha256": "92a3a1b7f89ae83cdbccd652ae1a68200088e8e142b4e087741df98a14697c1c",
@@ -449,7 +453,7 @@
     "locked_results_document": 1,
     "design_frozen_document": 1,
     "figures": 6,
-    "raw_result_files": 26,
+    "raw_result_files": 27,
     "analysis_and_evaluation_scripts": 19,
     "metadata": 1,
     "checkpoints_item1_update_conflict": 30,
