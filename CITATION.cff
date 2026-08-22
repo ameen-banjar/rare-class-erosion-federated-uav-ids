@@ -1,0 +1,36 @@
+# CITATION.cff — fill in [TO CONFIRM] fields before making this repo public.
+# GitHub renders this automatically as a "Cite this repository" button once published.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
+cff-version: 1.2.0
+message: "If you use this code, partition protocol, or derived results, please cite both the software (below) and the associated paper once published (see preferred-citation)."
+type: software
+title: "uav-federated-ids: Reproducibility Package for Session-Level Non-IID Federated UAV Intrusion Detection"
+authors:
+  - family-names: Banjar
+    given-names: Ameen
+    email: ameen.banjar@manchester.ac.uk
+    affiliation: "University of Manchester"          # [TO CONFIRM] department/school
+    orcid: "https://orcid.org/0000-0000-0000-0000"    # [TO CONFIRM] replace with real ORCID or remove this line
+license: MIT
+repository-code: "[TO FILL IN AT PUBLISH TIME -- GitHub repository URL]"
+version: "1.0.0"
+date-released: "[TO FILL IN AT RELEASE TIME]"
+doi: "[TO FILL IN AFTER ZENODO ARCHIVAL -- e.g. 10.5281/zenodo.XXXXXXX]"
+keywords:
+  - federated learning
+  - intrusion detection
+  - UAV security
+  - non-IID
+  - class imbalance
+  - Dirichlet partitioning
+preferred-citation:
+  type: article
+  title: "When Averaging Forgets: A Session-Level Non-IID Benchmark for Rare-Attack Knowledge Erosion in Federated UAV Intrusion Detection"
+  authors:
+    - family-names: Banjar
+      given-names: Ameen
+      email: ameen.banjar@manchester.ac.uk
+      affiliation: "University of Manchester"
+  journal: "Alexandria Engineering Journal"           # [TO CONFIRM] update if venue changes
+  year: 2026                                          # [TO CONFIRM] update to actual publication year
+  status: "in-review"                                 # [TO UPDATE] -> "published" once accepted, add volume/pages/doi then

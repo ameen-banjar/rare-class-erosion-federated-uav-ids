@@ -1,0 +1,24 @@
+# class-run-level Spearman rho DESCRIPTIVE ONLY (n=261 evaluable units -- Password Cracking excluded for 0 validation support -- rows correlated within only 3 partitions). The p-value column is naive/unadjusted for that clustering and MUST NOT be reported or cited as a significance result -- it is retained only so the raw naive value is visible, not to license its use.
+target,concentration_var,spearman_rho,naive_unadjusted_p_do_not_report,n
+strict_erosion,gini,0.21685896202837357,0.00041755557546873214,261
+strict_erosion,hhi,0.17093927659797253,0.00562699235092333,261
+strict_erosion,holder_fraction,-0.320037509329539,1.2556353454369603e-07,261
+strict_erosion,holder_weight_share_this_class,-0.49931425520449263,7.301636674937236e-18,261
+practical_erosion,gini,0.2156399613195708,0.00045078509644315656,261
+practical_erosion,hhi,0.1823909283992166,0.003103277694647618,261
+practical_erosion,holder_fraction,-0.3132659422614468,2.374702607209639e-07,261
+practical_erosion,holder_weight_share_this_class,-0.4865339293484499,6.463374355449793e-17,261
+aggregation_recall_loss,gini,0.3120588449072024,2.655981877865847e-07,261
+aggregation_recall_loss,hhi,0.5501463617721151,4.74930356739303e-22,261
+aggregation_recall_loss,holder_fraction,-0.46803012609371436,1.2983845087186668e-15,261
+aggregation_recall_loss,holder_weight_share_this_class,-0.5701516098173735,6.67204750859047e-24,261
+
+# partition-level aggregate (mean per partition). NOT a robustness check -- only 3 confirmation partitions exist, far too few to assess robustness. Concentration/HHI/Gini conclusions should be drawn from the exploratory grid (27 partitions, see analysis_q3b_partition_level_spearman.csv), not from this table.
+anchor,partition_seed,mean_gini,mean_hhi,mean_holder_fraction,strict_erosion_rate,practical_erosion_rate
+heavy_a0.1_nc30,102,0.8979021349990451,0.34460275392314316,0.15555555555555556,0.2,0.18888888888888888
+light_a1.0_nc10,101,0.6638615055881261,0.2982599258986427,0.4777777777777778,0.037037037037037035,0.037037037037037035
+moderate_a0.3_nc15,103,0.8126148176040715,0.40211508897074205,0.2740740740740741,0.16666666666666666,0.16666666666666666
+
+# FedNova-rescue vs HHI, restricted to FedAvg-zero cases, cluster-bootstrap by partition_id
+n_fedavg_zero_cases_with_fednova_match,n_rescued,n_stuck_both_zero,mean_hhi_rescued,mean_hhi_stuck,observed_gap_rescued_minus_stuck,cluster_bootstrap_by_partition_n_resamples,cluster_bootstrap_95pct_CI_lo,cluster_bootstrap_95pct_CI_hi,approved_wording_confirmation_scope,caveat
+12,0,12,,0.3557114247802295,,0,,,"Within the three confirmation anchors (evaluable classes only), FedNova rescued ZERO of the 12 FedAvg zero-global-recall cases (0/12). The exploratory grid's modest net reduction in zero-recall cases did NOT transfer to these three prespecified anchors -- the exploratory HHI/rescue pattern is not reproduced here. The exploratory-phase wording ('FedNova rescue was descriptively concentrated in moderately concentrated class allocations...') describes the EXPLORATORY grid only and must not be applied to the confirmation anchors.",Gini/HHI/holder_fraction/holder_weight_share are NOT causes; strongest stable exploratory associations only.

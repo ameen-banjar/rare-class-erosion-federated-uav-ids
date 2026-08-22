@@ -1,0 +1,42 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "num_rounds": 45,
+  "batch_size": 4096,
+  "frozen_configs": {
+    "fedavg_sgd": {
+      "lr": 0.5,
+      "comm_multiplier": 1.0
+    },
+    "fednova_sgd": {
+      "lr": 0.3,
+      "comm_multiplier": 1.0
+    },
+    "scaffold_uniform": {
+      "lr": 0.1,
+      "comm_multiplier": 2.0
+    },
+    "scaffold_weighted": {
+      "lr": 0.1,
+      "comm_multiplier": 2.0
+    },
+    "fedadam": {
+      "client_lr": 0.001,
+      "server_lr": 0.03,
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "tau": 0.001,
+      "comm_multiplier": 1.0
+    }
+  },
+  "code_version_sha256_16": "8172137a0e7edb43",
+  "device": "mps",
+  "run_started": "2026-08-19 19:27:00",
+  "note": "Naming: fedavg_sgd/fednova_sgd/scaffold_*/fedadam here use SGD (or SGD+server-Adam) locally. Phase-1 frozen fedavg/fedprox/client_uniform (results_phase1_frozen/) used Adam locally -- label Phase-1's as FedAvg-Adam etc. in comparison tables.",
+  "held_out_test_touched": false
+}

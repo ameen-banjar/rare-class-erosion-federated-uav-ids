@@ -1,0 +1,18 @@
+# per anchor x algorithm
+anchor,algorithm,planned_seeds,completed_seeds,diverged_seeds,divergence_rate
+heavy_a0.1_nc30,fedavg_sgd,5,5,0,0.0
+heavy_a0.1_nc30,fednova_sgd,5,5,0,0.0
+moderate_a0.3_nc15,fedavg_sgd,5,5,0,0.0
+moderate_a0.3_nc15,fednova_sgd,5,5,0,0.0
+light_a1.0_nc10,fedavg_sgd,5,4,1,0.2
+light_a1.0_nc10,fednova_sgd,5,5,0,0.0
+
+# overall / light-anchor-specific
+scope,diverged,planned,rate
+"FedAvg-SGD, all anchors pooled",1,15,0.06666666666666667
+"FedNova-SGD, all anchors pooled",0,15,0.0
+"FedAvg-SGD, light anchor (a1.0/nc10) only",1,5,0.2
+
+# diverged run detail
+algorithm,alpha,n_clients,partition_seed,model_seed,diverged_at_round,note
+fedavg_sgd,1.0,10,101,33,16,excluded from every performance/erosion denominator; no round-45 diagnostics exist for this run

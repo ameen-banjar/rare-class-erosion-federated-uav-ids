@@ -1,0 +1,645 @@
+algorithm,seed,class,session,n_rows,recall
+fedavg_sgd,11,DoS,DoS_3_5_1_20mins.pcap,18515,0.9954091277342695
+fedavg_sgd,11,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+fedavg_sgd,11,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fedavg_sgd,11,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999804937858775
+fedavg_sgd,11,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+fedavg_sgd,11,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.707843137254902
+fedavg_sgd,11,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.45692883895131087
+fedavg_sgd,11,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9915522703273495
+fedavg_sgd,11,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9953161592505855
+fedavg_sgd,11,MITM,mitm_station_mode_2_5_24.pcap,1447,0.9778852798894264
+fedavg_sgd,11,MITM,mitm_station_mode_4_5_24.pcap,1350,0.9592592592592593
+fedavg_sgd,11,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedavg_sgd,11,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998764780523958
+fedavg_sgd,11,Regular,regular_15_5_20.pcap,15414,0.983067341377968
+fedavg_sgd,11,Regular,regular_17_5_20.pcap,25744,0.9794515226848974
+fedavg_sgd,11,Regular,regular_21_5_20.pcap,24578,0.9865733582878997
+fedavg_sgd,11,Regular,regular_25_5_21.pcap,25453,0.9900208226928063
+fedavg_sgd,11,Regular,regular_26_5_21.pcap,24894,0.9810396079376557
+fedavg_sgd,11,Regular,regular_42_5_23.pcap,22319,0.9832429768358797
+fedavg_sgd,11,Regular,regular_46_5_23.pcap,24836,0.9859880818167177
+fedavg_sgd,11,Regular,regular_47_5_23.pcap,21264,0.9860797592174567
+fedavg_sgd,11,Regular,regular_51_5_24.pcap,25931,0.9860784389340943
+fedavg_sgd,11,Regular,regular_54_5_25.pcap,25304,0.9847059753398673
+fedavg_sgd,11,Regular,regular_8_5_19.pcap,22269,0.9847770443217028
+fedavg_sgd,11,Replay,replay_2_5_22_10mins.pcap,1072,0.4375
+fedavg_sgd,11,Unauth,unauthen_2_5_16_9mins.pcap,746,0.564343163538874
+fedavg_sgd,11,Unauth,unauthen_4_5_16_6mins.pcap,594,0.4478114478114478
+fedavg_sgd,11,Video,video_3_5_13_11mins.pcap,10784,0.4446402077151335
+fedavg_sgd,22,DoS,DoS_3_5_1_20mins.pcap,18515,0.9955171482581691
+fedavg_sgd,22,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9997433264887063
+fedavg_sgd,22,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fedavg_sgd,22,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998885359193
+fedavg_sgd,22,DoS,slowloris_5_1_15mins.pcap,177,0.864406779661017
+fedavg_sgd,22,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.06274509803921569
+fedavg_sgd,22,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.06117353308364544
+fedavg_sgd,22,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9947201689545935
+fedavg_sgd,22,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9882903981264637
+fedavg_sgd,22,MITM,mitm_station_mode_2_5_24.pcap,1447,0.95922598479613
+fedavg_sgd,22,MITM,mitm_station_mode_4_5_24.pcap,1350,0.9496296296296296
+fedavg_sgd,22,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedavg_sgd,22,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999438536601799
+fedavg_sgd,22,Regular,regular_15_5_20.pcap,15414,0.9882574283119242
+fedavg_sgd,22,Regular,regular_17_5_20.pcap,25744,0.9873756991920447
+fedavg_sgd,22,Regular,regular_21_5_20.pcap,24578,0.9933680527300838
+fedavg_sgd,22,Regular,regular_25_5_21.pcap,25453,0.9945389541507877
+fedavg_sgd,22,Regular,regular_26_5_21.pcap,24894,0.9884309472161966
+fedavg_sgd,22,Regular,regular_42_5_23.pcap,22319,0.9904117567991397
+fedavg_sgd,22,Regular,regular_46_5_23.pcap,24836,0.9923900789177001
+fedavg_sgd,22,Regular,regular_47_5_23.pcap,21264,0.9940744920993227
+fedavg_sgd,22,Regular,regular_51_5_24.pcap,25931,0.9927499903590298
+fedavg_sgd,22,Regular,regular_54_5_25.pcap,25304,0.9921751501738856
+fedavg_sgd,22,Regular,regular_8_5_19.pcap,22269,0.9916924873142036
+fedavg_sgd,22,Replay,replay_2_5_22_10mins.pcap,1072,0.14272388059701493
+fedavg_sgd,22,Unauth,unauthen_2_5_16_9mins.pcap,746,0.9490616621983914
+fedavg_sgd,22,Unauth,unauthen_4_5_16_6mins.pcap,594,0.9595959595959596
+fedavg_sgd,22,Video,video_3_5_13_11mins.pcap,10784,0.4618879821958457
+fedavg_sgd,33,DoS,DoS_3_5_1_20mins.pcap,18515,0.9926546043748312
+fedavg_sgd,33,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+fedavg_sgd,33,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fedavg_sgd,33,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9997956491853833
+fedavg_sgd,33,DoS,slowloris_5_1_15mins.pcap,177,0.8813559322033898
+fedavg_sgd,33,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.00980392156862745
+fedavg_sgd,33,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.00749063670411985
+fedavg_sgd,33,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9926082365364308
+fedavg_sgd,33,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9976580796252927
+fedavg_sgd,33,MITM,mitm_station_mode_2_5_24.pcap,1447,0.9253628196268141
+fedavg_sgd,33,MITM,mitm_station_mode_4_5_24.pcap,1350,0.8444444444444444
+fedavg_sgd,33,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.004945598417408506
+fedavg_sgd,33,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998652487844317
+fedavg_sgd,33,Regular,regular_15_5_20.pcap,15414,0.9876735435318541
+fedavg_sgd,33,Regular,regular_17_5_20.pcap,25744,0.985627719080174
+fedavg_sgd,33,Regular,regular_21_5_20.pcap,24578,0.9916185206282041
+fedavg_sgd,33,Regular,regular_25_5_21.pcap,25453,0.9938317683573645
+fedavg_sgd,33,Regular,regular_26_5_21.pcap,24894,0.9874266891620471
+fedavg_sgd,33,Regular,regular_42_5_23.pcap,22319,0.9900085129262064
+fedavg_sgd,33,Regular,regular_46_5_23.pcap,24836,0.9906989853438557
+fedavg_sgd,33,Regular,regular_47_5_23.pcap,21264,0.9913939051918735
+fedavg_sgd,33,Regular,regular_51_5_24.pcap,25931,0.9911688712352011
+fedavg_sgd,33,Regular,regular_54_5_25.pcap,25304,0.9910290863104647
+fedavg_sgd,33,Regular,regular_8_5_19.pcap,22269,0.990300417620908
+fedavg_sgd,33,Replay,replay_2_5_22_10mins.pcap,1072,0.4664179104477612
+fedavg_sgd,33,Unauth,unauthen_2_5_16_9mins.pcap,746,0.9705093833780161
+fedavg_sgd,33,Unauth,unauthen_4_5_16_6mins.pcap,594,1.0
+fedavg_sgd,33,Video,video_3_5_13_11mins.pcap,10784,0.5515578635014837
+fednova_sgd,11,DoS,DoS_3_5_1_20mins.pcap,18515,0.9986497434512558
+fednova_sgd,11,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+fednova_sgd,11,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fednova_sgd,11,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998885359193
+fednova_sgd,11,DoS,slowloris_5_1_15mins.pcap,177,1.0
+fednova_sgd,11,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.9980392156862745
+fednova_sgd,11,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.7153558052434457
+fednova_sgd,11,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6642027455121436
+fednova_sgd,11,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.6252927400468384
+fednova_sgd,11,MITM,mitm_station_mode_2_5_24.pcap,1447,0.6102280580511403
+fednova_sgd,11,MITM,mitm_station_mode_4_5_24.pcap,1350,0.6718518518518518
+fednova_sgd,11,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.1533135509396637
+fednova_sgd,11,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9995059122095831
+fednova_sgd,11,Regular,regular_15_5_20.pcap,15414,0.996691319579603
+fednova_sgd,11,Regular,regular_17_5_20.pcap,25744,0.9966205717837165
+fednova_sgd,11,Regular,regular_21_5_20.pcap,24578,0.9976401660021157
+fednova_sgd,11,Regular,regular_25_5_21.pcap,25453,0.9986249165127883
+fednova_sgd,11,Regular,regular_26_5_21.pcap,24894,0.997509440025709
+fednova_sgd,11,Regular,regular_42_5_23.pcap,22319,0.9973117075137775
+fednova_sgd,11,Regular,regular_46_5_23.pcap,24836,0.9972620389756804
+fednova_sgd,11,Regular,regular_47_5_23.pcap,21264,0.9980248306997742
+fednova_sgd,11,Regular,regular_51_5_24.pcap,25931,0.9976090393737226
+fednova_sgd,11,Regular,regular_54_5_25.pcap,25304,0.9973521972810623
+fednova_sgd,11,Regular,regular_8_5_19.pcap,22269,0.9968117113476133
+fednova_sgd,11,Replay,replay_2_5_22_10mins.pcap,1072,0.8722014925373134
+fednova_sgd,11,Unauth,unauthen_2_5_16_9mins.pcap,746,0.2868632707774799
+fednova_sgd,11,Unauth,unauthen_4_5_16_6mins.pcap,594,0.13131313131313133
+fednova_sgd,11,Video,video_3_5_13_11mins.pcap,10784,0.4609606824925816
+fednova_sgd,22,DoS,DoS_3_5_1_20mins.pcap,18515,0.9961652714015663
+fednova_sgd,22,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+fednova_sgd,22,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fednova_sgd,22,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.99983280387895
+fednova_sgd,22,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+fednova_sgd,22,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.9509803921568627
+fednova_sgd,22,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.7016229712858927
+fednova_sgd,22,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.8247096092925026
+fednova_sgd,22,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.8805620608899297
+fednova_sgd,22,MITM,mitm_station_mode_2_5_24.pcap,1447,0.45473393227366965
+fednova_sgd,22,MITM,mitm_station_mode_4_5_24.pcap,1350,0.46074074074074073
+fednova_sgd,22,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.6399604352126608
+fednova_sgd,22,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9994160780658708
+fednova_sgd,22,Regular,regular_15_5_20.pcap,15414,0.9948747891527183
+fednova_sgd,22,Regular,regular_17_5_20.pcap,25744,0.9947560596643878
+fednova_sgd,22,Regular,regular_21_5_20.pcap,24578,0.9967043697615754
+fednova_sgd,22,Regular,regular_25_5_21.pcap,25453,0.9979963069186344
+fednova_sgd,22,Regular,regular_26_5_21.pcap,24894,0.9961034787498996
+fednova_sgd,22,Regular,regular_42_5_23.pcap,22319,0.9958779515211255
+fednova_sgd,22,Regular,regular_46_5_23.pcap,24836,0.9960138508616524
+fednova_sgd,22,Regular,regular_47_5_23.pcap,21264,0.9962377727614747
+fednova_sgd,22,Regular,regular_51_5_24.pcap,25931,0.9967606339902048
+fednova_sgd,22,Regular,regular_54_5_25.pcap,25304,0.9966803667404363
+fednova_sgd,22,Regular,regular_8_5_19.pcap,22269,0.9955992635502268
+fednova_sgd,22,Replay,replay_2_5_22_10mins.pcap,1072,0.16417910447761194
+fednova_sgd,22,Unauth,unauthen_2_5_16_9mins.pcap,746,0.3512064343163539
+fednova_sgd,22,Unauth,unauthen_4_5_16_6mins.pcap,594,0.23063973063973064
+fednova_sgd,22,Video,video_3_5_13_11mins.pcap,10784,0.47672477744807124
+fednova_sgd,33,DoS,DoS_3_5_1_20mins.pcap,18515,0.9964893329732649
+fednova_sgd,33,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+fednova_sgd,33,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997839446898406
+fednova_sgd,33,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998978245926917
+fednova_sgd,33,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+fednova_sgd,33,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.515686274509804
+fednova_sgd,33,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.31585518102372034
+fednova_sgd,33,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.5997888067581837
+fednova_sgd,33,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.6182669789227166
+fednova_sgd,33,MITM,mitm_station_mode_2_5_24.pcap,1447,0.424326192121631
+fednova_sgd,33,MITM,mitm_station_mode_4_5_24.pcap,1350,0.43777777777777777
+fednova_sgd,33,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.2433234421364985
+fednova_sgd,33,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9997192683008994
+fednova_sgd,33,Regular,regular_15_5_20.pcap,15414,0.9977293369663942
+fednova_sgd,33,Regular,regular_17_5_20.pcap,25744,0.997669359850839
+fednova_sgd,33,Regular,regular_21_5_20.pcap,24578,0.9977622263813166
+fednova_sgd,33,Regular,regular_25_5_21.pcap,25453,0.9985463403135191
+fednova_sgd,33,Regular,regular_26_5_21.pcap,24894,0.9978709729252029
+fednova_sgd,33,Regular,regular_42_5_23.pcap,22319,0.997490927012859
+fednova_sgd,33,Regular,regular_46_5_23.pcap,24836,0.9975841520373652
+fednova_sgd,33,Regular,regular_47_5_23.pcap,21264,0.9975075244544771
+fednova_sgd,33,Regular,regular_51_5_24.pcap,25931,0.9978789865412055
+fednova_sgd,33,Regular,regular_54_5_25.pcap,25304,0.9977473917167247
+fednova_sgd,33,Regular,regular_8_5_19.pcap,22269,0.9971260496654543
+fednova_sgd,33,Replay,replay_2_5_22_10mins.pcap,1072,0.8684701492537313
+fednova_sgd,33,Unauth,unauthen_2_5_16_9mins.pcap,746,0.7962466487935657
+fednova_sgd,33,Unauth,unauthen_4_5_16_6mins.pcap,594,0.7878787878787878
+fednova_sgd,33,Video,video_3_5_13_11mins.pcap,10784,0.3840875370919881
+fednova_sgd,44,DoS,DoS_3_5_1_20mins.pcap,18515,0.9980016203078584
+fednova_sgd,44,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+fednova_sgd,44,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fednova_sgd,44,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998420925523417
+fednova_sgd,44,DoS,slowloris_5_1_15mins.pcap,177,1.0
+fednova_sgd,44,Injection,Instruction_injection_4_5_13_6mins.pcap,510,1.0
+fednova_sgd,44,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.7128589263420724
+fednova_sgd,44,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.706441393875396
+fednova_sgd,44,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.7189695550351288
+fednova_sgd,44,MITM,mitm_station_mode_2_5_24.pcap,1447,0.6579129232895646
+fednova_sgd,44,MITM,mitm_station_mode_4_5_24.pcap,1350,0.6533333333333333
+fednova_sgd,44,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.10682492581602374
+fednova_sgd,44,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998877073203598
+fednova_sgd,44,Regular,regular_15_5_20.pcap,15414,0.9946152848060205
+fednova_sgd,44,Regular,regular_17_5_20.pcap,25744,0.9942899316345556
+fednova_sgd,44,Regular,regular_21_5_20.pcap,24578,0.9947514036943608
+fednova_sgd,44,Regular,regular_25_5_21.pcap,25453,0.9966997996306919
+fednova_sgd,44,Regular,regular_26_5_21.pcap,24894,0.9946171768297581
+fednova_sgd,44,Regular,regular_42_5_23.pcap,22319,0.9948026345266365
+fednova_sgd,44,Regular,regular_46_5_23.pcap,24836,0.9947253986149138
+fednova_sgd,44,Regular,regular_47_5_23.pcap,21264,0.9950620767494357
+fednova_sgd,44,Regular,regular_51_5_24.pcap,25931,0.9956422814392041
+fednova_sgd,44,Regular,regular_54_5_25.pcap,25304,0.9952971862156181
+fednova_sgd,44,Regular,regular_8_5_19.pcap,22269,0.9948807759665903
+fednova_sgd,44,Replay,replay_2_5_22_10mins.pcap,1072,0.8759328358208955
+fednova_sgd,44,Unauth,unauthen_2_5_16_9mins.pcap,746,0.289544235924933
+fednova_sgd,44,Unauth,unauthen_4_5_16_6mins.pcap,594,0.12962962962962962
+fednova_sgd,44,Video,video_3_5_13_11mins.pcap,10784,0.42201409495548964
+fednova_sgd,55,DoS,DoS_3_5_1_20mins.pcap,18515,0.9988657844990548
+fednova_sgd,55,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+fednova_sgd,55,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+fednova_sgd,55,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998885359193
+fednova_sgd,55,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+fednova_sgd,55,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.8235294117647058
+fednova_sgd,55,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.5280898876404494
+fednova_sgd,55,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6462513199577613
+fednova_sgd,55,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.6018735362997658
+fednova_sgd,55,MITM,mitm_station_mode_2_5_24.pcap,1447,0.6620594333102972
+fednova_sgd,55,MITM,mitm_station_mode_4_5_24.pcap,1350,0.6933333333333334
+fednova_sgd,55,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.016815034619188922
+fednova_sgd,55,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9995283707455112
+fednova_sgd,55,Regular,regular_15_5_20.pcap,15414,0.9950694174127417
+fednova_sgd,55,Regular,regular_17_5_20.pcap,25744,0.9953387197016781
+fednova_sgd,55,Regular,regular_21_5_20.pcap,24578,0.9963381886239726
+fednova_sgd,55,Regular,regular_25_5_21.pcap,25453,0.9977605783208267
+fednova_sgd,55,Regular,regular_26_5_21.pcap,24894,0.9960633084277336
+fednova_sgd,55,Regular,regular_42_5_23.pcap,22319,0.9960123661454366
+fednova_sgd,55,Regular,regular_46_5_23.pcap,24836,0.9959735867289419
+fednova_sgd,55,Regular,regular_47_5_23.pcap,21264,0.9970372460496614
+fednova_sgd,55,Regular,regular_51_5_24.pcap,25931,0.9969148895144807
+fednova_sgd,55,Regular,regular_54_5_25.pcap,25304,0.9963642111919064
+fednova_sgd,55,Regular,regular_8_5_19.pcap,22269,0.9957788854461359
+fednova_sgd,55,Replay,replay_2_5_22_10mins.pcap,1072,0.9095149253731343
+fednova_sgd,55,Unauth,unauthen_2_5_16_9mins.pcap,746,0.6045576407506702
+fednova_sgd,55,Unauth,unauthen_4_5_16_6mins.pcap,594,0.5437710437710438
+fednova_sgd,55,Video,video_3_5_13_11mins.pcap,10784,0.36860163204747776
+scaffold_uniform,11,DoS,DoS_3_5_1_20mins.pcap,18515,0.9965973534971645
+scaffold_uniform,11,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996791581108829
+scaffold_uniform,11,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_uniform,11,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998513812257334
+scaffold_uniform,11,DoS,slowloris_5_1_15mins.pcap,177,1.0
+scaffold_uniform,11,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.9980392156862745
+scaffold_uniform,11,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.6903870162297129
+scaffold_uniform,11,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6325237592397043
+scaffold_uniform,11,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.585480093676815
+scaffold_uniform,11,MITM,mitm_station_mode_2_5_24.pcap,1447,0.0048375950241879755
+scaffold_uniform,11,MITM,mitm_station_mode_4_5_24.pcap,1350,0.006666666666666667
+scaffold_uniform,11,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_uniform,11,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999213951242518
+scaffold_uniform,11,Regular,regular_15_5_20.pcap,15414,0.984624367458155
+scaffold_uniform,11,Regular,regular_17_5_20.pcap,25744,0.9827532628962088
+scaffold_uniform,11,Regular,regular_21_5_20.pcap,24578,0.9895028073887217
+scaffold_uniform,11,Regular,regular_25_5_21.pcap,25453,0.9924959729697874
+scaffold_uniform,11,Regular,regular_26_5_21.pcap,24894,0.985217321442918
+scaffold_uniform,11,Regular,regular_42_5_23.pcap,22319,0.9857072449482503
+scaffold_uniform,11,Regular,regular_46_5_23.pcap,24836,0.9890481559027219
+scaffold_uniform,11,Regular,regular_47_5_23.pcap,21264,0.9886192626034612
+scaffold_uniform,11,Regular,regular_51_5_24.pcap,25931,0.9888164744899927
+scaffold_uniform,11,Regular,regular_54_5_25.pcap,25304,0.9891321530192855
+scaffold_uniform,11,Regular,regular_8_5_19.pcap,22269,0.987561183708294
+scaffold_uniform,11,Replay,replay_2_5_22_10mins.pcap,1072,0.894589552238806
+scaffold_uniform,11,Unauth,unauthen_2_5_16_9mins.pcap,746,0.3002680965147453
+scaffold_uniform,11,Unauth,unauthen_4_5_16_6mins.pcap,594,0.1414141414141414
+scaffold_uniform,11,Video,video_3_5_13_11mins.pcap,10784,0.6626483679525222
+scaffold_uniform,22,DoS,DoS_3_5_1_20mins.pcap,18515,0.9963813124493653
+scaffold_uniform,22,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996149897330595
+scaffold_uniform,22,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_uniform,22,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999804937858775
+scaffold_uniform,22,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_uniform,22,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.703921568627451
+scaffold_uniform,22,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.46192259675405745
+scaffold_uniform,22,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.5607180570221753
+scaffold_uniform,22,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.4637002341920375
+scaffold_uniform,22,MITM,mitm_station_mode_2_5_24.pcap,1447,0.11402902557014513
+scaffold_uniform,22,MITM,mitm_station_mode_4_5_24.pcap,1350,0.04
+scaffold_uniform,22,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_uniform,22,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998989365883239
+scaffold_uniform,22,Regular,regular_15_5_20.pcap,15414,0.9780718827040353
+scaffold_uniform,22,Regular,regular_17_5_20.pcap,25744,0.9750621504039776
+scaffold_uniform,22,Regular,regular_21_5_20.pcap,24578,0.9838473431524127
+scaffold_uniform,22,Regular,regular_25_5_21.pcap,25453,0.9873099438180175
+scaffold_uniform,22,Regular,regular_26_5_21.pcap,24894,0.9780670040973729
+scaffold_uniform,22,Regular,regular_42_5_23.pcap,22319,0.9793449527308571
+scaffold_uniform,22,Regular,regular_46_5_23.pcap,24836,0.9823643098727654
+scaffold_uniform,22,Regular,regular_47_5_23.pcap,21264,0.98227050413845
+scaffold_uniform,22,Regular,regular_51_5_24.pcap,25931,0.9834946589024719
+scaffold_uniform,22,Regular,regular_54_5_25.pcap,25304,0.9824533670565918
+scaffold_uniform,22,Regular,regular_8_5_19.pcap,22269,0.9816336611432933
+scaffold_uniform,22,Replay,replay_2_5_22_10mins.pcap,1072,0.976679104477612
+scaffold_uniform,22,Unauth,unauthen_2_5_16_9mins.pcap,746,0.5361930294906166
+scaffold_uniform,22,Unauth,unauthen_4_5_16_6mins.pcap,594,0.44276094276094274
+scaffold_uniform,22,Video,video_3_5_13_11mins.pcap,10784,0.7664132047477745
+scaffold_uniform,33,DoS,DoS_3_5_1_20mins.pcap,18515,0.9955711585201188
+scaffold_uniform,33,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9997433264887063
+scaffold_uniform,33,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_uniform,33,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998420925523417
+scaffold_uniform,33,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_uniform,33,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.9745098039215686
+scaffold_uniform,33,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.6566791510611736
+scaffold_uniform,33,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.53220696937698
+scaffold_uniform,33,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.47540983606557374
+scaffold_uniform,33,MITM,mitm_station_mode_2_5_24.pcap,1447,0.009675190048375951
+scaffold_uniform,33,MITM,mitm_station_mode_4_5_24.pcap,1350,0.008888888888888889
+scaffold_uniform,33,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.1582591493570722
+scaffold_uniform,33,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998540195164677
+scaffold_uniform,33,Regular,regular_15_5_20.pcap,15414,0.9825483326845724
+scaffold_uniform,33,Regular,regular_17_5_20.pcap,25744,0.9806168427594779
+scaffold_uniform,33,Regular,regular_21_5_20.pcap,24578,0.987712588493775
+scaffold_uniform,33,Regular,regular_25_5_21.pcap,25453,0.9910423132833065
+scaffold_uniform,33,Regular,regular_26_5_21.pcap,24894,0.982606250502129
+scaffold_uniform,33,Regular,regular_42_5_23.pcap,22319,0.9825260988395538
+scaffold_uniform,33,Regular,regular_46_5_23.pcap,24836,0.9868738927363505
+scaffold_uniform,33,Regular,regular_47_5_23.pcap,21264,0.987349510910459
+scaffold_uniform,33,Regular,regular_51_5_24.pcap,25931,0.9870810998418881
+scaffold_uniform,33,Regular,regular_54_5_25.pcap,25304,0.9866424280746127
+scaffold_uniform,33,Regular,regular_8_5_19.pcap,22269,0.9851811935874983
+scaffold_uniform,33,Replay,replay_2_5_22_10mins.pcap,1072,0.9533582089552238
+scaffold_uniform,33,Unauth,unauthen_2_5_16_9mins.pcap,746,0.33109919571045576
+scaffold_uniform,33,Unauth,unauthen_4_5_16_6mins.pcap,594,0.2138047138047138
+scaffold_uniform,33,Video,video_3_5_13_11mins.pcap,10784,0.5548961424332344
+scaffold_uniform,44,DoS,DoS_3_5_1_20mins.pcap,18515,0.9937348096138267
+scaffold_uniform,44,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996791581108829
+scaffold_uniform,44,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_uniform,44,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998420925523417
+scaffold_uniform,44,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_uniform,44,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.9647058823529412
+scaffold_uniform,44,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.6254681647940075
+scaffold_uniform,44,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.3843717001055966
+scaffold_uniform,44,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.3770491803278688
+scaffold_uniform,44,MITM,mitm_station_mode_2_5_24.pcap,1447,0.10919143054595715
+scaffold_uniform,44,MITM,mitm_station_mode_4_5_24.pcap,1350,0.04
+scaffold_uniform,44,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_uniform,44,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.999988770732036
+scaffold_uniform,44,Regular,regular_15_5_20.pcap,15414,0.9806669261710134
+scaffold_uniform,44,Regular,regular_17_5_20.pcap,25744,0.9780142945929149
+scaffold_uniform,44,Regular,regular_21_5_20.pcap,24578,0.9846203922206852
+scaffold_uniform,44,Regular,regular_25_5_21.pcap,25453,0.9885671630063254
+scaffold_uniform,44,Regular,regular_26_5_21.pcap,24894,0.9804370531051659
+scaffold_uniform,44,Regular,regular_42_5_23.pcap,22319,0.9801514404767239
+scaffold_uniform,44,Regular,regular_46_5_23.pcap,24836,0.9844983089064262
+scaffold_uniform,44,Regular,regular_47_5_23.pcap,21264,0.9832580887885628
+scaffold_uniform,44,Regular,regular_51_5_24.pcap,25931,0.9848829586209557
+scaffold_uniform,44,Regular,regular_54_5_25.pcap,25304,0.9835203920328802
+scaffold_uniform,44,Regular,regular_8_5_19.pcap,22269,0.9823072432529525
+scaffold_uniform,44,Replay,replay_2_5_22_10mins.pcap,1072,0.9626865671641791
+scaffold_uniform,44,Unauth,unauthen_2_5_16_9mins.pcap,746,0.3726541554959786
+scaffold_uniform,44,Unauth,unauthen_4_5_16_6mins.pcap,594,0.2356902356902357
+scaffold_uniform,44,Video,video_3_5_13_11mins.pcap,10784,0.7865356083086054
+scaffold_uniform,55,DoS,DoS_3_5_1_20mins.pcap,18515,0.9950850661625709
+scaffold_uniform,55,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+scaffold_uniform,55,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_uniform,55,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998420925523417
+scaffold_uniform,55,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_uniform,55,Injection,Instruction_injection_4_5_13_6mins.pcap,510,1.0
+scaffold_uniform,55,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.8052434456928839
+scaffold_uniform,55,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.600844772967265
+scaffold_uniform,55,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.585480093676815
+scaffold_uniform,55,MITM,mitm_station_mode_2_5_24.pcap,1447,0.009675190048375951
+scaffold_uniform,55,MITM,mitm_station_mode_4_5_24.pcap,1350,0.008888888888888889
+scaffold_uniform,55,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.13452027695351138
+scaffold_uniform,55,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999213951242518
+scaffold_uniform,55,Regular,regular_15_5_20.pcap,15414,0.9862462696250163
+scaffold_uniform,55,Regular,regular_17_5_20.pcap,25744,0.9858607830950901
+scaffold_uniform,55,Regular,regular_21_5_20.pcap,24578,0.988933192285784
+scaffold_uniform,55,Regular,regular_25_5_21.pcap,25453,0.9930067182650375
+scaffold_uniform,55,Regular,regular_26_5_21.pcap,24894,0.987386518839881
+scaffold_uniform,55,Regular,regular_42_5_23.pcap,22319,0.9875442448138357
+scaffold_uniform,55,Regular,regular_46_5_23.pcap,24836,0.9892092124335642
+scaffold_uniform,55,Regular,regular_47_5_23.pcap,21264,0.9879608728367193
+scaffold_uniform,55,Regular,regular_51_5_24.pcap,25931,0.9895106243492345
+scaffold_uniform,55,Regular,regular_54_5_25.pcap,25304,0.9898039835599115
+scaffold_uniform,55,Regular,regular_8_5_19.pcap,22269,0.9880551439220441
+scaffold_uniform,55,Replay,replay_2_5_22_10mins.pcap,1072,0.8917910447761194
+scaffold_uniform,55,Unauth,unauthen_2_5_16_9mins.pcap,746,0.19302949061662197
+scaffold_uniform,55,Unauth,unauthen_4_5_16_6mins.pcap,594,0.030303030303030304
+scaffold_uniform,55,Video,video_3_5_13_11mins.pcap,10784,0.6944547477744807
+scaffold_weighted,11,DoS,DoS_3_5_1_20mins.pcap,18515,0.993410748042128
+scaffold_weighted,11,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+scaffold_weighted,11,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_weighted,11,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998513812257334
+scaffold_weighted,11,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_weighted,11,Injection,Instruction_injection_4_5_13_6mins.pcap,510,1.0
+scaffold_weighted,11,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.9937578027465668
+scaffold_weighted,11,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.8827877507919747
+scaffold_weighted,11,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9110070257611241
+scaffold_weighted,11,MITM,mitm_station_mode_2_5_24.pcap,1447,0.8237733241188666
+scaffold_weighted,11,MITM,mitm_station_mode_4_5_24.pcap,1350,0.7222222222222222
+scaffold_weighted,11,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_weighted,11,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999213951242518
+scaffold_weighted,11,Regular,regular_15_5_20.pcap,15414,0.9442714415466459
+scaffold_weighted,11,Regular,regular_17_5_20.pcap,25744,0.9395587321317589
+scaffold_weighted,11,Regular,regular_21_5_20.pcap,24578,0.9515420294572382
+scaffold_weighted,11,Regular,regular_25_5_21.pcap,25453,0.9523042470435705
+scaffold_weighted,11,Regular,regular_26_5_21.pcap,24894,0.940347071583514
+scaffold_weighted,11,Regular,regular_42_5_23.pcap,22319,0.948160759890676
+scaffold_weighted,11,Regular,regular_46_5_23.pcap,24836,0.9502335319697214
+scaffold_weighted,11,Regular,regular_47_5_23.pcap,21264,0.9467644845748683
+scaffold_weighted,11,Regular,regular_51_5_24.pcap,25931,0.949789826848174
+scaffold_weighted,11,Regular,regular_54_5_25.pcap,25304,0.9451074928865002
+scaffold_weighted,11,Regular,regular_8_5_19.pcap,22269,0.9553190533926086
+scaffold_weighted,11,Replay,replay_2_5_22_10mins.pcap,1072,0.7686567164179104
+scaffold_weighted,11,Unauth,unauthen_2_5_16_9mins.pcap,746,0.0
+scaffold_weighted,11,Unauth,unauthen_4_5_16_6mins.pcap,594,0.0
+scaffold_weighted,11,Video,video_3_5_13_11mins.pcap,10784,0.6964020771513353
+scaffold_weighted,22,DoS,DoS_3_5_1_20mins.pcap,18515,0.9969214150688631
+scaffold_weighted,22,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998716632443532
+scaffold_weighted,22,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_weighted,22,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998235152055583
+scaffold_weighted,22,DoS,slowloris_5_1_15mins.pcap,177,1.0
+scaffold_weighted,22,Injection,Instruction_injection_4_5_13_6mins.pcap,510,1.0
+scaffold_weighted,22,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.9600499375780275
+scaffold_weighted,22,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6958817317845829
+scaffold_weighted,22,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.711943793911007
+scaffold_weighted,22,MITM,mitm_station_mode_2_5_24.pcap,1447,0.5293711126468555
+scaffold_weighted,22,MITM,mitm_station_mode_4_5_24.pcap,1350,0.3896296296296296
+scaffold_weighted,22,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.013847675568743818
+scaffold_weighted,22,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9997866439086835
+scaffold_weighted,22,Regular,regular_15_5_20.pcap,15414,0.9654210458025172
+scaffold_weighted,22,Regular,regular_17_5_20.pcap,25744,0.9631370416407706
+scaffold_weighted,22,Regular,regular_21_5_20.pcap,24578,0.9741638864024738
+scaffold_weighted,22,Regular,regular_25_5_21.pcap,25453,0.9762306997210545
+scaffold_weighted,22,Regular,regular_26_5_21.pcap,24894,0.9654936932594199
+scaffold_weighted,22,Regular,regular_42_5_23.pcap,22319,0.9694430754066042
+scaffold_weighted,22,Regular,regular_46_5_23.pcap,24836,0.9717345788371718
+scaffold_weighted,22,Regular,regular_47_5_23.pcap,21264,0.9724887133182845
+scaffold_weighted,22,Regular,regular_51_5_24.pcap,25931,0.9731981026570514
+scaffold_weighted,22,Regular,regular_54_5_25.pcap,25304,0.9710717673095163
+scaffold_weighted,22,Regular,regular_8_5_19.pcap,22269,0.973326148457497
+scaffold_weighted,22,Replay,replay_2_5_22_10mins.pcap,1072,0.875
+scaffold_weighted,22,Unauth,unauthen_2_5_16_9mins.pcap,746,0.05093833780160858
+scaffold_weighted,22,Unauth,unauthen_4_5_16_6mins.pcap,594,0.0
+scaffold_weighted,22,Video,video_3_5_13_11mins.pcap,10784,0.8218657270029673
+scaffold_weighted,33,DoS,DoS_3_5_1_20mins.pcap,18515,0.9963273021874156
+scaffold_weighted,33,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+scaffold_weighted,33,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_weighted,33,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998513812257334
+scaffold_weighted,33,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_weighted,33,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.00196078431372549
+scaffold_weighted,33,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.0
+scaffold_weighted,33,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6568109820485745
+scaffold_weighted,33,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.6135831381733021
+scaffold_weighted,33,MITM,mitm_station_mode_2_5_24.pcap,1447,0.6655148583275743
+scaffold_weighted,33,MITM,mitm_station_mode_4_5_24.pcap,1350,0.5370370370370371
+scaffold_weighted,33,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_weighted,33,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999326243922159
+scaffold_weighted,33,Regular,regular_15_5_20.pcap,15414,0.9759309718437784
+scaffold_weighted,33,Regular,regular_17_5_20.pcap,25744,0.9721876942200124
+scaffold_weighted,33,Regular,regular_21_5_20.pcap,24578,0.979412482708113
+scaffold_weighted,33,Regular,regular_25_5_21.pcap,25453,0.9836168624523631
+scaffold_weighted,33,Regular,regular_26_5_21.pcap,24894,0.9736080983369486
+scaffold_weighted,33,Regular,regular_42_5_23.pcap,22319,0.9744164165061159
+scaffold_weighted,33,Regular,regular_46_5_23.pcap,24836,0.9792639716540505
+scaffold_weighted,33,Regular,regular_47_5_23.pcap,21264,0.9773796087283672
+scaffold_weighted,33,Regular,regular_51_5_24.pcap,25931,0.9796382707955729
+scaffold_weighted,33,Regular,regular_54_5_25.pcap,25304,0.9781852671514385
+scaffold_weighted,33,Regular,regular_8_5_19.pcap,22269,0.9775472630113611
+scaffold_weighted,33,Replay,replay_2_5_22_10mins.pcap,1072,0.8777985074626866
+scaffold_weighted,33,Unauth,unauthen_2_5_16_9mins.pcap,746,0.9932975871313673
+scaffold_weighted,33,Unauth,unauthen_4_5_16_6mins.pcap,594,1.0
+scaffold_weighted,33,Video,video_3_5_13_11mins.pcap,10784,0.6722922848664689
+scaffold_weighted,44,DoS,DoS_3_5_1_20mins.pcap,18515,0.9966513637591142
+scaffold_weighted,44,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9998074948665298
+scaffold_weighted,44,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_weighted,44,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998699585725167
+scaffold_weighted,44,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_weighted,44,Injection,Instruction_injection_4_5_13_6mins.pcap,510,1.0
+scaffold_weighted,44,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.9950062421972534
+scaffold_weighted,44,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.6504751847940866
+scaffold_weighted,44,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.6088992974238876
+scaffold_weighted,44,MITM,mitm_station_mode_2_5_24.pcap,1447,0.6192121630960609
+scaffold_weighted,44,MITM,mitm_station_mode_4_5_24.pcap,1350,0.5133333333333333
+scaffold_weighted,44,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_weighted,44,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999775414640719
+scaffold_weighted,44,Regular,regular_15_5_20.pcap,15414,0.9712598936032178
+scaffold_weighted,44,Regular,regular_17_5_20.pcap,25744,0.9691578620261032
+scaffold_weighted,44,Regular,regular_21_5_20.pcap,24578,0.9767271543656929
+scaffold_weighted,44,Regular,regular_25_5_21.pcap,25453,0.9797273405885357
+scaffold_weighted,44,Regular,regular_26_5_21.pcap,24894,0.9698722583755122
+scaffold_weighted,44,Regular,regular_42_5_23.pcap,22319,0.9723105873919082
+scaffold_weighted,44,Regular,regular_46_5_23.pcap,24836,0.9768078595587051
+scaffold_weighted,44,Regular,regular_47_5_23.pcap,21264,0.9750752445447705
+scaffold_weighted,44,Regular,regular_51_5_24.pcap,25931,0.9764760325479156
+scaffold_weighted,44,Regular,regular_54_5_25.pcap,25304,0.9742728422383813
+scaffold_weighted,44,Regular,regular_8_5_19.pcap,22269,0.9751223674165881
+scaffold_weighted,44,Replay,replay_2_5_22_10mins.pcap,1072,0.8805970149253731
+scaffold_weighted,44,Unauth,unauthen_2_5_16_9mins.pcap,746,0.004021447721179625
+scaffold_weighted,44,Unauth,unauthen_4_5_16_6mins.pcap,594,0.0
+scaffold_weighted,44,Video,video_3_5_13_11mins.pcap,10784,0.8423590504451038
+scaffold_weighted,55,DoS,DoS_3_5_1_20mins.pcap,18515,0.9963813124493653
+scaffold_weighted,55,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9999358316221766
+scaffold_weighted,55,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997359323986941
+scaffold_weighted,55,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9998792472459084
+scaffold_weighted,55,DoS,slowloris_5_1_15mins.pcap,177,0.9943502824858758
+scaffold_weighted,55,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.8549019607843137
+scaffold_weighted,55,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.5468164794007491
+scaffold_weighted,55,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.8078141499472017
+scaffold_weighted,55,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9461358313817331
+scaffold_weighted,55,MITM,mitm_station_mode_2_5_24.pcap,1447,0.5736005528680027
+scaffold_weighted,55,MITM,mitm_station_mode_4_5_24.pcap,1350,0.4585185185185185
+scaffold_weighted,55,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+scaffold_weighted,55,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9998427902485038
+scaffold_weighted,55,Regular,regular_15_5_20.pcap,15414,0.9684702218762165
+scaffold_weighted,55,Regular,regular_17_5_20.pcap,25744,0.9656619018023617
+scaffold_weighted,55,Regular,regular_21_5_20.pcap,24578,0.9743673203678086
+scaffold_weighted,55,Regular,regular_25_5_21.pcap,25453,0.9774093427100932
+scaffold_weighted,55,Regular,regular_26_5_21.pcap,24894,0.9667389732465654
+scaffold_weighted,55,Regular,regular_42_5_23.pcap,22319,0.969891124154308
+scaffold_weighted,55,Regular,regular_46_5_23.pcap,24836,0.973063295216621
+scaffold_weighted,55,Regular,regular_47_5_23.pcap,21264,0.9709367945823928
+scaffold_weighted,55,Regular,regular_51_5_24.pcap,25931,0.9735066137056033
+scaffold_weighted,55,Regular,regular_54_5_25.pcap,25304,0.9716250395194436
+scaffold_weighted,55,Regular,regular_8_5_19.pcap,22269,0.9731465265615878
+scaffold_weighted,55,Replay,replay_2_5_22_10mins.pcap,1072,0.8470149253731343
+scaffold_weighted,55,Unauth,unauthen_2_5_16_9mins.pcap,746,0.4865951742627346
+scaffold_weighted,55,Unauth,unauthen_4_5_16_6mins.pcap,594,0.3653198653198653
+scaffold_weighted,55,Video,video_3_5_13_11mins.pcap,10784,0.8791728486646885
+fedadam,11,DoS,DoS_3_5_1_20mins.pcap,18515,0.9917904401836349
+fedadam,11,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9995508213552361
+fedadam,11,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9996879201075475
+fedadam,11,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999749205818425
+fedadam,11,DoS,slowloris_5_1_15mins.pcap,177,0.864406779661017
+fedadam,11,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.043137254901960784
+fedadam,11,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.04244694132334582
+fedadam,11,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9936642027455121
+fedadam,11,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9953161592505855
+fedadam,11,MITM,mitm_station_mode_2_5_24.pcap,1447,0.21700069108500344
+fedadam,11,MITM,mitm_station_mode_4_5_24.pcap,1350,0.2414814814814815
+fedadam,11,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedadam,11,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.999955082928144
+fedadam,11,Regular,regular_15_5_20.pcap,15414,0.8936680939405734
+fedadam,11,Regular,regular_17_5_20.pcap,25744,0.8938393412057178
+fedadam,11,Regular,regular_21_5_20.pcap,24578,0.9061762551875662
+fedadam,11,Regular,regular_25_5_21.pcap,25453,0.9002082269280635
+fedadam,11,Regular,regular_26_5_21.pcap,24894,0.8945127339921266
+fedadam,11,Regular,regular_42_5_23.pcap,22319,0.9026838119987455
+fedadam,11,Regular,regular_46_5_23.pcap,24836,0.9031647608310517
+fedadam,11,Regular,regular_47_5_23.pcap,21264,0.9062264860797592
+fedadam,11,Regular,regular_51_5_24.pcap,25931,0.9051714164513517
+fedadam,11,Regular,regular_54_5_25.pcap,25304,0.8990673411318368
+fedadam,11,Regular,regular_8_5_19.pcap,22269,0.9150388432349903
+fedadam,11,Replay,replay_2_5_22_10mins.pcap,1072,0.27052238805970147
+fedadam,11,Unauth,unauthen_2_5_16_9mins.pcap,746,0.9369973190348525
+fedadam,11,Unauth,unauthen_4_5_16_6mins.pcap,594,0.9444444444444444
+fedadam,11,Video,video_3_5_13_11mins.pcap,10784,0.049425074183976264
+fedadam,22,DoS,DoS_3_5_1_20mins.pcap,18515,0.9922765325411829
+fedadam,22,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996149897330595
+fedadam,22,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9996879201075475
+fedadam,22,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.9997584944918166
+fedadam,22,DoS,slowloris_5_1_15mins.pcap,177,0.8587570621468926
+fedadam,22,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.33137254901960783
+fedadam,22,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.21972534332084895
+fedadam,22,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9926082365364308
+fedadam,22,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9976580796252927
+fedadam,22,MITM,mitm_station_mode_2_5_24.pcap,1447,0.19281271596406357
+fedadam,22,MITM,mitm_station_mode_4_5_24.pcap,1350,0.24
+fedadam,22,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedadam,22,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.999955082928144
+fedadam,22,Regular,regular_15_5_20.pcap,15414,0.8239263007655379
+fedadam,22,Regular,regular_17_5_20.pcap,25744,0.8261342448725917
+fedadam,22,Regular,regular_21_5_20.pcap,24578,0.8404263975913419
+fedadam,22,Regular,regular_25_5_21.pcap,25453,0.831689781165285
+fedadam,22,Regular,regular_26_5_21.pcap,24894,0.826705230175946
+fedadam,22,Regular,regular_42_5_23.pcap,22319,0.8316232806129307
+fedadam,22,Regular,regular_46_5_23.pcap,24836,0.8340312449669834
+fedadam,22,Regular,regular_47_5_23.pcap,21264,0.8376128668171557
+fedadam,22,Regular,regular_51_5_24.pcap,25931,0.8347152057383055
+fedadam,22,Regular,regular_54_5_25.pcap,25304,0.8302244704394562
+fedadam,22,Regular,regular_8_5_19.pcap,22269,0.8505545826036194
+fedadam,22,Replay,replay_2_5_22_10mins.pcap,1072,0.0
+fedadam,22,Unauth,unauthen_2_5_16_9mins.pcap,746,0.7667560321715817
+fedadam,22,Unauth,unauthen_4_5_16_6mins.pcap,594,0.7306397306397306
+fedadam,22,Video,video_3_5_13_11mins.pcap,10784,0.38909495548961426
+fedadam,33,DoS,DoS_3_5_1_20mins.pcap,18515,0.9918444504455847
+fedadam,33,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996149897330595
+fedadam,33,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997119262531208
+fedadam,33,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999749205818425
+fedadam,33,DoS,slowloris_5_1_15mins.pcap,177,0.8587570621468926
+fedadam,33,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.3196078431372549
+fedadam,33,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.20973782771535582
+fedadam,33,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.7940865892291447
+fedadam,33,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,0.9976580796252927
+fedadam,33,MITM,mitm_station_mode_2_5_24.pcap,1447,0.3102971665514858
+fedadam,33,MITM,mitm_station_mode_4_5_24.pcap,1350,0.24814814814814815
+fedadam,33,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedadam,33,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999438536601799
+fedadam,33,Regular,regular_15_5_20.pcap,15414,0.8821850265991955
+fedadam,33,Regular,regular_17_5_20.pcap,25744,0.8814092604101926
+fedadam,33,Regular,regular_21_5_20.pcap,24578,0.894051590853609
+fedadam,33,Regular,regular_25_5_21.pcap,25453,0.8876360350449849
+fedadam,33,Regular,regular_26_5_21.pcap,24894,0.8809351651000241
+fedadam,33,Regular,regular_42_5_23.pcap,22319,0.8860612034589364
+fedadam,33,Regular,regular_46_5_23.pcap,24836,0.8911257851505878
+fedadam,33,Regular,regular_47_5_23.pcap,21264,0.8928235515425131
+fedadam,33,Regular,regular_51_5_24.pcap,25931,0.8922910801743087
+fedadam,33,Regular,regular_54_5_25.pcap,25304,0.8842080303509326
+fedadam,33,Regular,regular_8_5_19.pcap,22269,0.8997260766087386
+fedadam,33,Replay,replay_2_5_22_10mins.pcap,1072,0.7192164179104478
+fedadam,33,Unauth,unauthen_2_5_16_9mins.pcap,746,0.774798927613941
+fedadam,33,Unauth,unauthen_4_5_16_6mins.pcap,594,0.7558922558922558
+fedadam,33,Video,video_3_5_13_11mins.pcap,10784,0.25306008902077154
+fedadam,44,DoS,DoS_3_5_1_20mins.pcap,18515,0.9916284093977856
+fedadam,44,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996149897330595
+fedadam,44,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9997119262531208
+fedadam,44,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999749205818425
+fedadam,44,DoS,slowloris_5_1_15mins.pcap,177,0.864406779661017
+fedadam,44,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.3686274509803922
+fedadam,44,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.23470661672908863
+fedadam,44,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.9714889123548046
+fedadam,44,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,1.0
+fedadam,44,MITM,mitm_station_mode_2_5_24.pcap,1447,0.1575673807878369
+fedadam,44,MITM,mitm_station_mode_4_5_24.pcap,1350,0.05555555555555555
+fedadam,44,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedadam,44,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.999955082928144
+fedadam,44,Regular,regular_15_5_20.pcap,15414,0.8839366809394057
+fedadam,44,Regular,regular_17_5_20.pcap,25744,0.8838952765692977
+fedadam,44,Regular,regular_21_5_20.pcap,24578,0.896818292782163
+fedadam,44,Regular,regular_25_5_21.pcap,25453,0.8912898283110046
+fedadam,44,Regular,regular_26_5_21.pcap,24894,0.8835060657186471
+fedadam,44,Regular,regular_42_5_23.pcap,22319,0.893319593171737
+fedadam,44,Regular,regular_46_5_23.pcap,24836,0.894185859236592
+fedadam,44,Regular,regular_47_5_23.pcap,21264,0.8959744168547781
+fedadam,44,Regular,regular_51_5_24.pcap,25931,0.895029115730207
+fedadam,44,Regular,regular_54_5_25.pcap,25304,0.8897802718937717
+fedadam,44,Regular,regular_8_5_19.pcap,22269,0.9058781265436257
+fedadam,44,Replay,replay_2_5_22_10mins.pcap,1072,0.18003731343283583
+fedadam,44,Unauth,unauthen_2_5_16_9mins.pcap,746,0.7372654155495979
+fedadam,44,Unauth,unauthen_4_5_16_6mins.pcap,594,0.7087542087542088
+fedadam,44,Video,video_3_5_13_11mins.pcap,10784,0.25176186943620177
+fedadam,55,DoS,DoS_3_5_1_20mins.pcap,18515,0.9922765325411829
+fedadam,55,DoS,UDP_Flood_1_5_4_2mins.pcap,15584,0.9996149897330595
+fedadam,55,DoS,UDP_Flood_4_5_4_2mins.pcap,41656,0.9998799692721336
+fedadam,55,DoS,UDP_Flood_5_5_4_7mins.pcap,107658,0.999860669899125
+fedadam,55,DoS,slowloris_5_1_15mins.pcap,177,0.864406779661017
+fedadam,55,Injection,Instruction_injection_4_5_13_6mins.pcap,510,0.6274509803921569
+fedadam,55,Injection,Instruction_injection_6_5_14_10mins.pcap,801,0.40324594257178525
+fedadam,55,Ip Spoofing,IP_spoofing_2_5_17_6mins.pcap,947,0.8680042238648363
+fedadam,55,Ip Spoofing,IP_spoofing_3_5_17_3mins.pcap,427,1.0
+fedadam,55,MITM,mitm_station_mode_2_5_24.pcap,1447,0.2508638562543193
+fedadam,55,MITM,mitm_station_mode_4_5_24.pcap,1350,0.12962962962962962
+fedadam,55,Manipulation,manipulate_6_5_22_10mins.pcap,1011,0.0
+fedadam,55,Password Cracking,pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap,89053,0.9999438536601799
+fedadam,55,Regular,regular_15_5_20.pcap,15414,0.8537044245491112
+fedadam,55,Regular,regular_17_5_20.pcap,25744,0.8561995027967682
+fedadam,55,Regular,regular_21_5_20.pcap,24578,0.8675644885670112
+fedadam,55,Regular,regular_25_5_21.pcap,25453,0.8615880249872314
+fedadam,55,Regular,regular_26_5_21.pcap,24894,0.8555876918132883
+fedadam,55,Regular,regular_42_5_23.pcap,22319,0.8641068148214526
+fedadam,55,Regular,regular_46_5_23.pcap,24836,0.8638267031728136
+fedadam,55,Regular,regular_47_5_23.pcap,21264,0.868510158013544
+fedadam,55,Regular,regular_51_5_24.pcap,25931,0.865836257760981
+fedadam,55,Regular,regular_54_5_25.pcap,25304,0.8600616503319634
+fedadam,55,Regular,regular_8_5_19.pcap,22269,0.875701648030895
+fedadam,55,Replay,replay_2_5_22_10mins.pcap,1072,0.6893656716417911
+fedadam,55,Unauth,unauthen_2_5_16_9mins.pcap,746,0.5697050938337802
+fedadam,55,Unauth,unauthen_4_5_16_6mins.pcap,594,0.5016835016835017
+fedadam,55,Video,video_3_5_13_11mins.pcap,10784,0.2587166172106825

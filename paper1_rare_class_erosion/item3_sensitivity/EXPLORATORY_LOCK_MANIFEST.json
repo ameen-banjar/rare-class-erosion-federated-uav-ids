@@ -1,0 +1,32 @@
+{
+  "locked_at": "2026-08-21",
+  "stage": "exploratory_grid_pre_analysis",
+  "result_files": {
+    "results/item3_exploratory_partition_diagnostics.json": {
+      "sha256": "3de3818ee33d10b162ec769e0ad41f2ea306f6f6f0c21a028dff500c056a994e",
+      "size_bytes": 266942
+    },
+    "results/item3_exploratory_round_metrics.csv": {
+      "sha256": "92a7d78344261074e8211f682e6f3851a108686e96be384015b158a92afa320e",
+      "size_bytes": 2840271
+    },
+    "results/item3_run_manifest.json": {
+      "sha256": "faaf8cab8ac5789f634231035e0ced9b0ad0008bc62193d95b837c5d38e8f350",
+      "size_bytes": 28622
+    }
+  },
+  "code": {
+    "build_manifest.py": {
+      "sha256": "10a232866f008003fa7758539c38f24ed78589485f2ae2c4d4a329a0bed91901",
+      "size_bytes": 2828
+    },
+    "build_partition.py": {
+      "sha256": "792ebee25ac51645bcc1f0510f13bdb789de9512827d77a24b0ac4eed71e4834",
+      "size_bytes": 8352
+    },
+    "run_exploratory_grid.py": {
+      "sha256": "120df65b6a1174576f4ff8c294cfa4731ed9cf2d7976800fe59fb324376d75c7",
+      "size_bytes": 10358
+    }
+  }
+}

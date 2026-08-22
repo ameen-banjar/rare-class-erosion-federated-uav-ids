@@ -1,0 +1,1085 @@
+{
+  "total_runs": 54,
+  "runs": [
+    {
+      "run_id": 1,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "7ed7d44afac50219",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 2,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "7ed7d44afac50219",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 3,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4d0d679779b68214",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 4,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4d0d679779b68214",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 5,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "18b736c06f059cca",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 6,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "18b736c06f059cca",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 7,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "75a16fe3cafd834c",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 8,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "75a16fe3cafd834c",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 9,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "5dbb13add45201a0",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 10,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "5dbb13add45201a0",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 11,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "e95d4a3056a8d7b8",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 12,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "e95d4a3056a8d7b8",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 13,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3e004f2148fbbd68",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 14,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3e004f2148fbbd68",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 15,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74f84a49abe4024a",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 16,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74f84a49abe4024a",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 17,
+      "batch": 1,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74e2bb0e03d27f4a",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 18,
+      "batch": 1,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 101,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74e2bb0e03d27f4a",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 19,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "f3c9f46144723cc3",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 20,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "f3c9f46144723cc3",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 21,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "120e5aa54f0da27b",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 22,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "120e5aa54f0da27b",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 23,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74d0a494a3ba0022",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 24,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "74d0a494a3ba0022",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 25,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "b541ea422866ca01",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 26,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "b541ea422866ca01",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 27,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "ff6cf589ad736fb0",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 28,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "ff6cf589ad736fb0",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 29,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4a56e91b6473d519",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 30,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4a56e91b6473d519",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 31,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4a2cef1db37dfdd1",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 32,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "4a2cef1db37dfdd1",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 33,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "bfa51da3fc060ebe",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 34,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "bfa51da3fc060ebe",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 35,
+      "batch": 2,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "882785f73d80ddad",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 36,
+      "batch": 2,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 102,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "882785f73d80ddad",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 37,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "5e3c62137de2038e",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 38,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "5e3c62137de2038e",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 39,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "24f049a7e476cbc1",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 40,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "24f049a7e476cbc1",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 41,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3eb0cf61d34bb553",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 42,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.1,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3eb0cf61d34bb553",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 43,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "1026e62b4dd42d7e",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 44,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "1026e62b4dd42d7e",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 45,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "0565692607379535",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 46,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "0565692607379535",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 47,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "d3a60447e48594d9",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 48,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 0.3,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "d3a60447e48594d9",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 49,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "edc92436afd98874",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 50,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 10,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "edc92436afd98874",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 51,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3c08a07ffb03d3ed",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 52,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 15,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "3c08a07ffb03d3ed",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 53,
+      "batch": 3,
+      "algorithm": "fedavg_sgd",
+      "config": {
+        "lr": 0.5
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "195f0f3530967c2d",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    },
+    {
+      "run_id": 54,
+      "batch": 3,
+      "algorithm": "fednova_sgd",
+      "config": {
+        "lr": 0.3
+      },
+      "alpha": 1.0,
+      "n_clients": 30,
+      "partition_seed": 103,
+      "model_seed": 11,
+      "num_rounds": 45,
+      "session_partition_hash": "195f0f3530967c2d",
+      "status": "completed",
+      "rounds_completed": 45,
+      "diverged": false,
+      "diverged_at_round": null,
+      "diverged_where": null,
+      "result_round_metrics_path": "results/item3_exploratory_round_metrics.csv"
+    }
+  ]
+}

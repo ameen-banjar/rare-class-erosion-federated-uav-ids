@@ -1,0 +1,834 @@
+{
+  "source_url": "https://onlineacademiccommunity.uvic.ca/isot/2024/12/05/drone-datasets/",
+  "gdrive_archive": "https://drive.google.com/file/d/1ILTxl5p4j4zBnQNuEOTnyyviZEgHpDtF/view",
+  "archive_name": "ISOT Drone Dataset.zip",
+  "archive_total_bytes": 18545613820,
+  "extraction_method": "HTTP Range requests against the archive's ZIP central directory; only *.csv members fetched and decrypted (password from official ISOT dataset description PDF), PCAP members skipped entirely.",
+  "extracted_at": "2026-08-15 00:13:00",
+  "files": [
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/Dos_1_4_30_20mins.pcap.csv",
+      "local_path": "DoS/Dos_1_4_30_20mins.pcap.csv",
+      "size_bytes": 9357871,
+      "crc32": 1742790354
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/DoS_2_5_1_20mins.pcap.csv",
+      "local_path": "DoS/DoS_2_5_1_20mins.pcap.csv",
+      "size_bytes": 7755065,
+      "crc32": 1897575085
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/DoS_3_5_1_10mins.pcap.csv",
+      "local_path": "DoS/DoS_3_5_1_10mins.pcap.csv",
+      "size_bytes": 62398890,
+      "crc32": 3143349149
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/DoS_3_5_1_20mins.pcap.csv",
+      "local_path": "DoS/DoS_3_5_1_20mins.pcap.csv",
+      "size_bytes": 7702025,
+      "crc32": 1821408283
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/DoS_4_5_1_5mins.pcap.csv",
+      "local_path": "DoS/DoS_4_5_1_5mins.pcap.csv",
+      "size_bytes": 36062331,
+      "crc32": 1210451238
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/DoS_5_5_1_5mins.pcap.csv",
+      "local_path": "DoS/DoS_5_5_1_5mins.pcap.csv",
+      "size_bytes": 2172453,
+      "crc32": 2562275718
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/hulk2_5_5_30mins.pcap.csv",
+      "local_path": "DoS/hulk2_5_5_30mins.pcap.csv",
+      "size_bytes": 6639328,
+      "crc32": 815807676
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/hulk_5_1.pcap.csv",
+      "local_path": "DoS/hulk_5_1.pcap.csv",
+      "size_bytes": 2944779,
+      "crc32": 2087694128
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/slowhttptest_2_5_5_45mins.pcap.csv",
+      "local_path": "DoS/slowhttptest_2_5_5_45mins.pcap.csv",
+      "size_bytes": 4357450,
+      "crc32": 520493861
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/slowhttptest_5_1_15mins.pcap.csv",
+      "local_path": "DoS/slowhttptest_5_1_15mins.pcap.csv",
+      "size_bytes": 1760465,
+      "crc32": 2036343105
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/slowloris_3_5_5_45mins.pcap.csv",
+      "local_path": "DoS/slowloris_3_5_5_45mins.pcap.csv",
+      "size_bytes": 596598,
+      "crc32": 3045808391
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/slowloris_5_1_15mins.pcap.csv",
+      "local_path": "DoS/slowloris_5_1_15mins.pcap.csv",
+      "size_bytes": 92240,
+      "crc32": 1200532037
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/slowloris_5_1_mul_launch.pcap.csv",
+      "local_path": "DoS/slowloris_5_1_mul_launch.pcap.csv",
+      "size_bytes": 183069,
+      "crc32": 911353240
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_10_5_4_4mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_10_5_4_4mins.pcap.csv",
+      "size_bytes": 15908711,
+      "crc32": 613766845
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_1_5_4_2mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_1_5_4_2mins.pcap.csv",
+      "size_bytes": 6681428,
+      "crc32": 2982643091
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_2_5_4_2mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_2_5_4_2mins.pcap.csv",
+      "size_bytes": 14669161,
+      "crc32": 2033588414
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_3_5_4_3mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_3_5_4_3mins.pcap.csv",
+      "size_bytes": 15835614,
+      "crc32": 3697713432
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_4_5_4_2mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_4_5_4_2mins.pcap.csv",
+      "size_bytes": 17120193,
+      "crc32": 1533521117
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_5_5_4_7mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_5_5_4_7mins.pcap.csv",
+      "size_bytes": 42654454,
+      "crc32": 1069168795
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_6_5_4_8mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_6_5_4_8mins.pcap.csv",
+      "size_bytes": 43885943,
+      "crc32": 4263072823
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_7_5_4_10mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_7_5_4_10mins.pcap.csv",
+      "size_bytes": 57234258,
+      "crc32": 3036980578
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_8_5_4_15mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_8_5_4_15mins.pcap.csv",
+      "size_bytes": 82267950,
+      "crc32": 1981191969
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/DoS/UDP_Flood_9_5_4_9mins.pcap.csv",
+      "local_path": "DoS/UDP_Flood_9_5_4_9mins.pcap.csv",
+      "size_bytes": 58394178,
+      "crc32": 3635108197
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_1_5_13_5mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_1_5_13_5mins.pcap.csv",
+      "size_bytes": 205774,
+      "crc32": 1266550416
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_2_5_13_7mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_2_5_13_7mins.pcap.csv",
+      "size_bytes": 315056,
+      "crc32": 3111664315
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_3_5_13_10mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_3_5_13_10mins.pcap.csv",
+      "size_bytes": 366468,
+      "crc32": 3631532626
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_4_5_13_6mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_4_5_13_6mins.pcap.csv",
+      "size_bytes": 267446,
+      "crc32": 524126600
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_5_5_13_10mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_5_5_13_10mins.pcap.csv",
+      "size_bytes": 441393,
+      "crc32": 430300474
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_6_5_14_10mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_6_5_14_10mins.pcap.csv",
+      "size_bytes": 419171,
+      "crc32": 741696050
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_7_5_14_7mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_7_5_14_7mins.pcap.csv",
+      "size_bytes": 274668,
+      "crc32": 875427594
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Injection/Instruction_injection_8_5_14_4mins.pcap.csv",
+      "local_path": "Injection/Instruction_injection_8_5_14_4mins.pcap.csv",
+      "size_bytes": 188242,
+      "crc32": 1045889882
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_10_5_17_3mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_10_5_17_3mins.pcap.csv",
+      "size_bytes": 249294,
+      "crc32": 776563368
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_1_5_17_5mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_1_5_17_5mins.pcap.csv",
+      "size_bytes": 428925,
+      "crc32": 2084787036
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_2_5_17_6mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_2_5_17_6mins.pcap.csv",
+      "size_bytes": 460525,
+      "crc32": 1620930862
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_3_5_17_3mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_3_5_17_3mins.pcap.csv",
+      "size_bytes": 206270,
+      "crc32": 165953450
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_4_5_17_1mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_4_5_17_1mins.pcap.csv",
+      "size_bytes": 94937,
+      "crc32": 1858297342
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_5_5_17_8mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_5_5_17_8mins.pcap.csv",
+      "size_bytes": 594293,
+      "crc32": 3573228985
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_6_5_17_10mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_6_5_17_10mins.pcap.csv",
+      "size_bytes": 828167,
+      "crc32": 3890712083
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_7_5_17_10mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_7_5_17_10mins.pcap.csv",
+      "size_bytes": 777763,
+      "crc32": 38508920
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_8_5_17_8mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_8_5_17_8mins.pcap.csv",
+      "size_bytes": 678263,
+      "crc32": 2098490192
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Ip Spoofing/IP_spoofing_9_5_17_6mins.pcap.csv",
+      "local_path": "Ip Spoofing/IP_spoofing_9_5_17_6mins.pcap.csv",
+      "size_bytes": 393987,
+      "crc32": 456647968
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_1_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_1_5_22_10mins.pcap.csv",
+      "size_bytes": 457085,
+      "crc32": 3022572140
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_2_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_2_5_22_10mins.pcap.csv",
+      "size_bytes": 491355,
+      "crc32": 2185228376
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_3_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_3_5_22_10mins.pcap.csv",
+      "size_bytes": 492828,
+      "crc32": 3127484398
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_4_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_4_5_22_10mins.pcap.csv",
+      "size_bytes": 468707,
+      "crc32": 2034076411
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_5_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_5_5_22_10mins.pcap.csv",
+      "size_bytes": 460431,
+      "crc32": 2187757906
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Manipulation/manipulate_6_5_22_10mins.pcap.csv",
+      "local_path": "Manipulation/manipulate_6_5_22_10mins.pcap.csv",
+      "size_bytes": 469627,
+      "crc32": 1814747603
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_1_5_3_fly_10mins.pcap.csv",
+      "local_path": "MITM/MITM_1_5_3_fly_10mins.pcap.csv",
+      "size_bytes": 9636089,
+      "crc32": 2629225976
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_2_5_3_fly_15mins.pcap.csv",
+      "local_path": "MITM/MITM_2_5_3_fly_15mins.pcap.csv",
+      "size_bytes": 10456415,
+      "crc32": 3052984330
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_3_5_13_fly_10mins.pcap.csv",
+      "local_path": "MITM/MITM_3_5_13_fly_10mins.pcap.csv",
+      "size_bytes": 7970365,
+      "crc32": 3039260816
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_4_5_13_fly_5mins.pcap.csv",
+      "local_path": "MITM/MITM_4_5_13_fly_5mins.pcap.csv",
+      "size_bytes": 4881676,
+      "crc32": 4135797394
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_4_5_5_fly_12mins.pcap.csv",
+      "local_path": "MITM/MITM_4_5_5_fly_12mins.pcap.csv",
+      "size_bytes": 10868167,
+      "crc32": 2258384358
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/MITM_5_5_13_fly_8mins.pcap.csv",
+      "local_path": "MITM/MITM_5_5_13_fly_8mins.pcap.csv",
+      "size_bytes": 6290506,
+      "crc32": 2825903267
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_1_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_1_5_24.pcap.csv",
+      "size_bytes": 714469,
+      "crc32": 562962734
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_2_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_2_5_24.pcap.csv",
+      "size_bytes": 753419,
+      "crc32": 2272639712
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_3_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_3_5_24.pcap.csv",
+      "size_bytes": 699060,
+      "crc32": 3173932691
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_4_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_4_5_24.pcap.csv",
+      "size_bytes": 700857,
+      "crc32": 1597326490
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_5_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_5_5_24.pcap.csv",
+      "size_bytes": 662637,
+      "crc32": 1268451680
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/MITM/mitm_station_mode_6_5_24.pcap.csv",
+      "local_path": "MITM/mitm_station_mode_6_5_24.pcap.csv",
+      "size_bytes": 740560,
+      "crc32": 450547801
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Password Cracking/pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap.csv",
+      "local_path": "Password Cracking/pwd_crack_deau_and_eqpol_1_5_6_30mins_raw.pcap.csv",
+      "size_bytes": 47306271,
+      "crc32": 4287275602
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Password Cracking/pwd_crack_deau_and_eqpol_2_5_6_45mins_raw.pcap.csv",
+      "local_path": "Password Cracking/pwd_crack_deau_and_eqpol_2_5_6_45mins_raw.pcap.csv",
+      "size_bytes": 75233462,
+      "crc32": 3413160339
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_10_5_19.pcap.csv",
+      "local_path": "Regular/regular_10_5_19.pcap.csv",
+      "size_bytes": 12600994,
+      "crc32": 4240444571
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_11_5_19.pcap.csv",
+      "local_path": "Regular/regular_11_5_19.pcap.csv",
+      "size_bytes": 12901066,
+      "crc32": 1355521820
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_12_5_19.pcap.csv",
+      "local_path": "Regular/regular_12_5_19.pcap.csv",
+      "size_bytes": 12549469,
+      "crc32": 2702570222
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_13_5_20.pcap.csv",
+      "local_path": "Regular/regular_13_5_20.pcap.csv",
+      "size_bytes": 12541179,
+      "crc32": 4225320787
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_14_5_20.pcap.csv",
+      "local_path": "Regular/regular_14_5_20.pcap.csv",
+      "size_bytes": 12984232,
+      "crc32": 3547316367
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_15_5_20.pcap.csv",
+      "local_path": "Regular/regular_15_5_20.pcap.csv",
+      "size_bytes": 8193584,
+      "crc32": 1263830160
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_16_1_5_20.pcap.csv",
+      "local_path": "Regular/regular_16_1_5_20.pcap.csv",
+      "size_bytes": 6478248,
+      "crc32": 862710751
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_16_2_5_20.pcap.csv",
+      "local_path": "Regular/regular_16_2_5_20.pcap.csv",
+      "size_bytes": 5567342,
+      "crc32": 2539112070
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_17_5_20.pcap.csv",
+      "local_path": "Regular/regular_17_5_20.pcap.csv",
+      "size_bytes": 13690023,
+      "crc32": 1684901301
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_18_5_20.pcap.csv",
+      "local_path": "Regular/regular_18_5_20.pcap.csv",
+      "size_bytes": 12918694,
+      "crc32": 1052561303
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_19_5_20.pcap.csv",
+      "local_path": "Regular/regular_19_5_20.pcap.csv",
+      "size_bytes": 13186689,
+      "crc32": 1161710516
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_1_5_19.pcap.csv",
+      "local_path": "Regular/regular_1_5_19.pcap.csv",
+      "size_bytes": 14008682,
+      "crc32": 1270948918
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_20_5_20.pcap.csv",
+      "local_path": "Regular/regular_20_5_20.pcap.csv",
+      "size_bytes": 13170685,
+      "crc32": 2189091225
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_21_5_20.pcap.csv",
+      "local_path": "Regular/regular_21_5_20.pcap.csv",
+      "size_bytes": 13067036,
+      "crc32": 3303049299
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_22_5_21.pcap.csv",
+      "local_path": "Regular/regular_22_5_21.pcap.csv",
+      "size_bytes": 13528938,
+      "crc32": 3753062710
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_23_5_21.pcap.csv",
+      "local_path": "Regular/regular_23_5_21.pcap.csv",
+      "size_bytes": 12605039,
+      "crc32": 2739622546
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_24_5_21.pcap.csv",
+      "local_path": "Regular/regular_24_5_21.pcap.csv",
+      "size_bytes": 12218698,
+      "crc32": 3073848388
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_25_5_21.pcap.csv",
+      "local_path": "Regular/regular_25_5_21.pcap.csv",
+      "size_bytes": 13517914,
+      "crc32": 2056268870
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_26_5_21.pcap.csv",
+      "local_path": "Regular/regular_26_5_21.pcap.csv",
+      "size_bytes": 13225025,
+      "crc32": 1484427119
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_27_5_21.pcap.csv",
+      "local_path": "Regular/regular_27_5_21.pcap.csv",
+      "size_bytes": 13788837,
+      "crc32": 517482708
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_28_5_21.pcap.csv",
+      "local_path": "Regular/regular_28_5_21.pcap.csv",
+      "size_bytes": 14056518,
+      "crc32": 3250933663
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_29_5_21.pcap.csv",
+      "local_path": "Regular/regular_29_5_21.pcap.csv",
+      "size_bytes": 12539397,
+      "crc32": 1780263198
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_2_5_19.pcap.csv",
+      "local_path": "Regular/regular_2_5_19.pcap.csv",
+      "size_bytes": 11447271,
+      "crc32": 3045195113
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_30_5_21.pcap.csv",
+      "local_path": "Regular/regular_30_5_21.pcap.csv",
+      "size_bytes": 13641284,
+      "crc32": 3551214648
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_31_5_22.pcap.csv",
+      "local_path": "Regular/regular_31_5_22.pcap.csv",
+      "size_bytes": 13226057,
+      "crc32": 2571614380
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_32_5_22.pcap.csv",
+      "local_path": "Regular/regular_32_5_22.pcap.csv",
+      "size_bytes": 12719637,
+      "crc32": 1656679375
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_33_5_22.pcap.csv",
+      "local_path": "Regular/regular_33_5_22.pcap.csv",
+      "size_bytes": 12884467,
+      "crc32": 272496700
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_34_5_23.pcap.csv",
+      "local_path": "Regular/regular_34_5_23.pcap.csv",
+      "size_bytes": 12080918,
+      "crc32": 1206926720
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_35_5_23.pcap.csv",
+      "local_path": "Regular/regular_35_5_23.pcap.csv",
+      "size_bytes": 12626017,
+      "crc32": 4157122519
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_36_5_23.pcap.csv",
+      "local_path": "Regular/regular_36_5_23.pcap.csv",
+      "size_bytes": 11621809,
+      "crc32": 1454770699
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_37_5_23.pcap.csv",
+      "local_path": "Regular/regular_37_5_23.pcap.csv",
+      "size_bytes": 12741395,
+      "crc32": 2809757731
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_38_5_23.pcap.csv",
+      "local_path": "Regular/regular_38_5_23.pcap.csv",
+      "size_bytes": 13333134,
+      "crc32": 1891866885
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_39_5_23.pcap.csv",
+      "local_path": "Regular/regular_39_5_23.pcap.csv",
+      "size_bytes": 11452779,
+      "crc32": 3204310795
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_3_5_19.pcap.csv",
+      "local_path": "Regular/regular_3_5_19.pcap.csv",
+      "size_bytes": 11739167,
+      "crc32": 3777683887
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_40_5_23.pcap.csv",
+      "local_path": "Regular/regular_40_5_23.pcap.csv",
+      "size_bytes": 12210155,
+      "crc32": 2837491933
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_41_5_23.pcap.csv",
+      "local_path": "Regular/regular_41_5_23.pcap.csv",
+      "size_bytes": 12036025,
+      "crc32": 3381485989
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_42_5_23.pcap.csv",
+      "local_path": "Regular/regular_42_5_23.pcap.csv",
+      "size_bytes": 11869755,
+      "crc32": 2025697340
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_43_5_23.pcap.csv",
+      "local_path": "Regular/regular_43_5_23.pcap.csv",
+      "size_bytes": 12613152,
+      "crc32": 2449273547
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_44_5_23.pcap.csv",
+      "local_path": "Regular/regular_44_5_23.pcap.csv",
+      "size_bytes": 12596710,
+      "crc32": 1940945027
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_45_5_23.pcap.csv",
+      "local_path": "Regular/regular_45_5_23.pcap.csv",
+      "size_bytes": 13086866,
+      "crc32": 2698826009
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_46_5_23.pcap.csv",
+      "local_path": "Regular/regular_46_5_23.pcap.csv",
+      "size_bytes": 13202947,
+      "crc32": 1814977065
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_47_5_23.pcap.csv",
+      "local_path": "Regular/regular_47_5_23.pcap.csv",
+      "size_bytes": 11305959,
+      "crc32": 636823511
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_48_5_23.pcap.csv",
+      "local_path": "Regular/regular_48_5_23.pcap.csv",
+      "size_bytes": 11960263,
+      "crc32": 4154552103
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_49_5_24.pcap.csv",
+      "local_path": "Regular/regular_49_5_24.pcap.csv",
+      "size_bytes": 11257135,
+      "crc32": 1344623596
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_4_5_19.pcap.csv",
+      "local_path": "Regular/regular_4_5_19.pcap.csv",
+      "size_bytes": 12845507,
+      "crc32": 2941914455
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_50_5_24.pcap.csv",
+      "local_path": "Regular/regular_50_5_24.pcap.csv",
+      "size_bytes": 12869282,
+      "crc32": 2127992957
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_51_5_24.pcap.csv",
+      "local_path": "Regular/regular_51_5_24.pcap.csv",
+      "size_bytes": 13781128,
+      "crc32": 648959751
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_52_5_25.pcap.csv",
+      "local_path": "Regular/regular_52_5_25.pcap.csv",
+      "size_bytes": 12647622,
+      "crc32": 2561208247
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_53_5_25.pcap.csv",
+      "local_path": "Regular/regular_53_5_25.pcap.csv",
+      "size_bytes": 12074420,
+      "crc32": 2188131913
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_54_5_25.pcap.csv",
+      "local_path": "Regular/regular_54_5_25.pcap.csv",
+      "size_bytes": 13442732,
+      "crc32": 2456064709
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_5_5_19.pcap.csv",
+      "local_path": "Regular/regular_5_5_19.pcap.csv",
+      "size_bytes": 13193230,
+      "crc32": 4112327207
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_6_5_19.pcap.csv",
+      "local_path": "Regular/regular_6_5_19.pcap.csv",
+      "size_bytes": 13485858,
+      "crc32": 612149451
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_7_5_19.pcap.csv",
+      "local_path": "Regular/regular_7_5_19.pcap.csv",
+      "size_bytes": 12075998,
+      "crc32": 1419017883
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_8_5_19.pcap.csv",
+      "local_path": "Regular/regular_8_5_19.pcap.csv",
+      "size_bytes": 11853091,
+      "crc32": 1174641342
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Regular/regular_9_5_19.pcap.csv",
+      "local_path": "Regular/regular_9_5_19.pcap.csv",
+      "size_bytes": 11766284,
+      "crc32": 349492481
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_1_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_1_5_22_10mins.pcap.csv",
+      "size_bytes": 418186,
+      "crc32": 4047613919
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_2_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_2_5_22_10mins.pcap.csv",
+      "size_bytes": 484792,
+      "crc32": 3576886719
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_3_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_3_5_22_10mins.pcap.csv",
+      "size_bytes": 485462,
+      "crc32": 3513289719
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_4_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_4_5_22_10mins.pcap.csv",
+      "size_bytes": 396567,
+      "crc32": 3048691187
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_5_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_5_5_22_10mins.pcap.csv",
+      "size_bytes": 449092,
+      "crc32": 3930925408
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Replay/replay_6_5_22_10mins.pcap.csv",
+      "local_path": "Replay/replay_6_5_22_10mins.pcap.csv",
+      "size_bytes": 409047,
+      "crc32": 2912050346
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_1_5_16_8mins.pcap.csv",
+      "local_path": "Unauth/unauthen_1_5_16_8mins.pcap.csv",
+      "size_bytes": 327727,
+      "crc32": 3342918505
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_2_5_16_9mins.pcap.csv",
+      "local_path": "Unauth/unauthen_2_5_16_9mins.pcap.csv",
+      "size_bytes": 384719,
+      "crc32": 267653200
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_3_5_16_6mins.pcap.csv",
+      "local_path": "Unauth/unauthen_3_5_16_6mins.pcap.csv",
+      "size_bytes": 261011,
+      "crc32": 1338659123
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_4_5_16_6mins.pcap.csv",
+      "local_path": "Unauth/unauthen_4_5_16_6mins.pcap.csv",
+      "size_bytes": 306496,
+      "crc32": 1385288750
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_5_5_16_10mins.pcap.csv",
+      "local_path": "Unauth/unauthen_5_5_16_10mins.pcap.csv",
+      "size_bytes": 411642,
+      "crc32": 2154079976
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_6_5_16_10mins.pcap.csv",
+      "local_path": "Unauth/unauthen_6_5_16_10mins.pcap.csv",
+      "size_bytes": 409303,
+      "crc32": 268146084
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_7_5_16_9mins.pcap.csv",
+      "local_path": "Unauth/unauthen_7_5_16_9mins.pcap.csv",
+      "size_bytes": 384645,
+      "crc32": 667533177
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Unauth/unauthen_8_5_16_3mins.pcap.csv",
+      "local_path": "Unauth/unauthen_8_5_16_3mins.pcap.csv",
+      "size_bytes": 105268,
+      "crc32": 378202368
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_1_5_13_8mins.pcap.csv",
+      "local_path": "Video/video_1_5_13_8mins.pcap.csv",
+      "size_bytes": 6226773,
+      "crc32": 3510705510
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_2_5_13_8mins.pcap.csv",
+      "local_path": "Video/video_2_5_13_8mins.pcap.csv",
+      "size_bytes": 5083295,
+      "crc32": 800569571
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_3_5_13_11mins.pcap.csv",
+      "local_path": "Video/video_3_5_13_11mins.pcap.csv",
+      "size_bytes": 5609367,
+      "crc32": 2105049872
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_4_5_14_8mins.pcap.csv",
+      "local_path": "Video/video_4_5_14_8mins.pcap.csv",
+      "size_bytes": 5635855,
+      "crc32": 3618357002
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_5_5_14_10mins.pcap.csv",
+      "local_path": "Video/video_5_5_14_10mins.pcap.csv",
+      "size_bytes": 8270456,
+      "crc32": 2276593982
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_6_5_14_5mins.pcap.csv",
+      "local_path": "Video/video_6_5_14_5mins.pcap.csv",
+      "size_bytes": 4356170,
+      "crc32": 1654568088
+    },
+    {
+      "zip_path": "ISOT Drone Dataset/Dataset/new_feature_csv/Video/video_7_5_14_10mins.pcap.csv",
+      "local_path": "Video/video_7_5_14_10mins.pcap.csv",
+      "size_bytes": 4934096,
+      "crc32": 1698346167
+    }
+  ],
+  "n_files": 137,
+  "total_bytes": 1409995394
+}

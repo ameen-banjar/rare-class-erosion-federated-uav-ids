@@ -1,0 +1,62 @@
+[
+  {
+    "alpha": 0.1,
+    "n_clients": 30,
+    "selected_partition_seed": 102,
+    "composite_score": 0.005907847016273421,
+    "all_composites": [
+      {
+        "partition_seed": 103,
+        "composite": -0.8826214603010596
+      },
+      {
+        "partition_seed": 102,
+        "composite": 0.005907847016273421
+      },
+      {
+        "partition_seed": 101,
+        "composite": 0.8767136132847586
+      }
+    ]
+  },
+  {
+    "alpha": 0.3,
+    "n_clients": 15,
+    "selected_partition_seed": 103,
+    "composite_score": -0.11225511282541659,
+    "all_composites": [
+      {
+        "partition_seed": 101,
+        "composite": -0.4605695631897735
+      },
+      {
+        "partition_seed": 103,
+        "composite": -0.11225511282541659
+      },
+      {
+        "partition_seed": 102,
+        "composite": 0.5728246760151869
+      }
+    ]
+  },
+  {
+    "alpha": 1.0,
+    "n_clients": 10,
+    "selected_partition_seed": 101,
+    "composite_score": -0.26919879668072483,
+    "all_composites": [
+      {
+        "partition_seed": 103,
+        "composite": -0.3835866383960484
+      },
+      {
+        "partition_seed": 101,
+        "composite": -0.26919879668072483
+      },
+      {
+        "partition_seed": 102,
+        "composite": 0.6527854350767732
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.ipynb_checkpoints/
+
+# Raw dataset is never committed -- see shared/data_prep/README.md
+/isot_drone_dataset/
+**/isot_drone_dataset/
+
+# Local environment / editor
+.venv/
+venv/
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+name: uav-federated-ids
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.3
+  - scipy=1.16
+  - scikit-learn=1.7
+  - matplotlib=3.10
+  - pip
+  - pip:
+      - torch==2.10.0   # all training scripts select device via `torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")` -- Apple Silicon (MPS) or CPU only. On CUDA hardware this falls back to CPU; add a `torch.cuda.is_available()` branch to DEVICE in each script to use a GPU there (one-line change, not done upstream since all reported results were run on Apple Silicon).
