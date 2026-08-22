@@ -1,6 +1,6 @@
-# uav-federated-ids
+# Paper 1 — Rare-Class Knowledge Erosion
 
-Reproducibility package for a series of studies on federated learning for UAV (drone) network intrusion detection. This repository is organized to hold one independently-versioned, independently-DOI'd package per paper as each is published; **only Paper 1's materials are present so far.**
+Standalone reproducibility package for the first paper in the federated UAV intrusion-detection research program. This repository contains **Paper 1 only** and will receive its own independent release history and Zenodo DOI.
 
 ## Paper 1 (this release)
 
@@ -27,7 +27,7 @@ uav-federated-ids/
 └── environment.yml
 ```
 
-Future papers in this series will each land in their own `paperN_.../` folder with an independent release tag and Zenodo DOI when ready — not before. This keeps each paper's reproduction package self-contained and avoids publishing a later paper's unfinished direction alongside an earlier one under review.
+Later papers in the research program are maintained in separate repositories. Their plans and unfinished materials are intentionally excluded from this repository.
 
 ## What's here vs. what's not
 

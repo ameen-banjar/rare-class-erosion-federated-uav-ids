@@ -50,7 +50,7 @@
     "unauthen_7_5_16_9mins.pcap",
     "video_1_5_13_8mins.pcap"
   ],
-  "validation_note": "For hyperparameter/round-count/threshold selection ONLY. Never used to pick D2Guard's server-side decision parameters as if it were a trusted root dataset, and never touches held_out_test_sessions.",
+  "validation_note": "For hyperparameter, round-count, and threshold selection only. Never treated as trusted server-side reference data, and never touches held_out_test_sessions.",
   "n_clients": 15,
   "dirichlet_alpha": 0.5,
   "seed": 42,

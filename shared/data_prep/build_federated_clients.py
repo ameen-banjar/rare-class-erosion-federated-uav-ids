@@ -105,7 +105,7 @@ def main():
         "partition_description": "Controlled session-level Non-IID partitioning over real UAV capture sessions using Dirichlet allocation (not an unqualified claim of naturally-occurring Non-IID).",
         "held_out_test_sessions": held_out,
         "validation_sessions": validation,
-        "validation_note": "For hyperparameter/round-count/threshold selection ONLY. Never used to pick D2Guard's server-side decision parameters as if it were a trusted root dataset, and never touches held_out_test_sessions.",
+        "validation_note": "For hyperparameter, round-count, and threshold selection only. Never treated as trusted server-side reference data, and never touches held_out_test_sessions.",
         "n_clients": N_CLIENTS, "dirichlet_alpha": DIRICHLET_ALPHA, "seed": RNG,
         "global_category_row_distribution": global_dist, "clients": {},
     }

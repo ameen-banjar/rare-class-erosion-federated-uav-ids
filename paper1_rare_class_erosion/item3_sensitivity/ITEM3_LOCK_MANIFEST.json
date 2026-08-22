@@ -1,6 +1,6 @@
 {
   "locked_at": "2026-08-22",
-  "root": "/Users/abanjar/Desktop/maybe a paper/\u0645\u0634\u0627\u0631\u064a\u0639 \u0627\u0644\u0623\u0648\u0631\u0627\u0642 \u0627\u0644\u062c\u062f\u064a\u062f\u0629/uav-federated-ids/paper1_rare_class_erosion/item3_sensitivity",
+  "root": "paper1_rare_class_erosion/item3_sensitivity",
   "note": "Item 3 only. Independent of and does not modify ../LOCK_MANIFEST.json (Item 1+2).",
   "locked_results_document": {
     "paper1_rare_class_erosion/item3_sensitivity/RESULTS_ITEM3_LOCKED.md": {
@@ -160,8 +160,8 @@
       "size_bytes": 1516
     },
     "paper1_rare_class_erosion/item3_sensitivity/generate_item3_lock_manifest.py": {
-      "sha256": "86ba801e6ccc81f385e034ad55039fc46a3940455144e0c3c393009f108ca131",
-      "size_bytes": 2892
+      "sha256": "ad08c4e2f08ff5b830f529d450d9b1fda21551a56e1fb17ef0ccda6e8d706a4b",
+      "size_bytes": 2924
     },
     "paper1_rare_class_erosion/item3_sensitivity/run_confirmation.py": {
       "sha256": "4caeafcb9adf12fbf1a2b30f88e342306bbe53bae3ae53d9a8ab38507da563ee",
@@ -172,8 +172,8 @@
       "size_bytes": 10369
     },
     "shared/fl_pipeline/advanced_algorithms.py": {
-      "sha256": "425ea037f057517e198de12f4392ebb8bdc099565a77988277648ff96caac1bd",
-      "size_bytes": 7649
+      "sha256": "0212c36f9fd3f659a07bc228b8a06365e8d0d0239a95444bd5fa2a0b2ef5a88a",
+      "size_bytes": 7659
     },
     "shared/fl_pipeline/algorithms.py": {
       "sha256": "b7f7bb5cb158da6a5d53a007ad16a30b4099c1dc3b98ea7532509203cc22d45b",

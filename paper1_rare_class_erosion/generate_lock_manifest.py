@@ -38,7 +38,7 @@ def hash_files(paths):
 
 
 def main():
-    manifest = {"locked_at": "2026-08-20", "root": str(ROOT)}
+    manifest = {"locked_at": "2026-08-20", "root": str(ROOT.relative_to(ROOT.parent))}
 
     manifest["locked_results_document"] = hash_files([ROOT / "RESULTS_ITEM1_ITEM2_LOCKED.md"])
     manifest["design_frozen_document"] = hash_files([ROOT / "DESIGN_FROZEN.md"])

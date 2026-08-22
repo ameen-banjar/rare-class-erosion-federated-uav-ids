@@ -67,7 +67,7 @@ Precision/F1 يُحسبان من التنبؤات على **كل صفوف** مج�
 Centralized, Local-only, FedAvg, Client-uniform, FedProx — **بلا إعادة تدريب**؛ نتائجها من `results_phase1_frozen/` تُستخدم كما هي.
 
 ### مُستبعَد عمدًا من هذه الورقة
-**Krum وTrimmed-Mean لا يُدرَجان هنا** — هما دفاعا Byzantine، مكانهما الورقتان 3 و4. إدراجهما الآن يخلط سؤال الورقة الأولى (Non-IID/erosion) بسؤال الأمن البيزنطي.
+**Krum وTrimmed-Mean لا يُدرَجان هنا** — هما دفاعا Byzantine خارج نطاق هذه الورقة. إدراجهما يخلط سؤال Non-IID/erosion بسؤال أمني مستقل.
 
 ### الشروط الموحَّدة (لكل الخوارزميات الجديدة والقديمة)
 نفس النموذج (`AttackFamilyMLP`)، نفس الـpreprocessing (Full-balanced class weights)، نفس التقسيم المجمَّد (`federated_clients_manifest.json`)، 45 جولة، البذور الخمس نفسها، ميزانية تدريب/اتصال متقاربة، **بلا اختيار أفضل Checkpoint على الاختبار** (نفس بروتوكول الجولة 45 الثابتة من المرحلة الأولى).

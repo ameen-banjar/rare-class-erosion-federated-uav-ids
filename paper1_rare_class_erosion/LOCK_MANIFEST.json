@@ -1,6 +1,6 @@
 {
   "locked_at": "2026-08-20",
-  "root": "/Users/abanjar/Desktop/maybe a paper/\u0645\u0634\u0627\u0631\u064a\u0639 \u0627\u0644\u0623\u0648\u0631\u0627\u0642 \u0627\u0644\u062c\u062f\u064a\u062f\u0629/uav-federated-ids/paper1_rare_class_erosion",
+  "root": "paper1_rare_class_erosion",
   "locked_results_document": {
     "paper1_rare_class_erosion/RESULTS_ITEM1_ITEM2_LOCKED.md": {
       "sha256": "8c04c8149ffbee2ac5687cd03e0c03eb13a58e6c55e782fe8928668cbcb9df5b",
@@ -9,8 +9,8 @@
   },
   "design_frozen_document": {
     "paper1_rare_class_erosion/DESIGN_FROZEN.md": {
-      "sha256": "08e03a58bf1c605da5949702ac3d71c21a494f87a6ef2ae7874ec291b657c8bd",
-      "size_bytes": 16022
+      "sha256": "9becb5c38ae60bd659456577a6c152b0c5f3bd9f454d8bd9c74a36256337413e",
+      "size_bytes": 15975
     }
   },
   "figures": {
@@ -151,8 +151,8 @@
       "size_bytes": 10109
     },
     "paper1_rare_class_erosion/generate_lock_manifest.py": {
-      "sha256": "353ab2fbe19ca73e136b3a7ee2e7da46f7517ff8360f236a6eeaf85406caf966",
-      "size_bytes": 2709
+      "sha256": "d617c786b91f4901fb85a18641e097d5e5a1f293708bb22579d87e9e7fad92db",
+      "size_bytes": 2734
     },
     "paper1_rare_class_erosion/item2_boundary_extension.py": {
       "sha256": "bc1fa7233528156039bccd3e380745bae978595181a3154f0a0279c64b9e376e",
@@ -207,8 +207,8 @@
       "size_bytes": 14598
     },
     "shared/fl_pipeline/advanced_algorithms.py": {
-      "sha256": "425ea037f057517e198de12f4392ebb8bdc099565a77988277648ff96caac1bd",
-      "size_bytes": 7649
+      "sha256": "0212c36f9fd3f659a07bc228b8a06365e8d0d0239a95444bd5fa2a0b2ef5a88a",
+      "size_bytes": 7659
     },
     "shared/fl_pipeline/algorithms.py": {
       "sha256": "b7f7bb5cb158da6a5d53a007ad16a30b4099c1dc3b98ea7532509203cc22d45b",
