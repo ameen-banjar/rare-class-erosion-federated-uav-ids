@@ -5,6 +5,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.colors import PowerNorm
 import numpy as np
 import pandas as pd
 
@@ -12,7 +13,20 @@ RESULTS_DIR = Path(__file__).resolve().parent / "results"
 FIG_DIR = Path(__file__).resolve().parent / "figures"
 FIG_DIR.mkdir(exist_ok=True)
 
-plt.rcParams.update({"figure.dpi": 150, "savefig.dpi": 150, "font.size": 10})
+# Figures are embedded in the manuscript at ~6.3in width (see build_aej_docx.py).
+# Font sizes below are chosen so that, after that print-time shrink, on-page
+# text sits close to the manuscript body size (12pt) / caption size (10.5pt) --
+# not the tiny ~6pt that resulted from using a 10pt rcParam on a 9-10in canvas.
+plt.rcParams.update({
+    "figure.dpi": 200, "savefig.dpi": 200,
+    "font.size": 13, "axes.titlesize": 15, "axes.labelsize": 13,
+    "xtick.labelsize": 11.5, "ytick.labelsize": 11.5, "legend.fontsize": 11.5,
+    "figure.titlesize": 16,
+})
+
+# Hatch patterns so grouped bars remain distinguishable when printed in
+# grayscale or black-and-white (color alone is not sufficient).
+HATCHES = ["", "///", "xxx", "...", "\\\\\\", "++"]
 
 RARE_HOLDERS = {"Manipulation": [2, 13], "Replay": [1, 4, 10]}
 ALGO_ORDER = ["fedavg_sgd", "fednova_sgd", "scaffold_uniform", "scaffold_weighted", "fedadam"]
@@ -27,21 +41,23 @@ ALGO_LABELS = {"fedavg_sgd": "FedAvg-SGD", "fednova_sgd": "FedNova-SGD",
 def fig1():
     df = pd.read_csv(RESULTS_DIR / "update_conflict_mechanistic.csv")
     sub = df[(df.eval_data == "validation") & (df["round"] == 45) & (df.seed == 11)]
-    fig, axes = plt.subplots(1, 2, figsize=(9, 4), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(9.5, 5), sharey=True)
+    markers = ["o", "s", "^", "D", "v"]
     for ax, cls in zip(axes, ["Manipulation", "Replay"]):
         s = sub[sub["class"] == cls]
         stages = ["recall_pre_local_train", "recall_post_local_pre_agg", "recall_post_aggregation"]
         stage_labels = ["Pre-local\n(global,\nstart of round)", "Post-local\n(pre-aggregation)", "Post-\naggregation\n(global)"]
-        for _, row in s.iterrows():
+        for k, (_, row) in enumerate(s.iterrows()):
             vals = [row[c] for c in stages]
-            ax.plot(stage_labels, vals, marker="o", label=f"client {int(row.holder_client_id)}")
-        ax.set_title(f"{cls} (round 45, FedAvg, validation, seed 11)")
+            ax.plot(stage_labels, vals, marker=markers[k % len(markers)], markersize=9,
+                     lw=2.2, label=f"client {int(row.holder_client_id)}")
+        ax.set_title(f"{cls} (round 45, FedAvg, validation, seed 11)", fontsize=13)
         ax.set_ylabel("Recall")
         ax.axhline(0, color="gray", lw=0.5)
-        ax.legend(fontsize=8)
-    fig.suptitle("Item 1: recall collapses at aggregation despite genuine local learning (seed 11)")
-    fig.tight_layout()
-    fig.savefig(FIG_DIR / "fig1_local_to_global_recall.png")
+        ax.legend(fontsize=11)
+    fig.suptitle("Item 1: recall collapses at aggregation despite genuine local learning (seed 11)", fontsize=14)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+    fig.savefig(FIG_DIR / "fig1_local_to_global_recall.png", bbox_inches="tight")
     plt.close(fig)
 
 
@@ -52,28 +68,41 @@ def fig2():
     df = pd.read_csv(RESULTS_DIR / "update_conflict_mechanistic.csv")
     sub = df[(df.eval_data == "validation") & (df["round"] == 45) & (df.seed == 11)].drop_duplicates(subset=["class", "holder_client_id"])
 
-    fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+    fig, axes = plt.subplots(1, 2, figsize=(10.5, 5))
     ax = axes[0]
     labels = [f"{r['class'][:4]}.\nclient {int(r.holder_client_id)}" for _, r in sub.iterrows()]
-    ax.bar(labels, sub.cosine_holder_update_vs_aggregate_update, color="firebrick")
-    ax.axhline(0, color="black", lw=0.8)
+    # Bars extend downward because the measured cosine similarity is itself
+    # negative (holder update points away from the aggregate update) -- this
+    # is the reported finding (RQ1: directional cancellation), not a plotting
+    # error. A shaded band + explicit annotation makes that reading immediate
+    # without relying on axis-sign alone, which also survives grayscale print.
+    ax.axhspan(-1.0, 0, color="0.90", zorder=0)
+    bars = ax.bar(labels, sub.cosine_holder_update_vs_aggregate_update,
+                   color="firebrick", edgecolor="black", linewidth=0.8, zorder=3)
+    ax.axhline(0, color="black", lw=1.2)
+    ax.set_ylim(-1.0, 0.05)
     ax.set_ylabel("cosine(holder update, aggregate update)")
-    ax.set_title("Holder update vs. aggregate direction")
-    ax.tick_params(axis="x", labelsize=8)
+    ax.set_title("Holder update vs. aggregate direction\n(negative = update opposes the aggregate)", fontsize=12.5)
+    ax.tick_params(axis="x", labelsize=11)
+    for b, v in zip(bars, sub.cosine_holder_update_vs_aggregate_update):
+        ax.text(b.get_x() + b.get_width() / 2, v - 0.03, f"{v:.2f}",
+                ha="center", va="top", fontsize=10)
 
     ax = axes[1]
     cls_level = sub.drop_duplicates(subset="class")
     x = np.arange(len(cls_level))
     w = 0.35
-    ax.bar(x - w/2, cls_level.holder_weighted_sum_norm, w, label="holders (weighted sum)")
-    ax.bar(x + w/2, cls_level.nonholder_weighted_sum_norm, w, label="non-holders (weighted sum)")
+    b1 = ax.bar(x - w/2, cls_level.holder_weighted_sum_norm, w, label="holders (weighted sum)",
+                color="#1f4e79", edgecolor="black", linewidth=0.8)
+    b2 = ax.bar(x + w/2, cls_level.nonholder_weighted_sum_norm, w, label="non-holders (weighted sum)",
+                color="#d9d9d9", edgecolor="black", linewidth=0.8, hatch="///")
     ax.set_xticks(x); ax.set_xticklabels(cls_level["class"])
     ax.set_ylabel("FedAvg-weighted contribution norm")
-    ax.set_title("Non-holders' aggregate pull dominates holders'")
-    ax.legend(fontsize=8)
-    fig.suptitle("Item 1: directional cancellation mechanism (round 45, FedAvg, seed 11)")
-    fig.tight_layout()
-    fig.savefig(FIG_DIR / "fig2_cosine_and_contributions.png")
+    ax.legend(fontsize=11)
+    ax.set_title("Non-holders' aggregate pull dominates holders'", fontsize=13)
+    fig.suptitle("Item 1: directional cancellation mechanism (round 45, FedAvg, seed 11)", fontsize=14)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
+    fig.savefig(FIG_DIR / "fig2_cosine_and_contributions.png", bbox_inches="tight")
     plt.close(fig)
 
 
@@ -86,22 +115,37 @@ def fig3():
     df["Manip"] = df["rec"].apply(lambda d: d["Manipulation"])
     df["Replay"] = df["rec"].apply(lambda d: d["Replay"])
 
-    fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+    fig, axes = plt.subplots(1, 2, figsize=(11.5, 5.5))
+    # YlOrRd has a strong, print-safe monotonic lightness ramp (pale->dark),
+    # unlike viridis's dark-purple low end, where 0.00-0.16 were nearly
+    # indistinguishable by eye. A PowerNorm(gamma<1) additionally stretches
+    # the low range, since most cells in this matrix are small values where
+    # the differences matter most. White gridlines separate every cell so
+    # boundaries are legible even where color alone is ambiguous.
+    cmap = plt.get_cmap("YlOrRd").copy()
+    cmap.set_bad("white")
+    norm = PowerNorm(gamma=0.5, vmin=0, vmax=1)
     for ax, cls in zip(axes, ["Manip", "Replay"]):
         piv = df.pivot(index="algorithm", columns="seed", values=cls).reindex(ALGO_ORDER)
         piv.index = [ALGO_LABELS[a] for a in piv.index]
-        im = ax.imshow(piv.values, cmap="viridis", vmin=0, vmax=1, aspect="auto")
-        ax.set_xticks(range(len(piv.columns))); ax.set_xticklabels(piv.columns)
-        ax.set_yticks(range(len(piv.index))); ax.set_yticklabels(piv.index, fontsize=8)
+        data = np.ma.masked_invalid(piv.values)
+        im = ax.imshow(data, cmap=cmap, norm=norm, aspect="auto")
+        ax.set_xticks(range(len(piv.columns))); ax.set_xticklabels(piv.columns, fontsize=12)
+        ax.set_yticks(range(len(piv.index))); ax.set_yticklabels(piv.index, fontsize=12)
+        ax.set_xticks(np.arange(-0.5, piv.shape[1], 1), minor=True)
+        ax.set_yticks(np.arange(-0.5, piv.shape[0], 1), minor=True)
+        ax.grid(which="minor", color="white", linewidth=2.5)
+        ax.tick_params(which="minor", length=0)
         for i in range(piv.shape[0]):
             for j in range(piv.shape[1]):
                 v = piv.values[i, j]
                 if not np.isnan(v):
                     ax.text(j, i, f"{v:.2f}", ha="center", va="center",
-                            color="white" if v < 0.5 else "black", fontsize=8)
-        ax.set_title(f"{'Manipulation' if cls=='Manip' else 'Replay'} hierarchical recall (test)")
-        fig.colorbar(im, ax=ax, fraction=0.046)
-    fig.suptitle("Item 2: rare-class recall by algorithm x seed (held-out test)")
+                            color="white" if v > 0.55 else "black", fontsize=11.5, fontweight="bold")
+        ax.set_title(f"{'Manipulation' if cls=='Manip' else 'Replay'} hierarchical recall (test)", fontsize=13.5)
+        cb = fig.colorbar(im, ax=ax, fraction=0.046, ticks=[0, 0.2, 0.4, 0.6, 0.8, 1.0])
+        cb.ax.tick_params(labelsize=11)
+    fig.suptitle("Item 2: rare-class recall by algorithm x seed (held-out test)", fontsize=15)
     fig.tight_layout()
     fig.savefig(FIG_DIR / "fig3_rare_class_heatmap.png")
     plt.close(fig)
@@ -113,21 +157,30 @@ def fig3():
 def fig4():
     df = pd.read_csv(RESULTS_DIR / "item2_final_test_ci_summary_v2.csv")
     metrics = ["pooled_macro_f1", "session_balanced_macro_f1", "hierarchical_session_macro_recall"]
-    metric_labels = ["Pooled\nmacro-F1", "Session-balanced\nmacro-F1", "Hierarchical\nsession-macro recall"]
-    fig, ax = plt.subplots(figsize=(9, 5))
+    metric_labels = ["Pooled macro-F1", "Session-balanced macro-F1", "Hierarchical session-macro recall"]
+    # Three grayscale-safe shades + distinct hatches so the metrics remain
+    # distinguishable when printed in black-and-white, not just by hue.
+    bar_colors = ["#08306b", "#4292c6", "#c6dbef"]
+    bar_hatches = ["", "///", "xxx"]
+    fig, ax = plt.subplots(figsize=(9.5, 6))
     x = np.arange(len(ALGO_ORDER))
     w = 0.25
     for i, (m, ml) in enumerate(zip(metrics, metric_labels)):
         sub = df[df.metric == m].set_index("algorithm").reindex(ALGO_ORDER)
         err = np.abs(np.vstack([sub["mean"] - sub.ci_lo, sub.ci_hi - sub["mean"]]))
         err = np.nan_to_num(err)
-        ax.bar(x + (i - 1) * w, sub["mean"], w, yerr=err, capsize=3, label=ml)
+        ax.bar(x + (i - 1) * w, sub["mean"], w, yerr=err, capsize=3, label=ml,
+               color=bar_colors[i], hatch=bar_hatches[i], edgecolor="black", linewidth=0.8)
     ax.set_xticks(x); ax.set_xticklabels([ALGO_LABELS[a] for a in ALGO_ORDER], rotation=15)
     ax.set_ylabel("Score")
-    ax.set_title("Item 2: three test metrics, 95% t-CI across seeds\n(FedAvg-SGD conditional on 3/5 seeds, 40% divergence)")
-    ax.legend()
-    fig.tight_layout()
-    fig.savefig(FIG_DIR / "fig4_three_metrics_comparison.png")
+    ax.set_ylim(0, 0.82)
+    ax.set_title("Item 2: three test metrics, 95% t-CI across seeds\n(FedAvg-SGD conditional on 3/5 completed seeds; 2/5 planned runs diverged)", fontsize=14, pad=70)
+    # Legend placed above the title (not inside the plot area, and not
+    # colliding with the two-line title) so it never overlaps a data bar --
+    # it previously sat on top of SCAFFOLD-uniform.
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.34), ncol=3, fontsize=11, frameon=False)
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    fig.savefig(FIG_DIR / "fig4_three_metrics_comparison.png", bbox_inches="tight")
     plt.close(fig)
 
 

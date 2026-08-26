@@ -4,7 +4,7 @@ Standalone reproducibility package for the first paper in the federated UAV intr
 
 ## Paper 1 (this release)
 
-**When Averaging Forgets: A Session-Level Non-IID Benchmark for Rare-Attack Knowledge Erosion in Federated UAV Intrusion Detection**
+**Diagnosing Rare-Class Knowledge Erosion Under Session-Level Non-IID Federated UAV Intrusion Detection**
 
 Federated parameter averaging can erase rare-attack-class knowledge that individual clients demonstrably learn locally, even while the aggregated model shows strong overall accuracy. This package provides the full session-level (never row-level) non-IID partition protocol over the ISOT Drone Dataset, five federated aggregation algorithm implementations (FedAvg, FedNova, SCAFFOLD-uniform, SCAFFOLD-weighted, FedAdam), and a Dirichlet-α/client-count sensitivity study, with every reported number traceable to a SHA-256-hashed, locked results document.
 

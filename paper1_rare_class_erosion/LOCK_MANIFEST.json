@@ -15,28 +15,28 @@
   },
   "figures": {
     "paper1_rare_class_erosion/figures/fig1_local_to_global_recall.png": {
-      "sha256": "9bc3570ff4f44a5f6d687d03017bbfe083691c13216edf10c6400110e1353595",
-      "size_bytes": 88135
+      "sha256": "e5a8c181e85a1c4afd53c3b5308489c131f152179670cf5cc44a02fbab191d5a",
+      "size_bytes": 139230
     },
     "paper1_rare_class_erosion/figures/fig2_cosine_and_contributions.png": {
-      "sha256": "d9e4262b8f183b225bea127718ba9a6f8debe4969faf33edc3f3f6443668c85a",
-      "size_bytes": 68021
+      "sha256": "970842c8c23de822ea074e0508a499c39b2f23bb4aa217dec2312d71bd892a7c",
+      "size_bytes": 161908
     },
     "paper1_rare_class_erosion/figures/fig3_rare_class_heatmap.png": {
-      "sha256": "7374174a92f3850b5c89d01c0ff3022d00955856a413793a86c86a83ddcfbf5c",
-      "size_bytes": 79845
+      "sha256": "0eaaf82e5aa761fe19cd049ebddf96965c5d1bd47277790b7f89996dcd999537",
+      "size_bytes": 147191
     },
     "paper1_rare_class_erosion/figures/fig4_three_metrics_comparison.png": {
-      "sha256": "b9e03a2b11c8ec0b78131bb070014503f72e46485824700c4615e30e2de322a6",
-      "size_bytes": 73769
+      "sha256": "c571ffa5ed80d73ddb5a7d5d0b44ccf8c66397495a70250db46f8f40f4f0d9e5",
+      "size_bytes": 207900
     },
     "paper1_rare_class_erosion/figures/fig5_performance_vs_cost.png": {
-      "sha256": "74512faa3fd31791a24ffa38d306ca5229271be2df1863f0618777cb97311e47",
-      "size_bytes": 74339
+      "sha256": "0131906d485549d9f14ce79d32b7a968a35995c3a88afa117fe3feaf1b358088",
+      "size_bytes": 119664
     },
     "paper1_rare_class_erosion/figures/fig6_convergence_and_divergence.png": {
-      "sha256": "fe79be12c9883fc12ec9eff866930a352028ddfa46c30234a9677cc9270bd268",
-      "size_bytes": 333982
+      "sha256": "8bd24e0b0d9a8c9a31a9a5275b975db460ed4cc77834762334a3d601976b337c",
+      "size_bytes": 481090
     }
   },
   "raw_result_files": {
@@ -151,8 +151,8 @@
   },
   "analysis_and_evaluation_scripts": {
     "paper1_rare_class_erosion/generate_figures.py": {
-      "sha256": "49560cc9cf3e2dcfb9e16f963093d425cd38f9010f922dc4caa64f643cc63def",
-      "size_bytes": 10109
+      "sha256": "3cd5fa16cb3feb9dce500f25cdf5eb0e5a1004662d85bd3446f642a5f12a638a",
+      "size_bytes": 13722
     },
     "paper1_rare_class_erosion/generate_lock_manifest.py": {
       "sha256": "d617c786b91f4901fb85a18641e097d5e5a1f293708bb22579d87e9e7fad92db",

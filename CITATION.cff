@@ -1,4 +1,5 @@
-# CITATION.cff — fill in [TO CONFIRM] fields before making this repo public.
+# CITATION.cff — repository-code/date-released/doi below are filled in at
+# publish/release time (GitHub URL, release date, Zenodo DOI respectively).
 # GitHub renders this automatically as a "Cite this repository" button once published.
 # See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
 cff-version: 1.2.0
@@ -8,9 +9,9 @@ title: "Paper 1 Reproducibility Package: Rare-Class Knowledge Erosion in Federat
 authors:
   - family-names: Banjar
     given-names: Ameen
-    email: ameen.banjar@manchester.ac.uk
-    affiliation: "University of Manchester"          # [TO CONFIRM] department/school
-    orcid: "https://orcid.org/0000-0000-0000-0000"    # [TO CONFIRM] replace with real ORCID or remove this line
+    email: abanjar@uj.edu.sa
+    affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
+    orcid: "https://orcid.org/0000-0002-0871-5153"
 license: MIT
 repository-code: "[TO FILL IN AT PUBLISH TIME -- GitHub repository URL]"
 version: "1.0.0"
@@ -25,12 +26,12 @@ keywords:
   - Dirichlet partitioning
 preferred-citation:
   type: article
-  title: "When Averaging Forgets: A Session-Level Non-IID Benchmark for Rare-Attack Knowledge Erosion in Federated UAV Intrusion Detection"
+  title: "Diagnosing Rare-Class Knowledge Erosion Under Session-Level Non-IID Federated UAV Intrusion Detection"
   authors:
     - family-names: Banjar
       given-names: Ameen
-      email: ameen.banjar@manchester.ac.uk
-      affiliation: "University of Manchester"
+      email: abanjar@uj.edu.sa
+      affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
   journal: "Alexandria Engineering Journal"           # [TO CONFIRM] update if venue changes
   year: 2026                                          # [TO CONFIRM] update to actual publication year
-  status: "in-review"                                 # [TO UPDATE] -> "published" once accepted, add volume/pages/doi then
+  status: "in-preparation"                            # [TO UPDATE] -> "submitted" / "in-review" / "published" as the process advances
