@@ -13,7 +13,7 @@ authors:
     affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
     orcid: "https://orcid.org/0000-0002-0871-5153"
 license: MIT
-repository-code: "[TO FILL IN AT PUBLISH TIME -- GitHub repository URL]"
+repository-code: "https://github.com/ameen-banjar/rare-class-erosion-federated-uav-ids"
 version: "1.0.0"
 date-released: "[TO FILL IN AT RELEASE TIME]"
 doi: "[TO FILL IN AFTER ZENODO ARCHIVAL -- e.g. 10.5281/zenodo.XXXXXXX]"
