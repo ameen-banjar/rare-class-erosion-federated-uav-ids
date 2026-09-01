@@ -1,0 +1,7 @@
+anchor,algorithm,strict_erosion_matched,strict_rate_matched,practical_erosion_matched,practical_rate_matched
+heavy_a0.1_nc30,fedavg_sgd,5/45,0.1111111111111111,4/45,0.08888888888888889
+heavy_a0.1_nc30,fednova_sgd,13/45,0.28888888888888886,13/45,0.28888888888888886
+moderate_a0.3_nc15,fedavg_sgd,6/45,0.13333333333333333,6/45,0.13333333333333333
+moderate_a0.3_nc15,fednova_sgd,9/45,0.2,9/45,0.2
+light_a1.0_nc10,fedavg_sgd,0/36,0.0,0/36,0.0
+light_a1.0_nc10,fednova_sgd,3/45,0.06666666666666667,3/45,0.06666666666666667

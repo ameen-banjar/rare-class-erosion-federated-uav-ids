@@ -26,12 +26,12 @@ keywords:
   - Dirichlet partitioning
 preferred-citation:
   type: article
-  title: "Diagnosing Rare-Class Knowledge Erosion Under Session-Level Non-IID Federated UAV Intrusion Detection"
+  title: "Aggregate Performance Is Not Rare-Class Retention: A Session-Level Non-IID Federated UAV Intrusion Detection Diagnostic"
   authors:
     - family-names: Banjar
       given-names: Ameen
       email: abanjar@uj.edu.sa
       affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
-  journal: "Alexandria Engineering Journal"           # [TO CONFIRM] update if venue changes
-  year: 2026                                          # [TO CONFIRM] update to actual publication year
-  status: "in-preparation"                            # [TO UPDATE] -> "submitted" / "in-review" / "published" as the process advances
+  journal: "Journal of Network and Computer Applications"  # [TO CONFIRM] update if venue changes
+  year: 2026                                               # [TO CONFIRM] update to actual publication year
+  status: "in-preparation"                                 # [TO UPDATE] -> "submitted" / "in-review" / "published" as the process advances

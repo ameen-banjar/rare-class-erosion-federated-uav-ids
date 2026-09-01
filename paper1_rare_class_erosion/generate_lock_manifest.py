@@ -55,6 +55,7 @@ def main():
 
     manifest["checkpoints_item1_update_conflict"] = hash_files((ROOT / "checkpoints").glob("*.pt"))
     manifest["checkpoints_item2_five_seed"] = hash_files((ROOT / "checkpoints_five_seed").glob("*.pt"))
+    manifest["checkpoints_item1_fedrs_intervention"] = hash_files((ROOT / "checkpoints_fedrs").glob("*.pt"))
 
     manifest["counts"] = {k: len(v) for k, v in manifest.items() if isinstance(v, dict) and k != "counts"
                            and all(isinstance(x, dict) for x in v.values())}

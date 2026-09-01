@@ -40,6 +40,14 @@
     }
   },
   "raw_result_files": {
+    "paper1_rare_class_erosion/results/fedrs_client_contributions.csv": {
+      "sha256": "794ab30904dca24a52e2577f0b43b0d1f9fb7634cbe72197aad0fe4ebad78d8b",
+      "size_bytes": 98719
+    },
+    "paper1_rare_class_erosion/results/fedrs_mechanistic.csv": {
+      "sha256": "ebdcc89e8c9d6dd4efbc0d843ac1c4e7cba3040aac8fc168a0fd9d53e746eee5",
+      "size_bytes": 106221
+    },
     "paper1_rare_class_erosion/results/item2_boundary_extension2_round_metrics.csv": {
       "sha256": "8698a325613dc89f172600ed552bbc36571151c1d14803c1462d6ce1416f5243",
       "size_bytes": 13616
@@ -150,13 +158,17 @@
     }
   },
   "analysis_and_evaluation_scripts": {
+    "paper1_rare_class_erosion/fedrs_baseline_mechanism.py": {
+      "sha256": "2c4a127f2d71a1bd1ad9b34ffe5351336872b67ddf32d955a20c6094e6c476cc",
+      "size_bytes": 17201
+    },
     "paper1_rare_class_erosion/generate_figures.py": {
       "sha256": "3cd5fa16cb3feb9dce500f25cdf5eb0e5a1004662d85bd3446f642a5f12a638a",
       "size_bytes": 13722
     },
     "paper1_rare_class_erosion/generate_lock_manifest.py": {
-      "sha256": "d617c786b91f4901fb85a18641e097d5e5a1f293708bb22579d87e9e7fad92db",
-      "size_bytes": 2734
+      "sha256": "07983b1e0ccc26b6ec1a64065653ee0c34c98124d8e2ed7282ccd44694601417",
+      "size_bytes": 2843
     },
     "paper1_rare_class_erosion/item2_boundary_extension.py": {
       "sha256": "bc1fa7233528156039bccd3e380745bae978595181a3154f0a0279c64b9e376e",
@@ -449,14 +461,137 @@
       "size_bytes": 67541
     }
   },
+  "checkpoints_item1_fedrs_intervention": {
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round1.pt": {
+      "sha256": "d7b1db908dcd76ed0bb75564abfb73d3ddeef9775173846a6ae2676da153b9ba",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round10.pt": {
+      "sha256": "5b3eec4ac6af41a42348fcdf7956dbb2606cce085f3726b77467720c32afe474",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round20.pt": {
+      "sha256": "e07e62a546095301385e838ecdda4016bc0e03587d4267f4c4b6715e40ef5b75",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round30.pt": {
+      "sha256": "62e64d76fc9607ecde91b723279bd1b892115974aa8de84571d52196a1010a39",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round45.pt": {
+      "sha256": "a90e224d3bbba8e710066e546c51692bd760915f3456536e8d94192d88db124b",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed11_round5.pt": {
+      "sha256": "8ae0fc72e1e80f521f4c14aac0265c517c9d964d00a58a059820d53ba88f1491",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round1.pt": {
+      "sha256": "d89984f6059780c963b16df5bd16b8ac1c9906c6d212f212df72a77bf919546c",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round10.pt": {
+      "sha256": "85ffe002764e51ce804af161dafbb9c6154655305c6341c1fc2d091ba88a4835",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round20.pt": {
+      "sha256": "a0438b2ff02c33c66438c19a791c74b5fd4cc86b6e3c842c8f1166e2abe890a6",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round30.pt": {
+      "sha256": "ce12172f44c61b63f504755df6fd8326355aeb669e47c5f3ad6fe109462c344f",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round45.pt": {
+      "sha256": "60c04ced54995fddd799d47fbef72872f4d6a656887ef8b3e3cbc6fea903e9d8",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed22_round5.pt": {
+      "sha256": "8bc701782cd0a3a7ac108f9865a443b893e8c92408a7e6621a54aebc6cdd630e",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round1.pt": {
+      "sha256": "3e5c7d54a3a02163ca2b3c5287d67725b92a7c66ef5afeb1d6af0244db228c94",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round10.pt": {
+      "sha256": "2cedd7b36621448fa2840e5bdd25587d3c5d0716de8e80e41a5b494ce4aed992",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round20.pt": {
+      "sha256": "cb5281b3d96fa5d97024c65a0090f2e965e2ee00466642ca7254194716a0601f",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round30.pt": {
+      "sha256": "1b8d43a811bc4ea15f7388e4421e1e5f34c3d18c1edfbfce1c75bb9144dfa3a2",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round45.pt": {
+      "sha256": "cbaad2b5ab3190a28774d0afc1a4e97cc32d69ace2641bb7ff1b1d6f28319207",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed33_round5.pt": {
+      "sha256": "bae91bb732e330ef9c92208d8e7ec2d3ee6b95358ad05190e99ff8ca37e22632",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round1.pt": {
+      "sha256": "12793ff0ff3db4e2dc1c34cd5c88d361be851250538bbdbf4dad17d4b18b931f",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round10.pt": {
+      "sha256": "2896f7adbbd4c1d3121f0c03c146e81f58ea65b9d749c19fb0a33fcf99fe8642",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round20.pt": {
+      "sha256": "bcf61a809bd1813d199a5463574c122787cb8c31ddc7e01ab5bfef3b42d6679e",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round30.pt": {
+      "sha256": "ecd4417ed08dd0ce28bb7171c9b285ff187596cb052baa35186ea542b0ef2e3b",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round45.pt": {
+      "sha256": "019190aec74d55b4fe1f6c417cebe103dcaea3780f5656fca2896f0b01634538",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed44_round5.pt": {
+      "sha256": "a1fa1cad86f2e43b1055559aeb6ce6dd935a335c34ea851d33e23222d989a3a3",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round1.pt": {
+      "sha256": "191e675185fe4233f11dbadaa2ca32d12de9440bd9c2c44ed806cda4e7cb0b56",
+      "size_bytes": 68005
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round10.pt": {
+      "sha256": "7ccd2227ac35e95d8fa270c714386aa4ead05fee3d692e788a53149ad1035118",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round20.pt": {
+      "sha256": "835d56ad1fea6a85d76b13889556cb6a889724281ebb451af2fd50086ac3f68e",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round30.pt": {
+      "sha256": "c50ba5b6165874767928f542410a5566a0e56b2a98eb81f4f48498d32cc18784",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round45.pt": {
+      "sha256": "e6dde528a022735e32d428ba54cd57ad3923b04742cce7e9c7cf357e37ebe633",
+      "size_bytes": 68017
+    },
+    "paper1_rare_class_erosion/checkpoints_fedrs/fedrs_seed55_round5.pt": {
+      "sha256": "b00a0d3dda990e1dba9d72133f43a7f8db8a5b3e5c0cbf3d85fcb97cd9d31463",
+      "size_bytes": 68005
+    }
+  },
   "counts": {
     "locked_results_document": 1,
     "design_frozen_document": 1,
     "figures": 6,
-    "raw_result_files": 27,
-    "analysis_and_evaluation_scripts": 19,
+    "raw_result_files": 29,
+    "analysis_and_evaluation_scripts": 20,
     "metadata": 1,
     "checkpoints_item1_update_conflict": 30,
-    "checkpoints_item2_five_seed": 23
+    "checkpoints_item2_five_seed": 23,
+    "checkpoints_item1_fedrs_intervention": 30
   }
 }

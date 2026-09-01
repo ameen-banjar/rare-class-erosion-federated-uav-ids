@@ -97,6 +97,10 @@
       "sha256": "b16a1a6a0afcd2484d337347b52eb14dce51b6b02f16096b24a5ab6618558191",
       "size_bytes": 1305
     },
+    "paper1_rare_class_erosion/item3_sensitivity/results/confirmation_table3_MATCHED_VALIDATION.csv": {
+      "sha256": "079a87ace7ac1f44862bab9f8663b402bb479310dc4720c1426c64fa23251700",
+      "size_bytes": 517
+    },
     "paper1_rare_class_erosion/item3_sensitivity/results/confirmation_table3_recall_margin_pipeline.csv": {
       "sha256": "4b4bd848d9ed96b87576966e7c6371bac77082c876a6b8960d60be2f95980ad1",
       "size_bytes": 12661
@@ -112,6 +116,10 @@
     "paper1_rare_class_erosion/item3_sensitivity/results/confirmation_table6_divergence_report.csv": {
       "sha256": "5e7a1bdacf216232522834bba0d50741e79ecaeb8f393d0c9fb2e1543030fea4",
       "size_bytes": 772
+    },
+    "paper1_rare_class_erosion/item3_sensitivity/results/confirmation_unit_table_MATCHED_VALIDATION.csv": {
+      "sha256": "9ab7bd32b180d817886ab957559e7755d62d4ba59d18ae3e088e07d9372667fc",
+      "size_bytes": 31645
     },
     "paper1_rare_class_erosion/item3_sensitivity/results/confirmation_unit_table_run_class.csv": {
       "sha256": "a137b55190eaef7160f10a8c7827d661224de5275316281dd8a2a7ef60b405a1",
@@ -162,6 +170,10 @@
     "paper1_rare_class_erosion/item3_sensitivity/generate_item3_lock_manifest.py": {
       "sha256": "ad08c4e2f08ff5b830f529d450d9b1fda21551a56e1fb17ef0ccda6e8d706a4b",
       "size_bytes": 2924
+    },
+    "paper1_rare_class_erosion/item3_sensitivity/reanalyze_confirmation_matched_validation.py": {
+      "sha256": "bab467da74be304eb99c2dbf659bd176e0ac51a33f8c03e698bd6b1b19af6cc6",
+      "size_bytes": 5626
     },
     "paper1_rare_class_erosion/item3_sensitivity/run_confirmation.py": {
       "sha256": "4caeafcb9adf12fbf1a2b30f88e342306bbe53bae3ae53d9a8ab38507da563ee",
@@ -310,8 +322,8 @@
     "locked_results_document": 1,
     "design_and_analysis_plan_documents": 3,
     "figures": 4,
-    "raw_result_files": 24,
-    "analysis_and_evaluation_scripts": 12,
+    "raw_result_files": 26,
+    "analysis_and_evaluation_scripts": 13,
     "checkpoints_confirmation": 29
   }
 }
