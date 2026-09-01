@@ -14,9 +14,9 @@ authors:
     orcid: "https://orcid.org/0000-0002-0871-5153"
 license: MIT
 repository-code: "https://github.com/ameen-banjar/rare-class-erosion-federated-uav-ids"
-version: "1.0.0"
-date-released: "2026-08-26"
-doi: "10.5281/zenodo.22114157"
+version: "1.1.0"
+date-released: "2026-09-01"
+doi: "10.5281/zenodo.22231909"
 keywords:
   - federated learning
   - intrusion detection
