@@ -5,7 +5,7 @@
 cff-version: 1.2.0
 message: "If you use this code, partition protocol, or derived results, please cite both the software (below) and the associated paper once published (see preferred-citation)."
 type: software
-title: "Paper 1 Reproducibility Package: Rare-Class Knowledge Erosion in Federated UAV Intrusion Detection"
+title: "Reproducibility Package: Rare-Class Knowledge Erosion in Federated UAV Intrusion Detection"
 authors:
   - family-names: Banjar
     given-names: Ameen
