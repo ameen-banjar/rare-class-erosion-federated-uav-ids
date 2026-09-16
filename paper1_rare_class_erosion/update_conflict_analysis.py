@@ -1,5 +1,5 @@
 """
-Paper 1, Item 1 (frozen design: DESIGN_FROZEN.md) -- classifier-head /
+Item 1 (frozen design: DESIGN_FROZEN.md) -- classifier-head /
 update-conflict analysis. FedAvg only, all 5 seeds, logged rounds
 [1,5,10,20,30,45]. held_out_test never touched.
 

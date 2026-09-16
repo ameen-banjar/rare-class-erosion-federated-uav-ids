@@ -1,4 +1,4 @@
-# Paper 1 — Locked Results: Item 1 (Update-Conflict Mechanism) + Item 2 (Baselines)
+# Locked Results: Item 1 (Update-Conflict Mechanism) + Item 2 (Baselines)
 
 **Status: LOCKED 2026-08-20.** This document freezes the scientific narrative and all tables/figures for Item 1 and Item 2. No further experiments are added to this document. Item 3 (Dirichlet α / client-count sensitivity) opens in an independent results folder and will not alter any number below — it tests how the phenomenon documented here *varies*, not whether it exists.
 

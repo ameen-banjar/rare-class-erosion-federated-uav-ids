@@ -1,4 +1,4 @@
-# Paper 1 — Evidence Map (RQ → Item → Locked Source)
+# Evidence Map (RQ → Item → Locked Source)
 
 Frozen 2026-08-22, after Item 3 lock. Binding reference for manuscript writing — every claim in the manuscript's Results section must trace to one row below; no number enters the manuscript without a locked source file behind it.
 

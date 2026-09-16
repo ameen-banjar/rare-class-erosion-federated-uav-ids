@@ -1,8 +1,8 @@
-# Paper 1 — Rare-Class Knowledge Erosion
+# Session-Level Non-IID Federated UAV Intrusion Detection — Rare-Class Knowledge Erosion
 
-Standalone reproducibility package for the first paper in the federated UAV intrusion-detection research program. This repository contains **Paper 1 only** and will receive its own independent release history and Zenodo DOI.
+Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI.
 
-## Paper 1 (this release)
+## Manuscript
 
 **Aggregate Performance Is Not Rare-Class Retention: A Session-Level Non-IID Federated UAV Intrusion Detection Diagnostic**
 
@@ -20,20 +20,18 @@ Locked scientific results (do not treat as a preprint — the manuscript itself 
 ```
 uav-federated-ids/
 ├── paper1_rare_class_erosion/   # this release
-├── shared/                      # dataset prep + core FL algorithm code, shared across papers in the series
+├── shared/                      # dataset prep + core FL algorithm code
 ├── README.md
 ├── CITATION.cff
 ├── LICENSE
 └── environment.yml
 ```
 
-Later papers in the research program are maintained in separate repositories. Their plans and unfinished materials are intentionally excluded from this repository.
-
 ## What's here vs. what's not
 
 **Included:** ISOT dataset preparation code, the frozen session-level client/validation/test partition manifest, all five federated algorithm implementations, every experiment-runner script, all derived/aggregated results (CSV/JSON), all figures, model checkpoints (small — a 3-layer MLP), SHA-256 integrity manifests, and instructions to reproduce every table and figure.
 
-**Not included:** the raw ISOT Drone Dataset itself (redistribution rights not confirmed — see [`shared/data_prep/README.md`](shared/data_prep/README.md) for the official source and a checksum-verification script against the exact copy used here), the manuscript text/PDF, and materials for any paper beyond the one(s) actually released.
+**Not included:** the raw ISOT Drone Dataset itself (redistribution rights not confirmed — see [`shared/data_prep/README.md`](shared/data_prep/README.md) for the official source and a checksum-verification script against the exact copy used here) and the manuscript text/PDF.
 
 ## Environment
 

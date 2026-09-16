@@ -1,4 +1,4 @@
-# Reproducing Paper 1
+# Reproducing This Study
 
 All locked numbers in `RESULTS_ITEM1_ITEM2_LOCKED.md` and `item3_sensitivity/RESULTS_ITEM3_LOCKED.md` were produced by the scripts in this folder against the dataset described in `../shared/data_prep/README.md`. Every derived result (CSVs, JSON diagnostics, figures, checkpoints) needed to regenerate the locked documents' tables/figures is already committed — you do **not** need to retrain anything to check the analysis. Retraining from scratch is only needed to verify the numbers themselves.
 

@@ -1,5 +1,5 @@
 """
-SCAFFOLD, FedNova, FedAdam -- for Paper 1, Item 2 (DESIGN_FROZEN.md):
+SCAFFOLD, FedNova, FedAdam -- for Item 2 (DESIGN_FROZEN.md):
 "is rare-class forgetting specific to FedAvg, or does it persist under
 FL algorithms designed to address heterogeneity and server-side
 optimization?" FedYogi and Krum/Trimmed-Mean deliberately excluded per

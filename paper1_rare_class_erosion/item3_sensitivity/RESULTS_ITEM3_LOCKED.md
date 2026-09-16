@@ -1,4 +1,4 @@
-# Paper 1 — Locked Results: Item 3 (Dirichlet α / Client-Count Sensitivity)
+# Locked Results: Item 3 (Dirichlet α / Client-Count Sensitivity)
 
 **Status: LOCKED 2026-08-22.** This document freezes the scientific narrative and all tables/figures for Item 3. It does not alter or reopen any number in `../RESULTS_ITEM1_ITEM2_LOCKED.md` (Item 1+2, locked 2026-08-20, integrity-tracked in `../LOCK_MANIFEST.json`). Item 3 tests how the erosion phenomenon documented in Item 1+2 *varies* with Dirichlet α and client count — it does not re-derive or re-test whether the phenomenon exists.
 
