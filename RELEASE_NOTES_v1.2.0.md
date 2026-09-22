@@ -29,4 +29,4 @@ Large derived/intermediate artifacts are not committed, consistent with this pac
 
 ### Citation
 
-See `CITATION.cff` (GitHub renders a "Cite this repository" button automatically). This release corresponds to the manuscript *Rare-Class Knowledge Retention in Federated Intrusion Detection: A Session-Level UAV Diagnostic with Mechanistic Localization and Cross-Domain Validation*, submitted to *Computer Networks* (Elsevier).
+See `CITATION.cff` (GitHub renders a "Cite this repository" button automatically). This release corresponds to the manuscript *Rare-Class Knowledge Retention in Federated Intrusion Detection: A Session-Level UAV Diagnostic with Mechanistic Localization and Cross-Domain Validation*, prepared for submission to *Computer Networks* (Elsevier).
