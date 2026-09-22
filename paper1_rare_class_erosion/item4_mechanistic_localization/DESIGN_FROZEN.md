@@ -4,7 +4,7 @@
 **الحالة:** مجمَّد كتابيًا قبل أي تنفيذ. لا يُعدَّل إلا بقرار صريح موثَّق أدناه (سجل التعديلات).
 **لا يمس أي ملف من Item 1+2+3** (`../RESULTS_ITEM1_ITEM2_LOCKED.md`, `../results/*`, `../figures/*`, `../checkpoints*`, `item3_sensitivity/*`) — تلك مقفلة ومُتحقَّق من سلامتها عبر `../LOCK_MANIFEST.json` و`item3_sensitivity/ITEM3_LOCK_MANIFEST.json`. هذا البند يكتب في مجلد نتائج مستقل تمامًا: `item4_mechanistic_localization/results/`.
 
-**سياق القرار:** هذا البند يستجيب مباشرة لاعتراض JNCA على "novelty and scientific contributions ... in terms of networking or computing" ولاعتراف المخطوطة نفسها بأن Item 1's directional-cancellation evidence يقيس فقط صف الفئة المستهدفة في Head النهائي، ولا يفكك مساهمة الـrepresentation المشتركة. الهدف: تحويل "رصد ظاهرة" إلى **توطين آلي سببي** (mechanistic localization) — أين بالضبط تُفقَد معرفة الفئة النادرة.
+**سياق القرار:** هذا البند يستجيب مباشرة لاعتراض تحريري سابق حول محدودية المساهمة العلمية/الشبكية للورقة، ولاعتراف المخطوطة نفسها بأن Item 1's directional-cancellation evidence يقيس فقط صف الفئة المستهدفة في Head النهائي، ولا يفكك مساهمة الـrepresentation المشتركة. الهدف: تحويل "رصد ظاهرة" إلى **توطين آلي سببي** (mechanistic localization) — أين بالضبط تُفقَد معرفة الفئة النادرة.
 
 ---
 

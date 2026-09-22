@@ -1,6 +1,6 @@
 """
 Construct-validity fix for the RQ3 confirmation-phase erosion table (Table 3),
-added post-JNCA-audit. analyze_confirmation.py's `max_local_recall` was
+added after a rigorous audit. analyze_confirmation.py's `max_local_recall` was
 computed from eval_data=="own_client_rows" (the holder's own TRAINING rows),
 then compared against `global_recall` measured on VALIDATION rows -- a
 mismatched surface relative to RQ1 (Section 5), which measures both local
