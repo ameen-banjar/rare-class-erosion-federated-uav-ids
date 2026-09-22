@@ -1,8 +1,8 @@
 # Session-Level Non-IID Federated UAV Intrusion Detection — Rare-Class Knowledge Retention
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22236554.svg)](https://doi.org/10.5281/zenodo.22236554)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22114156.svg)](https://doi.org/10.5281/zenodo.22114156)
 
-Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself.
+Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself. The badge above is Zenodo's **concept DOI** (always resolves to the latest version); individual versions are independently citable at their own DOI — see [`CITATION.cff`](CITATION.cff) for the current version's specific DOI (currently v1.2.0, `10.5281/zenodo.22899158`) and the "Versions" panel on the [Zenodo record](https://doi.org/10.5281/zenodo.22114156) for the full history, including the immutable v1.1.1 (`10.5281/zenodo.22236554`) that Sections 5, 7, and 8 of the manuscript correspond to.
 
 ## Manuscript
 

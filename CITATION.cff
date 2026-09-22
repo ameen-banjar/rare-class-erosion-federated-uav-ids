@@ -16,7 +16,7 @@ license: MIT
 repository-code: "https://github.com/ameen-banjar/rare-class-erosion-federated-uav-ids"
 version: "1.2.0"
 date-released: "2026-09-22"
-doi: "10.5281/zenodo.22236554"  # [TO UPDATE] replace with the new version-specific DOI once the v1.2.0 GitHub Release triggers Zenodo archival
+doi: "10.5281/zenodo.22899158"
 keywords:
   - federated learning
   - intrusion detection
