@@ -14,9 +14,9 @@ authors:
     orcid: "https://orcid.org/0000-0002-0871-5153"
 license: MIT
 repository-code: "https://github.com/ameen-banjar/rare-class-erosion-federated-uav-ids"
-version: "1.1.1"
-date-released: "2026-09-01"
-doi: "10.5281/zenodo.22236554"
+version: "1.2.0"
+date-released: "2026-09-22"
+doi: "10.5281/zenodo.22236554"  # [TO UPDATE] replace with the new version-specific DOI once the v1.2.0 GitHub Release triggers Zenodo archival
 keywords:
   - federated learning
   - intrusion detection
@@ -24,14 +24,16 @@ keywords:
   - non-IID
   - class imbalance
   - Dirichlet partitioning
+  - mechanistic interpretability
+  - cross-domain validation
 preferred-citation:
   type: article
-  title: "Aggregate Performance Is Not Rare-Class Retention: A Session-Level Non-IID Federated UAV Intrusion Detection Diagnostic"
+  title: "Rare-Class Knowledge Retention in Federated Intrusion Detection: A Session-Level UAV Diagnostic with Mechanistic Localization and Cross-Domain Validation"
   authors:
     - family-names: Banjar
       given-names: Ameen
       email: abanjar@uj.edu.sa
       affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
-  journal: "Journal of Network and Computer Applications"  # [TO CONFIRM] update if venue changes
+  journal: "Computer Networks"  # [TO CONFIRM] update if venue changes
   year: 2026                                               # [TO CONFIRM] update to actual publication year
   status: "in-preparation"                                 # [TO UPDATE] -> "submitted" / "in-review" / "published" as the process advances
