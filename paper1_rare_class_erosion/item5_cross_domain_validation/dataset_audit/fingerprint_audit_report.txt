@@ -1,0 +1,78 @@
+  [25/309] elapsed=9s
+  [50/309] elapsed=33s
+  [75/309] elapsed=42s
+  [100/309] elapsed=67s
+  [125/309] elapsed=88s
+  [150/309] elapsed=118s
+  [175/309] elapsed=140s
+  [200/309] elapsed=155s
+  [225/309] elapsed=171s
+  [250/309] elapsed=173s
+  [275/309] elapsed=176s
+  [300/309] elapsed=179s
+  [309/309] elapsed=182s
+
+Total rows seen (raw): 46776700
+Rows with NaN or +/-Inf (dropped before dedup): 1040
+Rows remaining after NaN/Inf drop: 46775660
+
+Cross-label-conflicting fingerprints (same feature vector, >1 class): 533448
+Total rows affected by cross-label conflicts (all removed from modeling corpus): 14144617
+Sample conflicting class-sets (up to 10):
+  fingerprint=-9223344298285853488: classes=['DDoS-TCP_Flood', 'DoS-TCP_Flood']
+  fingerprint=-9223306615134974093: classes=['DDoS-TCP_Flood', 'DoS-TCP_Flood']
+  fingerprint=-9223260640749007415: classes=['DDoS-TCP_Flood', 'DoS-TCP_Flood']
+  fingerprint=-9223164219726886078: classes=['DDoS-UDP_Flood', 'DoS-UDP_Flood']
+  fingerprint=-9223112177180261797: classes=['DDoS-UDP_Flood', 'DoS-UDP_Flood']
+  fingerprint=-9223105560157602553: classes=['DDoS-TCP_Flood', 'DoS-TCP_Flood']
+  fingerprint=-9223087490181828637: classes=['DDoS-SYN_Flood', 'DoS-SYN_Flood']
+  fingerprint=-9223080319141643641: classes=['DDoS-TCP_Flood', 'DoS-TCP_Flood']
+  fingerprint=-9222968561858654522: classes=['DDoS-SYN_Flood', 'DDoS-SynonymousIP_Flood', 'DoS-SYN_Flood']
+  fingerprint=-9222953399561255390: classes=['DDoS-SYN_Flood', 'DDoS-SynonymousIP_Flood']
+
+Rows after removing cross-label conflicts: 32631043
+Rows after exact within-class deduplication (final cleaned corpus): 20601235
+Total duplicate rows removed by dedup (within-class, any file): 12029808
+
+==========================================================================================
+CLEANED per-class row counts (NaN/Inf dropped + cross-label conflicts removed + exact dedup)
+==========================================================================================
+  DDoS-ICMP_Flood                 rows=   1978335  share=9.6030%
+  DDoS-UDP_Flood                  rows=   1934339  share=9.3894%
+  DoS-UDP_Flood                   rows=   1733318  share=8.4137%
+  DDoS-PSHACK_FLOOD               rows=   1704987  share=8.2761%
+  DDoS-SYN_Flood                  rows=   1604035  share=7.7861%
+  DDoS-TCP_Flood                  rows=   1446485  share=7.0214%
+  DDoS-RSTFINFLOOD                rows=   1302687  share=6.3233%
+  Benign_Final                    rows=   1092971  share=5.3054%
+  DDoS-SynonymousIP_Flood         rows=   1022725  share=4.9644%
+  DoS-SYN_Flood                   rows=   1016618  share=4.9347%
+  DoS-TCP_Flood                   rows=    989669  share=4.8039%
+  Mirai-greeth_flood              rows=    936263  share=4.5447%
+  Mirai-udpplain                  rows=    799306  share=3.8799%
+  Mirai-greip_flood               rows=    724366  share=3.5161%
+  DDoS-ICMP_Fragmentation         rows=    450298  share=2.1858%
+  VulnerabilityScan               rows=    371472  share=1.8032%
+  DDoS-UDP_Fragmentation          rows=    285285  share=1.3848%
+  DDoS-ACK_Fragmentation          rows=    283727  share=1.3772%
+  MITM-ArpSpoofing                rows=    279882  share=1.3586%
+  DNS_Spoofing                    rows=    173604  share=0.8427%
+  Recon-HostDiscovery             rows=    133176  share=0.6464%
+  Recon-OSScan                    rows=     95151  share=0.4619%
+  Recon-PortScan                  rows=     78969  share=0.3833%
+  DoS-HTTP_Flood                  rows=     71448  share=0.3468%
+  DDoS-HTTP_Flood                 rows=     28782  share=0.1397%
+  DDoS-SlowLoris                  rows=     23425  share=0.1137%
+  DictionaryBruteForce            rows=     13044  share=0.0633%
+  BrowserHijacking                rows=      5703  share=0.0277%
+  CommandInjection                rows=      5383  share=0.0261%
+  SqlInjection                    rows=      5243  share=0.0254%
+  XSS                             rows=      3837  share=0.0186%
+  Backdoor_Malware                rows=      3193  share=0.0155%
+  Recon-PingSweep                 rows=      2257  share=0.0110%
+  Uploading_Attack                rows=      1252  share=0.0061%
+
+Total cleaned corpus rows: 20601235
+Total classes represented in cleaned corpus: 34 (of 34)
+
+Cleaned prevalence table written -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item5_cross_domain_validation/dataset_audit/cleaned_class_prevalence.csv

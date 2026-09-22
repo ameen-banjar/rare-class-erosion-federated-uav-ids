@@ -1,0 +1,65 @@
+Found 309 CSV files under /Users/abanjar/All Project/UAV-FL/uav-federated-ids/development-workspace/ciciot2023_dataset/CSV
+  [25/309] processed, elapsed=10s
+  [50/309] processed, elapsed=31s
+  [75/309] processed, elapsed=39s
+  [100/309] processed, elapsed=60s
+  [125/309] processed, elapsed=81s
+  [150/309] processed, elapsed=102s
+  [175/309] processed, elapsed=120s
+  [200/309] processed, elapsed=132s
+  [225/309] processed, elapsed=150s
+  [250/309] processed, elapsed=153s
+  [275/309] processed, elapsed=155s
+  [300/309] processed, elapsed=158s
+  [309/309] processed, elapsed=161s
+
+==========================================================================================
+SUMMARY
+==========================================================================================
+Total CSV files: 309
+Total classes (folders): 34
+Total rows (all files): 46776700
+Total missing cells: 1449
+Total +/-inf cells: 1037
+Total duplicate rows (within-file only, not cross-file): 18231185
+Schema (columns, n=39): ['Header_Length', 'Protocol Type', 'Time_To_Live', 'Rate', 'fin_flag_number', 'syn_flag_number', 'rst_flag_number', 'psh_flag_number', 'ack_flag_number', 'ece_flag_number', 'cwr_flag_number', 'ack_count', 'syn_count', 'fin_count', 'rst_count', 'HTTP', 'HTTPS', 'DNS', 'Telnet', 'SMTP', 'SSH', 'IRC', 'TCP', 'UDP', 'DHCP', 'ARP', 'ICMP', 'IGMP', 'IPv', 'LLC', 'Tot sum', 'Min', 'Max', 'AVG', 'Std', 'Tot size', 'IAT', 'Number', 'Variance']
+Schema mismatches across files: 0
+Identity/provenance-like column names found: ['IPv']
+
+Per-class row counts (folder = class label):
+  DDoS-ICMP_Flood                 files= 27  rows=   7200501  share=15.3933%
+  DDoS-UDP_Flood                  files= 21  rows=   5412231  share=11.5704%
+  DDoS-TCP_Flood                  files= 18  rows=   4497649  share=9.6151%
+  DDoS-PSHACK_FLOOD               files= 16  rows=   4094772  share=8.7539%
+  DDoS-SYN_Flood                  files= 16  rows=   4059179  share=8.6778%
+  DDoS-RSTFINFLOOD                files= 16  rows=   4045279  share=8.6481%
+  DDoS-SynonymousIP_Flood         files= 14  rows=   3598133  share=7.6921%
+  DoS-UDP_Flood                   files= 17  rows=   3072993  share=6.5695%
+  DoS-TCP_Flood                   files= 11  rows=   2671430  share=5.7110%
+  DoS-SYN_Flood                   files=  8  rows=   2028836  share=4.3373%
+  Benign_Final                    files=  4  rows=   1098191  share=2.3477%
+  Mirai-greeth_flood              files= 29  rows=    991834  share=2.1204%
+  Mirai-udpplain                  files= 25  rows=    890574  share=1.9039%
+  Mirai-greip_flood               files= 22  rows=    751646  share=1.6069%
+  DDoS-ICMP_Fragmentation         files= 20  rows=    452490  share=0.9673%
+  VulnerabilityScan               files=  1  rows=    373351  share=0.7982%
+  MITM-ArpSpoofing                files=  2  rows=    307560  share=0.6575%
+  DDoS-UDP_Fragmentation          files= 13  rows=    286925  share=0.6134%
+  DDoS-ACK_Fragmentation          files= 13  rows=    285075  share=0.6094%
+  DNS_Spoofing                    files=  1  rows=    178898  share=0.3825%
+  Recon-HostDiscovery             files=  1  rows=    134378  share=0.2873%
+  Recon-OSScan                    files=  1  rows=     98259  share=0.2101%
+  Recon-PortScan                  files=  1  rows=     82284  share=0.1759%
+  DoS-HTTP_Flood                  files=  2  rows=     71861  share=0.1536%
+  DDoS-HTTP_Flood                 files=  1  rows=     28790  share=0.0615%
+  DDoS-SlowLoris                  files=  1  rows=     23426  share=0.0501%
+  DictionaryBruteForce            files=  1  rows=     13064  share=0.0279%
+  BrowserHijacking                files=  1  rows=      5859  share=0.0125%
+  CommandInjection                files=  1  rows=      5409  share=0.0116%
+  SqlInjection                    files=  1  rows=      5245  share=0.0112%
+  XSS                             files=  1  rows=      3846  share=0.0082%
+  Backdoor_Malware                files=  1  rows=      3218  share=0.0069%
+  Recon-PingSweep                 files=  1  rows=      2262  share=0.0048%
+  Uploading_Attack                files=  1  rows=      1252  share=0.0027%
+
+Manifest written -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item5_cross_domain_validation/dataset_audit/ciciot2023_csv_manifest.json

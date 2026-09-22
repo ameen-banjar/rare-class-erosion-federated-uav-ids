@@ -1,0 +1,83 @@
+[Pass A] Device: mps
+Fitted scaler + 56 feature columns on 91 TRAINING-pool sessions (2150122 rows). Validation and test untouched.
+Class weights (sqrt-damped, mean-normalized): {'DoS': 0.107, 'Injection': 2.09, 'Ip Spoofing': 1.227, 'MITM': 0.357, 'Manipulation': 1.657, 'Password Cracking': 0.282, 'Regular': 0.115, 'Replay': 1.746, 'Unauth': 1.965, 'Video': 0.455}
+  -> effective row share after sqrt-damped weighting: {'DoS': 0.3166, 'Injection': 0.0162, 'Ip Spoofing': 0.0275, 'MITM': 0.0948, 'Manipulation': 0.0204, 'Password Cracking': 0.1199, 'Regular': 0.2938, 'Replay': 0.0194, 'Unauth': 0.0172, 'Video': 0.0742}
+  -> effective row share after FULL balanced weighting: {'DoS': 0.1, 'Injection': 0.1, 'Ip Spoofing': 0.1, 'MITM': 0.1, 'Manipulation': 0.1, 'Password Cracking': 0.1, 'Regular': 0.1, 'Replay': 0.1, 'Unauth': 0.1, 'Video': 0.1}
+[Pass A][seed=11] round 1/45 snapshotted  elapsed=45s
+[Pass A][seed=11] round 5/45 snapshotted  elapsed=129s
+[Pass A][seed=11] round 10/45 snapshotted  elapsed=227s
+[Pass A][seed=11] round 20/45 snapshotted  elapsed=393s
+[Pass A][seed=11] round 30/45 snapshotted  elapsed=560s
+[Pass A][seed=11] round 45/45 snapshotted  elapsed=795s
+[Pass A] Seed 11 done. Elapsed 795s total.
+[Pass A][seed=22] round 1/45 snapshotted  elapsed=838s
+[Pass A][seed=22] round 5/45 snapshotted  elapsed=922s
+[Pass A][seed=22] round 10/45 snapshotted  elapsed=1020s
+[Pass A][seed=22] round 20/45 snapshotted  elapsed=1187s
+[Pass A][seed=22] round 30/45 snapshotted  elapsed=1355s
+[Pass A][seed=22] round 45/45 snapshotted  elapsed=1591s
+[Pass A] Seed 22 done. Elapsed 1591s total.
+[Pass A][seed=33] round 1/45 snapshotted  elapsed=1636s
+[Pass A][seed=33] round 5/45 snapshotted  elapsed=1721s
+[Pass A][seed=33] round 10/45 snapshotted  elapsed=1820s
+[Pass A][seed=33] round 20/45 snapshotted  elapsed=1989s
+[Pass A][seed=33] round 30/45 snapshotted  elapsed=2158s
+[Pass A][seed=33] round 45/45 snapshotted  elapsed=2396s
+[Pass A] Seed 33 done. Elapsed 2396s total.
+[Pass A][seed=44] round 1/45 snapshotted  elapsed=2439s
+[Pass A][seed=44] round 5/45 snapshotted  elapsed=2525s
+[Pass A][seed=44] round 10/45 snapshotted  elapsed=2624s
+[Pass A][seed=44] round 20/45 snapshotted  elapsed=2792s
+[Pass A][seed=44] round 30/45 snapshotted  elapsed=2960s
+[Pass A][seed=44] round 45/45 snapshotted  elapsed=3198s
+[Pass A] Seed 44 done. Elapsed 3198s total.
+[Pass A][seed=55] round 1/45 snapshotted  elapsed=3241s
+[Pass A][seed=55] round 5/45 snapshotted  elapsed=3327s
+[Pass A][seed=55] round 10/45 snapshotted  elapsed=3426s
+[Pass A][seed=55] round 20/45 snapshotted  elapsed=3594s
+[Pass A][seed=55] round 30/45 snapshotted  elapsed=3764s
+[Pass A][seed=55] round 45/45 snapshotted  elapsed=3999s
+[Pass A] Seed 55 done. Elapsed 3999s total.
+[Pass A] Complete -- all seeds' full 45-round trajectories snapshotted.
+Fitted scaler + 56 feature columns on 91 TRAINING-pool sessions (2150122 rows). Validation and test untouched.
+Class weights (sqrt-damped, mean-normalized): {'DoS': 0.107, 'Injection': 2.09, 'Ip Spoofing': 1.227, 'MITM': 0.357, 'Manipulation': 1.657, 'Password Cracking': 0.282, 'Regular': 0.115, 'Replay': 1.746, 'Unauth': 1.965, 'Video': 0.455}
+  -> effective row share after sqrt-damped weighting: {'DoS': 0.3166, 'Injection': 0.0162, 'Ip Spoofing': 0.0275, 'MITM': 0.0948, 'Manipulation': 0.0204, 'Password Cracking': 0.1199, 'Regular': 0.2938, 'Replay': 0.0194, 'Unauth': 0.0172, 'Video': 0.0742}
+  -> effective row share after FULL balanced weighting: {'DoS': 0.1, 'Injection': 0.1, 'Ip Spoofing': 0.1, 'MITM': 0.1, 'Manipulation': 0.1, 'Password Cracking': 0.1, 'Regular': 0.1, 'Replay': 0.1, 'Unauth': 0.1, 'Video': 0.1}
+[Pass B][seed=11] round 1 gate_pass=True
+[Pass B][seed=11] round 5 gate_pass=True
+[Pass B][seed=11] round 10 gate_pass=True
+[Pass B][seed=11] round 20 gate_pass=True
+[Pass B][seed=11] round 30 gate_pass=True
+[Pass B][seed=11] round 45 gate_pass=True
+[Pass B] Seed 11 done.
+[Pass B][seed=22] round 1 gate_pass=True
+[Pass B][seed=22] round 5 gate_pass=True
+[Pass B][seed=22] round 10 gate_pass=True
+[Pass B][seed=22] round 20 gate_pass=True
+[Pass B][seed=22] round 30 gate_pass=True
+[Pass B][seed=22] round 45 gate_pass=True
+[Pass B] Seed 22 done.
+[Pass B][seed=33] round 1 gate_pass=True
+[Pass B][seed=33] round 5 gate_pass=True
+[Pass B][seed=33] round 10 gate_pass=True
+[Pass B][seed=33] round 20 gate_pass=True
+[Pass B][seed=33] round 30 gate_pass=True
+[Pass B][seed=33] round 45 gate_pass=True
+[Pass B] Seed 33 done.
+[Pass B][seed=44] round 1 gate_pass=True
+[Pass B][seed=44] round 5 gate_pass=True
+[Pass B][seed=44] round 10 gate_pass=True
+[Pass B][seed=44] round 20 gate_pass=True
+[Pass B][seed=44] round 30 gate_pass=True
+[Pass B][seed=44] round 45 gate_pass=True
+[Pass B] Seed 44 done.
+[Pass B][seed=55] round 1 gate_pass=True
+[Pass B][seed=55] round 5 gate_pass=True
+[Pass B][seed=55] round 10 gate_pass=True
+[Pass B][seed=55] round 20 gate_pass=True
+[Pass B][seed=55] round 30 gate_pass=True
+[Pass B][seed=55] round 45 gate_pass=True
+[Pass B] Seed 55 done.
+
+Saved -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item4_mechanistic_localization/results/item4_raw.csv
+Saved -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item4_mechanistic_localization/results/item4_determinism_gate.csv

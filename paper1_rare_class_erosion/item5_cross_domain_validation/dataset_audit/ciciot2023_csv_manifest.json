@@ -1,0 +1,2783 @@
+{
+  "CSV/Backdoor_Malware/Backdoor_Malware.pcap.csv": {
+    "sha256": "b076424c816ecf99f40d466f95a8ea4336c5077d4afdc05220fa26d528f4a06f",
+    "size_bytes": 664577,
+    "n_rows": 3218,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/Benign_Final/BenignTraffic.pcap.csv": {
+    "sha256": "f0ee40b64ac395ecf3ce7cff7580343718554985a68ec6f07d7276d8f31b9ee6",
+    "size_bytes": 75100977,
+    "n_rows": 362361,
+    "n_columns": 39,
+    "n_missing_cells": 38,
+    "n_inf_cells": 19,
+    "n_duplicate_rows_within_file": 1496
+  },
+  "CSV/Benign_Final/BenignTraffic1.pcap.csv": {
+    "sha256": "d185c67268fdde5d091c07361001926bdac49e5774824fd5920663721814070e",
+    "size_bytes": 61260813,
+    "n_rows": 295585,
+    "n_columns": 39,
+    "n_missing_cells": 40,
+    "n_inf_cells": 20,
+    "n_duplicate_rows_within_file": 708
+  },
+  "CSV/Benign_Final/BenignTraffic2.pcap.csv": {
+    "sha256": "71540cd0e9c65d78560003641a00438f9216693af0b7e6cf2b2e44b7234db6ac",
+    "size_bytes": 64200745,
+    "n_rows": 310413,
+    "n_columns": 39,
+    "n_missing_cells": 36,
+    "n_inf_cells": 18,
+    "n_duplicate_rows_within_file": 397
+  },
+  "CSV/Benign_Final/BenignTraffic3.pcap.csv": {
+    "sha256": "861063adfc622eed3e3d84b17a2a9e19f89800a56ef575dc26fc0bd7e05a5d8e",
+    "size_bytes": 26851364,
+    "n_rows": 129832,
+    "n_columns": 39,
+    "n_missing_cells": 16,
+    "n_inf_cells": 8,
+    "n_duplicate_rows_within_file": 80
+  },
+  "CSV/BrowserHijacking/BrowserHijacking.pcap.csv": {
+    "sha256": "cb8ae8b62bfbb9594ca54a042d80ebfa194526279c1e7c60b3fc9d587264e40b",
+    "size_bytes": 1207500,
+    "n_rows": 5859,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 71
+  },
+  "CSV/CommandInjection/CommandInjection.pcap.csv": {
+    "sha256": "8d2cacd92968707719bdc67fea854558e45f083fb315df6c52b637db18fd4aeb",
+    "size_bytes": 1107913,
+    "n_rows": 5409,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 21
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation.pcap.csv": {
+    "sha256": "60ade5c90233e02d09012cef3a84a8da69d9e8d5cf4f544e4a09c8ba0647cecc",
+    "size_bytes": 5530254,
+    "n_rows": 25090,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 4
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation1.pcap.csv": {
+    "sha256": "4f98d902c998c30135fad1afef74743c4cfc5b6eec506c2e2303fe4d0148d8bf",
+    "size_bytes": 4944205,
+    "n_rows": 22416,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 8
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation10.pcap.csv": {
+    "sha256": "0b3152338a9987e4b5230d3b11f80b983c42e24defb0aca4b52326b4d314e989",
+    "size_bytes": 5015945,
+    "n_rows": 22750,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 7
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation11.pcap.csv": {
+    "sha256": "a6be3ad9d16fab18b632047d4a10f30b48ed657fd1f2caccc37007e1f754549a",
+    "size_bytes": 5008522,
+    "n_rows": 22761,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 11
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation12.pcap.csv": {
+    "sha256": "44c2df9ec2c0c2e89452f1a859e0710538750a287a215ae571488ce5b14091bd",
+    "size_bytes": 2099587,
+    "n_rows": 9482,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation2.pcap.csv": {
+    "sha256": "ce4213d9dd28b243b01d415894c020352cd41bb5c841c5ac1177c2b089dea8bd",
+    "size_bytes": 4976425,
+    "n_rows": 22550,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 2
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation3.pcap.csv": {
+    "sha256": "d3d8090be949de3b3c1dc7afe72281730439b94f37aca8953a6b3fd38b09dd35",
+    "size_bytes": 5035034,
+    "n_rows": 22820,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 8
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation4.pcap.csv": {
+    "sha256": "763539448e1b6aa4e22aa5a79f6ccb8f03493e3ee43b700750374558f5fc1129",
+    "size_bytes": 4946356,
+    "n_rows": 22483,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 8
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation5.pcap.csv": {
+    "sha256": "14deed9325342a5c0828d42d0c404623887bbd4fbd259194b1e88a301703e598",
+    "size_bytes": 4801947,
+    "n_rows": 21977,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 37
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation6.pcap.csv": {
+    "sha256": "25087f2ca3b75e5dcf80844b1ce8039febc2af16bd86931300ff1b0567184968",
+    "size_bytes": 4852412,
+    "n_rows": 22144,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 24
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation7.pcap.csv": {
+    "sha256": "045a21f9059f02ace4c9570922e2cefbd3945b7c628ec9b2d53b3484cb31abba",
+    "size_bytes": 4898374,
+    "n_rows": 22253,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 15
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation8.pcap.csv": {
+    "sha256": "439692bdaf1d1552e5510e733d13ec8f37988c932a943ba9c4b7fc9f082dbf03",
+    "size_bytes": 4933846,
+    "n_rows": 22469,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 19
+  },
+  "CSV/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation9.pcap.csv": {
+    "sha256": "483282b72872e84b1955369a76d9eacc52c3a1757210c69c83b03283e44613dd",
+    "size_bytes": 5734938,
+    "n_rows": 25880,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/DDoS-HTTP_Flood/DDoS-HTTP_Flood-.pcap.csv": {
+    "sha256": "124ac9cae65694761d755e9709d87f7375d8b85b8ee073860f050eebdab515ee",
+    "size_bytes": 6449785,
+    "n_rows": 28790,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood.pcap.csv": {
+    "sha256": "641a73fa306b129b6b5f5669b84e737bea15243bb3996c37d56248698a4d4cf4",
+    "size_bytes": 49629237,
+    "n_rows": 268010,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 135139
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood1.pcap.csv": {
+    "sha256": "27e9b7616175a48d9dabf534f6f340f0fd780f3d5ab98bba0caf042852fa448e",
+    "size_bytes": 49499929,
+    "n_rows": 268903,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 144778
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood10.pcap.csv": {
+    "sha256": "f7a5b4c13a01aec1f09018466024821bfc3c7c1ffa96435a76172118f71d1f30",
+    "size_bytes": 49550267,
+    "n_rows": 268527,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 119335
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood11.pcap.csv": {
+    "sha256": "39a6f6b48c6846fbc2a5109467484850352060634bec53c238873bd5cbbe6de5",
+    "size_bytes": 49550761,
+    "n_rows": 268373,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 119584
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood12.pcap.csv": {
+    "sha256": "021b63df33abc3ecc05488764be9a7374d459274a92ab062254062b439eff8bd",
+    "size_bytes": 49442023,
+    "n_rows": 268218,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 123043
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood13.pcap.csv": {
+    "sha256": "bb94c9f4d963c3693a36b822d5c2599f497e32cc9e5b12270a3f3366429b4030",
+    "size_bytes": 49140896,
+    "n_rows": 266839,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 129152
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood14.pcap.csv": {
+    "sha256": "0b8c13f7c16c6399171f9af3761c5235cba0212ef23962810321aaf1af4a599d",
+    "size_bytes": 49230229,
+    "n_rows": 266548,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 123687
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood15.pcap.csv": {
+    "sha256": "53a935da714062f280233582a7cbc4049610fb4980b164b1296dfd7e9370ebb0",
+    "size_bytes": 48726461,
+    "n_rows": 263840,
+    "n_columns": 39,
+    "n_missing_cells": 14,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 130067
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood16.pcap.csv": {
+    "sha256": "ac67c45d92fac387360c66fe50c53887214d120b20ee4c5f9f82f17eb3519084",
+    "size_bytes": 46172166,
+    "n_rows": 249338,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 123259
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood17.pcap.csv": {
+    "sha256": "0095ed0e497f199caadc467e324c1a0713e5edd8e1f0c3a5898f64490d6ee4af",
+    "size_bytes": 49070655,
+    "n_rows": 267895,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 141148
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood18.pcap.csv": {
+    "sha256": "d0420e1be47080c50da8e4a0d2114950e331602bfa30aa31007ef488c34737e6",
+    "size_bytes": 49173006,
+    "n_rows": 269201,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 141406
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood19.pcap.csv": {
+    "sha256": "7775ddcb3947df1cef84f463df704ac4da40e2ffc728624aeb56a6010a55dab2",
+    "size_bytes": 49463881,
+    "n_rows": 268311,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 127707
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood2.pcap.csv": {
+    "sha256": "a4b7124eb0bcbbb6df4d3488d81d4cb2849a1232b6c5ebd29200530247d778d7",
+    "size_bytes": 48959577,
+    "n_rows": 264070,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 132977
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood20.pcap.csv": {
+    "sha256": "fbc88aae7bd836d18c4df10d57c94d5ca08a8885198fb0c107ae83524c7241e3",
+    "size_bytes": 48926723,
+    "n_rows": 265195,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 135937
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood21.pcap.csv": {
+    "sha256": "9525bf4b37c6c859b85a582a60ab1b0b1df48deeaad731b20cf60496b9e782ee",
+    "size_bytes": 49445804,
+    "n_rows": 268530,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 125016
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood22.pcap.csv": {
+    "sha256": "d99a8c35f2385c52bbd663c40418a09158519ca1e9ad25a1e99b4a7ead89c5dd",
+    "size_bytes": 48942961,
+    "n_rows": 266941,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 139435
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood23.pcap.csv": {
+    "sha256": "06d4dd575f5a4b38db03756aa90aa77f39950a1e3d4825f70d456af14ccd5b4a",
+    "size_bytes": 49153368,
+    "n_rows": 268450,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 146754
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood24.pcap.csv": {
+    "sha256": "af4988e3db097ab2e68071e16768e006459b814666eeda34bfed06380f3a73ec",
+    "size_bytes": 48897469,
+    "n_rows": 267505,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 162619
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood25.pcap.csv": {
+    "sha256": "8ed10ff3d561ff3320c8d0ac15b5a1b3069b66a8fda53fc10af4a0ac689f013b",
+    "size_bytes": 49439635,
+    "n_rows": 266632,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 125052
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood26.pcap.csv": {
+    "sha256": "9a0e320124e0dcb9e30d06477062c5ab1aef238fc2873e40825c79957f88362b",
+    "size_bytes": 49230142,
+    "n_rows": 268424,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 149068
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood3.pcap.csv": {
+    "sha256": "94ceee559415f7fe57b9ec89145a148244b5bf05681793b140046f7db507bd3a",
+    "size_bytes": 48556977,
+    "n_rows": 261484,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 122905
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood4.pcap.csv": {
+    "sha256": "ae381314ef379c58c8128cf972197f83870cab24a367bcccae4c2e31e4a36dca",
+    "size_bytes": 49808959,
+    "n_rows": 267814,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 131751
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood5.pcap.csv": {
+    "sha256": "984ba2afe9e1e592c068e40b0d95f1fce50b6bfabf7a23654ff6532b7aae937b",
+    "size_bytes": 49339745,
+    "n_rows": 268142,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 143308
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood6.pcap.csv": {
+    "sha256": "49bb3e6144e27745d5986c477be78c62253233fca4888873b2a0be713a0e5df2",
+    "size_bytes": 49112212,
+    "n_rows": 268788,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 155798
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood7.pcap.csv": {
+    "sha256": "5fe1073441ed04de91df163f89fe49bebfbddbbe9e298e11cf724d990342d06b",
+    "size_bytes": 48900510,
+    "n_rows": 268462,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 156410
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood8.pcap.csv": {
+    "sha256": "ec3dc02a0551ce53d887b4f3f21364721fdf9a741241582a8353c84c99b15ca1",
+    "size_bytes": 49495438,
+    "n_rows": 267907,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 121592
+  },
+  "CSV/DDoS-ICMP_Flood/DDoS-ICMP_Flood9.pcap.csv": {
+    "sha256": "2545554b6c8e95adc1fa5b270be5f5783d90d90e50e3bd0d80bb313ee6dc14cf",
+    "size_bytes": 49409485,
+    "n_rows": 268154,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 125569
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation.pcap.csv": {
+    "sha256": "d84d3608cdeae2ad8789e197ade49a199a9f86a9b32fbbfb1b41432fba27bc7c",
+    "size_bytes": 4576351,
+    "n_rows": 20696,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 2
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation1.pcap.csv": {
+    "sha256": "35d5513e8628776a4e9e1188c8d9d48c9e3e314975489453202b4ace96b095ea",
+    "size_bytes": 4982951,
+    "n_rows": 22527,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation10.pcap.csv": {
+    "sha256": "184c299338f0ede9461796e536d4895756c2d9b21077feaacdab1e2448c86507",
+    "size_bytes": 5018987,
+    "n_rows": 22742,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 5
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation11.pcap.csv": {
+    "sha256": "f79c524942bfecbe78795d3009d3570d054ea0abf52c4eaa62d8f676370f922b",
+    "size_bytes": 4955238,
+    "n_rows": 22529,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 7
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation12.pcap.csv": {
+    "sha256": "c7dd77ab651c0763cde5be5509305829766ae3046c89cfb70eefbee5657a1658",
+    "size_bytes": 5065621,
+    "n_rows": 22931,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 4
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation13.pcap.csv": {
+    "sha256": "0568882a5e4ca43604c29bf4b9308ec7b4952951107eac323875d5c4fe25bf63",
+    "size_bytes": 4969932,
+    "n_rows": 22574,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 8
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation14.pcap.csv": {
+    "sha256": "7fe3d452335348ddcf062d82085a77b28a9db869c0b3f81b50494aa9e19ff344",
+    "size_bytes": 4997768,
+    "n_rows": 22717,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation15.pcap.csv": {
+    "sha256": "faa6263f8890002e7ce46c52551ad7ace8cc5e41c2722cbb36a4bb82a25f7e6c",
+    "size_bytes": 4858713,
+    "n_rows": 22276,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 20
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation16.pcap.csv": {
+    "sha256": "3163502b07cc91a92ed37306cc1c2e2f3def5c56d89d87d0828d81d27cbda6de",
+    "size_bytes": 5077350,
+    "n_rows": 23046,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 4
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation17.pcap.csv": {
+    "sha256": "5687d7d4b585325a77a2254be17bca23ab3618e5f3a1fda52720ec340f3ef56d",
+    "size_bytes": 5593541,
+    "n_rows": 25135,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation18.pcap.csv": {
+    "sha256": "f1b73df10979b6282b0dd3277bb3a788af83a3dd5adf59b52ee1e8c246f02a1d",
+    "size_bytes": 4940788,
+    "n_rows": 22521,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 15
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation19.pcap.csv": {
+    "sha256": "e084d59d1102b9a4177d53e5ad2cdcb867e0c00cd7bb00327bc844f191180a60",
+    "size_bytes": 4362588,
+    "n_rows": 19866,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 5
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation2.pcap.csv": {
+    "sha256": "1776e7641b8b54d5e35f66fc35344b9bfb0bf6b86d81f7e67e825aef5c5808ba",
+    "size_bytes": 4982201,
+    "n_rows": 22617,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 6
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation3.pcap.csv": {
+    "sha256": "6d662e1bb2298ecef8ce5e6d6986c75bbb9f3829d9eb29ad2bba931ee47ef263",
+    "size_bytes": 5183591,
+    "n_rows": 23381,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation4.pcap.csv": {
+    "sha256": "2ff70f9867441c4cbf9749c98ff866c8a65cbf7b1187cf0fba0c96ccbdfdf33f",
+    "size_bytes": 5233326,
+    "n_rows": 23567,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation5.pcap.csv": {
+    "sha256": "6f11fab1affbcaa115667e5dd9ded8ea71fbf03d79352b47f74c5e5adffc5715",
+    "size_bytes": 4929636,
+    "n_rows": 22421,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 7
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation6.pcap.csv": {
+    "sha256": "30c9dceb94c852b2be8a7a604847faf02556aa43b07de98ed373b722950b5fc4",
+    "size_bytes": 4897727,
+    "n_rows": 22335,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 18
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation7.pcap.csv": {
+    "sha256": "ab0dd9fc6795c250d19d43e259f903e9af6a8fe11c8d8005b34a1571683a21ea",
+    "size_bytes": 4998932,
+    "n_rows": 22783,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 19
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation8.pcap.csv": {
+    "sha256": "119abf8ad1a3c2d173c113920f4335d6cd7663f66200490ff2171078fd510939",
+    "size_bytes": 4937216,
+    "n_rows": 22537,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 12
+  },
+  "CSV/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation9.pcap.csv": {
+    "sha256": "30395b571c0f1a1671bb9177c3508fd1ee72180aab2ac39fa8e85314b347486a",
+    "size_bytes": 5153022,
+    "n_rows": 23289,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 7
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood.pcap.csv": {
+    "sha256": "a4b40c47d42956ccb58d4fd1c59845cdd2a947a88b634770dff10d1d8d970b7f",
+    "size_bytes": 50374556,
+    "n_rows": 267811,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 131524
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood1.pcap.csv": {
+    "sha256": "8c34f1ec5df13db4eae8d773adb4bdc93b69504a72e82d346ffdb59993a84fd7",
+    "size_bytes": 50173173,
+    "n_rows": 269067,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 129232
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood10.pcap.csv": {
+    "sha256": "a62d4175fca20d2e6bf0fcdef1ae45c7202a0f06c76039af0b9b2fc7c98b0117",
+    "size_bytes": 50122091,
+    "n_rows": 265553,
+    "n_columns": 39,
+    "n_missing_cells": 12,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 126284
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood11.pcap.csv": {
+    "sha256": "5a6b6c5df12fb4d19e04315a16b1a04b96bc8f3baa1e3b939adf685156dba180",
+    "size_bytes": 50168393,
+    "n_rows": 267192,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 123662
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood12.pcap.csv": {
+    "sha256": "b8a74d16f72be8abc45c46a4889ab4e4ac601a46cb1bb14fe562b95d52ad4e5e",
+    "size_bytes": 50065205,
+    "n_rows": 266453,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 119851
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood13.pcap.csv": {
+    "sha256": "fb2a60cbd4d51b0749e8d16230418342dc19a5d90de40ad268ce03dbf0d5dab8",
+    "size_bytes": 50212437,
+    "n_rows": 268539,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 132755
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood14.pcap.csv": {
+    "sha256": "789cb3ad4620b63e2db26d5a524c1cb46799c145d1cd018313c8041d26197f28",
+    "size_bytes": 50253946,
+    "n_rows": 267545,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 101484
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood15.pcap.csv": {
+    "sha256": "95230e930ef14091f97f2f43a198f2036d3d44f2b4f065db8ca007df486862ae",
+    "size_bytes": 14866707,
+    "n_rows": 78907,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 25436
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood2.pcap.csv": {
+    "sha256": "124b3639e6176d059fa3c4604c28966ca9e30b9328f01950e252f53a0aac6b45",
+    "size_bytes": 50666840,
+    "n_rows": 268128,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 78126
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood3.pcap.csv": {
+    "sha256": "7ea050022fb6ae31cd0df5931c50073702d039745355c070f800836c50ba28c9",
+    "size_bytes": 50567791,
+    "n_rows": 268033,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 113430
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood4.pcap.csv": {
+    "sha256": "b5b71cef02fa978b5dd0ffd70431189eae5fcc4b473ecfd3393712f07690c2ea",
+    "size_bytes": 50498677,
+    "n_rows": 268329,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 115522
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood5.pcap.csv": {
+    "sha256": "956b09d8fc1d69d02d4b2ac4bad636064b9a4047d8b9f9280d8e9c935ccd5fb9",
+    "size_bytes": 50544736,
+    "n_rows": 268533,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 117442
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood6.pcap.csv": {
+    "sha256": "4eac1dfad3381bdb9f82586c610d11d96c6e2182ab43ea9182a7ee07feaabac4",
+    "size_bytes": 50555376,
+    "n_rows": 268242,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 50478
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood7.pcap.csv": {
+    "sha256": "5bdea5d8c40ffba5a2465c544926ee76be673934f716e98028441142d3e6ad1b",
+    "size_bytes": 50450917,
+    "n_rows": 267701,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 114182
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood8.pcap.csv": {
+    "sha256": "47a0500f5e1a3b2286b3b16eea46671ff479382c8271a8baa324e740a30e4382",
+    "size_bytes": 50439194,
+    "n_rows": 268783,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 127776
+  },
+  "CSV/DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood9.pcap.csv": {
+    "sha256": "542fe441738a2d83aed220c7a0346ef6e1fb85ba830c75a02293af5c8c3be0b2",
+    "size_bytes": 49597219,
+    "n_rows": 265956,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 118411
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood.pcap.csv": {
+    "sha256": "760a2d50d3f2ac2e11e8aed6199d69fa2b58e4d5f67852a516131fb3d6bcf0b3",
+    "size_bytes": 50843571,
+    "n_rows": 266934,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 116577
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood1.pcap.csv": {
+    "sha256": "85bcb978152d575670f998a2f86e5ebbe6dca1fd50e1bc3d924eef3d03637682",
+    "size_bytes": 50257848,
+    "n_rows": 265364,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 140814
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood10.pcap.csv": {
+    "sha256": "ce2a4404e02e100b8a57c26dd81f347d39b069f46447134c8036f7399e793d1b",
+    "size_bytes": 50812193,
+    "n_rows": 268564,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 123959
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood11.pcap.csv": {
+    "sha256": "125a8488ec9cc4d2198ef7c55290193c7a0292372546c536996b8028496ef947",
+    "size_bytes": 50492558,
+    "n_rows": 265702,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 136086
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood12.pcap.csv": {
+    "sha256": "2b2f3ae22fe822964469b7a2653a92d4aebd23575a69619104f27cef0002c810",
+    "size_bytes": 50536714,
+    "n_rows": 266782,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 141887
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood13.pcap.csv": {
+    "sha256": "86685c3c1ced94b875bbac37d5472d928e28b17ba15bf8bba3ce0e50b9316140",
+    "size_bytes": 50720180,
+    "n_rows": 268730,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 151157
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood14.pcap.csv": {
+    "sha256": "421d2877509df75e29a756b43963027d86820342285796e89f74d0043364463c",
+    "size_bytes": 50771519,
+    "n_rows": 268668,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 145212
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood15.pcap.csv": {
+    "sha256": "607f3472e65d463fb11e6e7dd3498040ef98117bfde63a248da77e11c5f17192",
+    "size_bytes": 11732085,
+    "n_rows": 62551,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 24848
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood2.pcap.csv": {
+    "sha256": "84f31e36eaf1b3e3603c522388406b80ddfe02e460a0c34f8d65961217b7268d",
+    "size_bytes": 50519470,
+    "n_rows": 265781,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 136282
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood3.pcap.csv": {
+    "sha256": "3fc496c8e3f49f01a81f9860ef5d287caac81d9bb31e16591430b37f3f587e2f",
+    "size_bytes": 50543359,
+    "n_rows": 265518,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 131140
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood4.pcap.csv": {
+    "sha256": "a307139a33e641478ead47014fbe1fe803f9a1606cf649128acb57be7157ce92",
+    "size_bytes": 50870304,
+    "n_rows": 268357,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 142292
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood5.pcap.csv": {
+    "sha256": "1dfccd8e252b8fddc118670a49811a360bca01f6f58424ffc22d14af5b9ea2a2",
+    "size_bytes": 50999323,
+    "n_rows": 268563,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 136409
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood6.pcap.csv": {
+    "sha256": "2c651c7f0f4d95943be9779058c456196019441963edc02c0421cf1e1e1113fa",
+    "size_bytes": 46125154,
+    "n_rows": 242421,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 122999
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood7.pcap.csv": {
+    "sha256": "ac7c162a3907d8348e2c1d0d05206303dd76a7831eb852cebac65e2b0726c912",
+    "size_bytes": 50532403,
+    "n_rows": 265297,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 123091
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood8.pcap.csv": {
+    "sha256": "69a89fef5bce99fdcb9b1917b864315f3e78aea73268e459f36ce16710c0ac8f",
+    "size_bytes": 50612474,
+    "n_rows": 268730,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 136357
+  },
+  "CSV/DDoS-RSTFINFLOOD/DDoS-RSTFINFlood9.pcap.csv": {
+    "sha256": "c0ff852940e5944e26933043b74f4bb16ee556e5f117dcd0c44c059034cbc283",
+    "size_bytes": 50632289,
+    "n_rows": 267317,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 144574
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood.pcap.csv": {
+    "sha256": "d91942c579cc1a7632ee2d64ae87bab44bfb4eca02467f612763d7a40f3b9ff3",
+    "size_bytes": 51108638,
+    "n_rows": 266024,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 89936
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood1.pcap.csv": {
+    "sha256": "0d9d9128bcd2d6a3976408a84f6a89dc38fc772399d9064a164d32cf613a043d",
+    "size_bytes": 51023102,
+    "n_rows": 267197,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 98819
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood10.pcap.csv": {
+    "sha256": "dfd6b7e2c146b4a427cdd1ea3e85b8a4a10a4499d1c144942398583f70bfcf41",
+    "size_bytes": 50881658,
+    "n_rows": 267692,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 120398
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood11.pcap.csv": {
+    "sha256": "5b9a31b2a325d47c011d77c2a44c9267cce9fc5df412c8dbb9df5e6114677787",
+    "size_bytes": 50551155,
+    "n_rows": 266507,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 128790
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood12.pcap.csv": {
+    "sha256": "bb721c5e71fddef59625d4ef557488a510fdfaa30264ee333e56220988ea9b78",
+    "size_bytes": 50926355,
+    "n_rows": 268242,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 100078
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood13.pcap.csv": {
+    "sha256": "c3267155336daa8dc430ccdd30ad7d9e2cb7c01ad94cac21b43fd3152990ff8a",
+    "size_bytes": 50869969,
+    "n_rows": 268015,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 89843
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood14.pcap.csv": {
+    "sha256": "03843b2d85d99fba2b577dd86ca39e26f2adddb30722aa0676f2e16ca900eb9d",
+    "size_bytes": 50380963,
+    "n_rows": 264392,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 93984
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood15.pcap.csv": {
+    "sha256": "9dfa52aa684202286dc352b24bd8f19e1082e6b460484ad958d3f51d4ec0f3e2",
+    "size_bytes": 26009693,
+    "n_rows": 137254,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 47262
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood2.pcap.csv": {
+    "sha256": "e8a2d9ca9d0c08b868ecd353aad57233780c13acd38b8af016318c7e7971e371",
+    "size_bytes": 50841893,
+    "n_rows": 268427,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 104210
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood3.pcap.csv": {
+    "sha256": "9b9d3a5119e47331ac206fb4747bdcc8721398615640b1012c37c3cdbed07f57",
+    "size_bytes": 50687752,
+    "n_rows": 268354,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 115145
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood4.pcap.csv": {
+    "sha256": "b054d51ddcd59f376e3645c716da84274911f879a4728b1918267403c7b6cd48",
+    "size_bytes": 38728063,
+    "n_rows": 191158,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 39679
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood5.pcap.csv": {
+    "sha256": "465623592c3e8ccf86aabdcba30f57f565f6d309efec5cb0b88299021f1f610b",
+    "size_bytes": 50530644,
+    "n_rows": 267275,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 8,
+    "n_duplicate_rows_within_file": 138154
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood6.pcap.csv": {
+    "sha256": "1bd8c3d02367c763e312d7f0fe73a5d9aed1a7551a09cc2ab075f2f0b6305ec3",
+    "size_bytes": 50719359,
+    "n_rows": 267846,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 8,
+    "n_duplicate_rows_within_file": 134491
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood7.pcap.csv": {
+    "sha256": "faf3341e4960c3a7577b902d1063e9da4b3eb4becbb19872d3b10b7b9b7fc2a3",
+    "size_bytes": 50413362,
+    "n_rows": 265072,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 114735
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood8.pcap.csv": {
+    "sha256": "475c0cdfd283c830b3dadff1e9571ad9199981c0f00b4635d94d84dabfcfbee8",
+    "size_bytes": 50031206,
+    "n_rows": 260194,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 88599
+  },
+  "CSV/DDoS-SYN_Flood/DDoS-SYN_Flood9.pcap.csv": {
+    "sha256": "ee9ef875cccec18afd461671d65444aa978cbf446000ed5ba19a98a577c8a46d",
+    "size_bytes": 50601708,
+    "n_rows": 265530,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 120976
+  },
+  "CSV/DDoS-SlowLoris/DDoS-SlowLoris.pcap.csv": {
+    "sha256": "398edc828cca5d70fb9d8bf6aa1e891fcc88921ff622443100d8059456ce3645",
+    "size_bytes": 5224322,
+    "n_rows": 23426,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood.pcap.csv": {
+    "sha256": "93eed7f3c4c0d2210387ea0a847b271d5d96de51e717da0b6c22b8199a66c402",
+    "size_bytes": 50046999,
+    "n_rows": 268626,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 150647
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood1.pcap.csv": {
+    "sha256": "ce41314355f5fafa2d7ba1e3c6b32087ce3f093916eab0f937e883df95bce05e",
+    "size_bytes": 50266850,
+    "n_rows": 268318,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 146634
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood10.pcap.csv": {
+    "sha256": "208b9a92e4b8913708dfd9dfda4002deed86484cd7891437677eaa6b326a83b5",
+    "size_bytes": 49796886,
+    "n_rows": 265192,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 134634
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood11.pcap.csv": {
+    "sha256": "9121ce079a13864df93386f47b948977afaadeeb8228b7af60f21654b4958933",
+    "size_bytes": 50313881,
+    "n_rows": 268395,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 137056
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood12.pcap.csv": {
+    "sha256": "2ea5495bd1d08e60193ddc10b002483ebdc5bab949b1b5bd96c7ee67371042ca",
+    "size_bytes": 50266780,
+    "n_rows": 267995,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 119302
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood13.pcap.csv": {
+    "sha256": "6b3f62f61c99a32de6a1c7ed19cc67936b512e6268e604ec5f7c0a9cdf017687",
+    "size_bytes": 23850442,
+    "n_rows": 127048,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 57262
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood2.pcap.csv": {
+    "sha256": "eca39fe4477245e6708f8afa2fe858a3962634a70781d863dde3dd762ce9d43f",
+    "size_bytes": 50276958,
+    "n_rows": 268216,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 138093
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood3.pcap.csv": {
+    "sha256": "edf890eeafb90f031f6703f8577805c7a2989a3ebfc6a05e786540ffc2731ed5",
+    "size_bytes": 50253134,
+    "n_rows": 268323,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 139079
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood4.pcap.csv": {
+    "sha256": "73f8658d0d4a06cf96d2d5f9c97afd59637f568dbb2bf9d01ba35acf7df943c7",
+    "size_bytes": 50363699,
+    "n_rows": 268511,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 137235
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood5.pcap.csv": {
+    "sha256": "70156088f170fd3441dc99ad537490d79f8de47bdc1d5ff7257a9cdc69c730a9",
+    "size_bytes": 49573207,
+    "n_rows": 265152,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 141368
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood6.pcap.csv": {
+    "sha256": "e94f87ad79dff4ae0dff4463cef7dbc144bb469f7ec8b794d8105ca62b88db4f",
+    "size_bytes": 49205678,
+    "n_rows": 262517,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 129800
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood7.pcap.csv": {
+    "sha256": "5026cd1bd57fc30c6883f0cd7d77b71f7720401a8987b338022bc5c44d766897",
+    "size_bytes": 50414449,
+    "n_rows": 267650,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 105107
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood8.pcap.csv": {
+    "sha256": "1a9a3932d73bff073e98321a905e8a77833f87bf32a5d585fa67e0bc280feca5",
+    "size_bytes": 50410503,
+    "n_rows": 267851,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 106628
+  },
+  "CSV/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood9.pcap.csv": {
+    "sha256": "52457f73a924dd116773f3402637a3c7f7c4a0be7f5bf178d708ff581e33ffe4",
+    "size_bytes": 49595474,
+    "n_rows": 264339,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 132498
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood.pcap.csv": {
+    "sha256": "b3568dbcfb412e05fc9ff635a3983d7b7901c922ad0894bb3d25d4b6c012ea45",
+    "size_bytes": 49564789,
+    "n_rows": 265776,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 147915
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood1.pcap.csv": {
+    "sha256": "f5f38a64efc8368d69d95aca0f80570fe44bee850f8ee47ac5d5d795ec0c81a2",
+    "size_bytes": 50150587,
+    "n_rows": 267364,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 140222
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood10.pcap.csv": {
+    "sha256": "e692a4c4846d1f9e11a3c682c3f5beb729f3e439583034a6ca0440a9936d89cf",
+    "size_bytes": 49634604,
+    "n_rows": 264404,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 11,
+    "n_duplicate_rows_within_file": 134066
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood11.pcap.csv": {
+    "sha256": "64173a9e74fb1aed6cf8a01980ed9e9b0e884f7256c2473aa932d288fcbc28b8",
+    "size_bytes": 48625905,
+    "n_rows": 260145,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 122466
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood12.pcap.csv": {
+    "sha256": "a0eb137cf8e3cf00454a5382d5fcbc1847012d712a41a7c0e3d03e72221eb8a4",
+    "size_bytes": 50205770,
+    "n_rows": 267983,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 135854
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood13.pcap.csv": {
+    "sha256": "16e34b1d6e4dc32488d8f28a67e1bb7575057bf1437529da91af514b18ce0c15",
+    "size_bytes": 50190203,
+    "n_rows": 268365,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 140987
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood14.pcap.csv": {
+    "sha256": "199a61847e1a9bcfd7219c02c741b2bcc1c0866541c249560c6262f766c37c8b",
+    "size_bytes": 49762919,
+    "n_rows": 265920,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 8,
+    "n_duplicate_rows_within_file": 140824
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood15.pcap.csv": {
+    "sha256": "9d7e6f4744f54df1bdb4113cdb24cd63cd12d823d96732379ba65d66ab3e7944",
+    "size_bytes": 50166316,
+    "n_rows": 267289,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 116524
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood16.pcap.csv": {
+    "sha256": "24bde1d96b809f0cf7935b3d997a86113fa6529addbd567c0d556eb402f3248d",
+    "size_bytes": 50291457,
+    "n_rows": 267718,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 13,
+    "n_duplicate_rows_within_file": 119923
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood17.pcap.csv": {
+    "sha256": "a7359e4696fa8f88400688adf4171e9d030060fe5a3fb129b7529ea990d8548f",
+    "size_bytes": 17415966,
+    "n_rows": 92792,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 35895
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood2.pcap.csv": {
+    "sha256": "adf4d7bb3bd357a321dec39f2fb1bca92ed88bbd9aee5ee9fc92ae8935457742",
+    "size_bytes": 49969827,
+    "n_rows": 268248,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 145300
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood3.pcap.csv": {
+    "sha256": "2fd2174524493081a6c51b4e696e07c81cbfa3b57edcbee3e1b6d99108937325",
+    "size_bytes": 50156811,
+    "n_rows": 267384,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 116827
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood4.pcap.csv": {
+    "sha256": "5d9f82c1b61baa20942e6246e400d481c2b0a53db0a269277176bdae3339d664",
+    "size_bytes": 37236055,
+    "n_rows": 196253,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 72192
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood5.pcap.csv": {
+    "sha256": "4197e550fd469b42629f2d6a3a35993933dcb018f4fa5f6675e5f5310991efba",
+    "size_bytes": 40739425,
+    "n_rows": 215399,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 88965
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood6.pcap.csv": {
+    "sha256": "772b7fd50018fdf5bad20f915a33d0f0b517f00a0b3a24d382baaebd92f7b0cc",
+    "size_bytes": 49392507,
+    "n_rows": 262386,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 129341
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood7.pcap.csv": {
+    "sha256": "e9d082910865a32530f1aebae83fbea56e1c0e8993715c2935e99196321aafdd",
+    "size_bytes": 50308010,
+    "n_rows": 267755,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 136059
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood8.pcap.csv": {
+    "sha256": "e0e30380a138ec35bb3257c3efba1a3a9fa6ad10c79b6ac1691af504fc9fd8bf",
+    "size_bytes": 50166032,
+    "n_rows": 267999,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 138230
+  },
+  "CSV/DDoS-TCP_Flood/DDoS-TCP_Flood9.pcap.csv": {
+    "sha256": "c556dcb7b1f30ada87ba232ee5de9f8c1d231ae60f9dc48f8500c63cc69b1c62",
+    "size_bytes": 49858930,
+    "n_rows": 264469,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 113929
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood.pcap.csv": {
+    "sha256": "792f50c66708aed502d55eb5cc070567ee8d354c2728ab9922aa2c7ff53cabd3",
+    "size_bytes": 50078606,
+    "n_rows": 266605,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 138091
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood1.pcap.csv": {
+    "sha256": "ced53d2b2b8aa1ea359a37cabcf3ce295081ca81847f23e139fb64ccf1d4ba29",
+    "size_bytes": 50050717,
+    "n_rows": 266848,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 140163
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood10.pcap.csv": {
+    "sha256": "a7bec3972c91e662291dd39de3851fe99a00acc4544e4f0a6ea8eb66900ec295",
+    "size_bytes": 49931523,
+    "n_rows": 261898,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 105203
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood11.pcap.csv": {
+    "sha256": "4e3e06735c922752c1251d58b725bdc073466d470d7931218d0fe05bbb24d025",
+    "size_bytes": 50330292,
+    "n_rows": 266080,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 116609
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood12.pcap.csv": {
+    "sha256": "70aa2a644ddfc952db0c116bb522cb8cfe1143efd565a21675a275883fcb6c0d",
+    "size_bytes": 50059443,
+    "n_rows": 265580,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 118854
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood13.pcap.csv": {
+    "sha256": "e525b009674f96ef5da8f87137ee1f54dc9a7c150777b0a7bf41905e1e612008",
+    "size_bytes": 50174989,
+    "n_rows": 267714,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 127413
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood14.pcap.csv": {
+    "sha256": "25eb043575c0ccbc0868895ec57c2e0da0445a49d3f858fc2c3b4c98b8e717d2",
+    "size_bytes": 50665381,
+    "n_rows": 268391,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 124705
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood15.pcap.csv": {
+    "sha256": "7fda12b4bca7941dc4471a138b290ad75193e346eaae786b36a9e2c293f23f97",
+    "size_bytes": 50126206,
+    "n_rows": 266491,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 127244
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood16.pcap.csv": {
+    "sha256": "36b8e5795bba7ab103ad25015abde2e88335ef889389b67f3add3b6b8c99b51e",
+    "size_bytes": 50246975,
+    "n_rows": 267262,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 147721
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood17.pcap.csv": {
+    "sha256": "81b81202862797d8648dfbde3c8c66cfe7714c19ae0f7ab0ab60cb2768871097",
+    "size_bytes": 50005983,
+    "n_rows": 266050,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 139121
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood18.pcap.csv": {
+    "sha256": "409cfd784095a56fd65bf55c93bc2f841ffa5cf4703e117745e841fffe01922d",
+    "size_bytes": 50262306,
+    "n_rows": 266620,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 136793
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood19.pcap.csv": {
+    "sha256": "41ecb9e5167357fab5acd4d218f300d3efadf7455d5753efb7550d9c673f167a",
+    "size_bytes": 50157093,
+    "n_rows": 267985,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 134433
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood2.pcap.csv": {
+    "sha256": "32fdbd7f89d4d43738ab76915f1c726a3b908abf11752d0bff5cc96e00f0b73d",
+    "size_bytes": 50157205,
+    "n_rows": 265667,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 111493
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood20.pcap.csv": {
+    "sha256": "3f641437c35916410475a49cc9e0f7f2213bd6a459cad0c86ef0d08f16457a57",
+    "size_bytes": 14617665,
+    "n_rows": 79331,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 31664
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood3.pcap.csv": {
+    "sha256": "bf1fa798940f710f088abcd2131124f411835928fd5b302505acfcbb73b44481",
+    "size_bytes": 50333116,
+    "n_rows": 267399,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 113182
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood4.pcap.csv": {
+    "sha256": "94b58897b195bb743c6842f7f9d7977e041ef19a5c5709d0d1036aaec3ce479f",
+    "size_bytes": 49939911,
+    "n_rows": 266899,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 126998
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood5.pcap.csv": {
+    "sha256": "5a823dc41bd94d1fc35b64d39846e0c8243b2ab935a746c2b0e0a189ff6e7069",
+    "size_bytes": 51930721,
+    "n_rows": 267530,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 82626
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood6.pcap.csv": {
+    "sha256": "ca108d85779d2be4e24ab87824779b64c1a27090b78f1457f1b4b61304064a6f",
+    "size_bytes": 51470254,
+    "n_rows": 265495,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 89504
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood7.pcap.csv": {
+    "sha256": "9bf35e22b496942a95eca57284ce684ae0baf1c5ebb93a2b1f895d3c2c1e42c8",
+    "size_bytes": 51907641,
+    "n_rows": 268374,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 98002
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood8.pcap.csv": {
+    "sha256": "5ef963accc84ac768261e26a0beb7440d357be05cfecbc889ab361c7b7c6ae75",
+    "size_bytes": 52049756,
+    "n_rows": 268068,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 95855
+  },
+  "CSV/DDoS-UDP_Flood/DDoS-UDP_Flood9.pcap.csv": {
+    "sha256": "08d5ef948b75a6de50f5b3c52276feeb9f8e139eaefaeec0004830b810a4a140",
+    "size_bytes": 50495757,
+    "n_rows": 265944,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 115302
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation.pcap.csv": {
+    "sha256": "bc4347c4746e3f6b980e124e529629de23f5eb0be8939b521fadaf0ef34dbb80",
+    "size_bytes": 4955669,
+    "n_rows": 22542,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 10
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation1.pcap.csv": {
+    "sha256": "f6b0464b9d35dd78fa944f39d813e506588599eaea7ec3fd810dbfa4573519d7",
+    "size_bytes": 4940834,
+    "n_rows": 22541,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 16
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation10.pcap.csv": {
+    "sha256": "1b8b2e19f836770d85c5c9b4516603246d30d9eb673ed7a26e457d05fa0339ce",
+    "size_bytes": 4897636,
+    "n_rows": 22361,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 13
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation11.pcap.csv": {
+    "sha256": "858da552515c2fbcb1a6b1468bb161dc93fb470631e945105b067e7507c87843",
+    "size_bytes": 5027497,
+    "n_rows": 22908,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 12
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation12.pcap.csv": {
+    "sha256": "dd4106e418d2ad772abbf129aeb57e42e36d34b1360ebed1789e6c9603528382",
+    "size_bytes": 3422745,
+    "n_rows": 15532,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 4
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation2.pcap.csv": {
+    "sha256": "7dfed1930123c8ee492769131363bc2cddce24b9ef9a3b24336979e5bd9db87d",
+    "size_bytes": 4890806,
+    "n_rows": 22368,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 16
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation3.pcap.csv": {
+    "sha256": "e520a123a4b0081d88d552a61dafe703971798e5c1c017476586e9f47a3e1e92",
+    "size_bytes": 5115153,
+    "n_rows": 23167,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 6
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation4.pcap.csv": {
+    "sha256": "5a73b288e9986841f4d9334bca624337ac6d76f08450389e79db2265102828a4",
+    "size_bytes": 4987718,
+    "n_rows": 22715,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 12
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation5.pcap.csv": {
+    "sha256": "b551118f174f8565781f2a16549df7b1cfbf5fbdf57533e91b8d5a7a405da17d",
+    "size_bytes": 5110522,
+    "n_rows": 23117,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 3
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation6.pcap.csv": {
+    "sha256": "972b15e1448569e4dd555df78d4d3473b9e0acea7b00e4eeb30660ab69b96e97",
+    "size_bytes": 4865869,
+    "n_rows": 22254,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 17
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation7.pcap.csv": {
+    "sha256": "b9f8436559b4b6e8c17f421806520faae39f99b77728de8b21dc39c41b5ee1b5",
+    "size_bytes": 4980427,
+    "n_rows": 22669,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 13
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation8.pcap.csv": {
+    "sha256": "f5b09f1f3de4807cfa32257a80ad89b0994c618f5ec9046f1e7073869fc7af3e",
+    "size_bytes": 4963244,
+    "n_rows": 22630,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 21
+  },
+  "CSV/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation9.pcap.csv": {
+    "sha256": "791e3d47e06f483bf2ad83c6138ae4bb911e8f02086313377dd80fedb04b7303",
+    "size_bytes": 4825124,
+    "n_rows": 22121,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 21
+  },
+  "CSV/DNS_Spoofing/DNS_Spoofing.pcap.csv": {
+    "sha256": "8658a5914d9fe79754c67547657950db1fc31e8677719b1449726072d3281cc0",
+    "size_bytes": 36833637,
+    "n_rows": 178898,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 4687
+  },
+  "CSV/DictionaryBruteForce/DictionaryBruteForce.pcap.csv": {
+    "sha256": "1e632abf212e3fc4c552a60d941a4d89e1db081e10152b857f719bfe38012ab2",
+    "size_bytes": 2704325,
+    "n_rows": 13064,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 2
+  },
+  "CSV/DoS-HTTP_Flood/DoS-HTTP_Flood.pcap.csv": {
+    "sha256": "03a482b3045d47ffdc644b7debe843dd96ed8c8fd7af67fbf7a5debef38d86fd",
+    "size_bytes": 9039877,
+    "n_rows": 40686,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 24
+  },
+  "CSV/DoS-HTTP_Flood/DoS-HTTP_Flood1.pcap.csv": {
+    "sha256": "377d3e9a291c023e82f20785a34650e89b2dba3726b710d4e980c0eaf048df25",
+    "size_bytes": 6883853,
+    "n_rows": 31175,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 306
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood.pcap.csv": {
+    "sha256": "0ed60033461a559118213251624749cbc3155f6edb0177e63e7755bd08558f76",
+    "size_bytes": 50831729,
+    "n_rows": 262691,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 31758
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood1.pcap.csv": {
+    "sha256": "292ec6f0548e99a31e7b00daec2f2fe3f8c2f6415a775e38ad4b2c2addd95b6c",
+    "size_bytes": 50601684,
+    "n_rows": 264126,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 110208
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood2.pcap.csv": {
+    "sha256": "d7bdd3eb025da451b16b234d1673b9a8473ae5691472b7f4972168fdee5a4258",
+    "size_bytes": 48877980,
+    "n_rows": 251970,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 62280
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood3.pcap.csv": {
+    "sha256": "c73eb82d1beb25b352a3239e75f33c26fd305cb8440fd16063d990b81621616c",
+    "size_bytes": 49424756,
+    "n_rows": 257402,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 105587
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood4.pcap.csv": {
+    "sha256": "1e852b0d92628484e87d1e552fc4465df94283449816d3eb3df526004df18d80",
+    "size_bytes": 49736589,
+    "n_rows": 258219,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 84097
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood5.pcap.csv": {
+    "sha256": "cfb38cce6c64b8578f11c38e2a1713ca4d7910b957fa194d96657f05faf9fd71",
+    "size_bytes": 50831938,
+    "n_rows": 265519,
+    "n_columns": 39,
+    "n_missing_cells": 12,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 95656
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood6.pcap.csv": {
+    "sha256": "f5dbd9fb35274081b3e80c8756d6d2be67869a5208a58f93f2cee7befeb5c5d6",
+    "size_bytes": 50423128,
+    "n_rows": 262979,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 105037
+  },
+  "CSV/DoS-SYN_Flood/DoS-SYN_Flood7.pcap.csv": {
+    "sha256": "2babbc8d3a9789bf12fd296751cf80df5675d40f83add9555dd8f1245cb5a741",
+    "size_bytes": 39878075,
+    "n_rows": 205930,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 51970
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood.pcap.csv": {
+    "sha256": "507c85bcec74b34cfaebeaec2beb60380612a815b0cfd7a2d0e5989550cb863a",
+    "size_bytes": 48955460,
+    "n_rows": 260129,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 130120
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood1.pcap.csv": {
+    "sha256": "3326af88d0efe10730f048f4bf4f67ee93bc32f59dc51e1a71c6c3e2a28002ec",
+    "size_bytes": 47424362,
+    "n_rows": 246026,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 85870
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood10.pcap.csv": {
+    "sha256": "e49d6fab8b43ed55d9c77d000a55ca784e1cd5849e27bef5fd69b3a086d69c19",
+    "size_bytes": 15663327,
+    "n_rows": 83023,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 30788
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood2.pcap.csv": {
+    "sha256": "bc2fe7563b0eb90c119df1dd67a9079957f7cc45b1f6c2bd5c5b0b433e97c937",
+    "size_bytes": 50081317,
+    "n_rows": 263675,
+    "n_columns": 39,
+    "n_missing_cells": 14,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 98353
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood3.pcap.csv": {
+    "sha256": "9e04499b0f5b2782332ab7d5621c1f32c929a94738bf680aeac17f289d53840b",
+    "size_bytes": 50617348,
+    "n_rows": 266238,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 120506
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood4.pcap.csv": {
+    "sha256": "e1faad8f2a09cf724f5cda37522ad515d2e0b20c0bde743c37399f68bdb263f0",
+    "size_bytes": 50279393,
+    "n_rows": 265480,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 124404
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood5.pcap.csv": {
+    "sha256": "d52c38d781233bca53b31bb5aeb92cf482a61e8c114fba92d02b0e8d7013a444",
+    "size_bytes": 50147553,
+    "n_rows": 266316,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 131711
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood6.pcap.csv": {
+    "sha256": "c755183c22e2e092895edfd175afbafaa7dd26b322eb08b0c40ab65af447ca0f",
+    "size_bytes": 49340641,
+    "n_rows": 261903,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 124705
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood7.pcap.csv": {
+    "sha256": "d31a91ff1d4622961af5b2dfb81392983e9f303d67be72a893a17c09689d4ff4",
+    "size_bytes": 49816215,
+    "n_rows": 265329,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 131525
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood8.pcap.csv": {
+    "sha256": "a08c181639953612db1e20366979c82dc2ea87bd901fa21fa32a91f5a320d88e",
+    "size_bytes": 48951443,
+    "n_rows": 259664,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 122655
+  },
+  "CSV/DoS-TCP_Flood/DoS-TCP_Flood9.pcap.csv": {
+    "sha256": "650065537d9b1b68d791e33e24b8ccbd4dae18a2f97e6f0a14011d597dc66d53",
+    "size_bytes": 44070211,
+    "n_rows": 233647,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 96954
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood.pcap.csv": {
+    "sha256": "745639a035a53c31c13886fd31dc02f56ae2fad5ee971f5b04e66674e9421857",
+    "size_bytes": 32359559,
+    "n_rows": 166838,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 51089
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood1.pcap.csv": {
+    "sha256": "f381e0b140869ff0baf089f79d711c10541f7da021b6e6b5f821115c6f09957b",
+    "size_bytes": 27576686,
+    "n_rows": 141854,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 44939
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood10.pcap.csv": {
+    "sha256": "5af03f40295365fdcb6a02c939d2f17e09f267efabbfefedb9e5ac6f17933670",
+    "size_bytes": 51347895,
+    "n_rows": 262163,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 9,
+    "n_duplicate_rows_within_file": 90046
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood11.pcap.csv": {
+    "sha256": "3a4de6e39c7f12d572fa35ee8d957cdce01a58919e9907a774efe11bfd679e5a",
+    "size_bytes": 50201726,
+    "n_rows": 253306,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 76527
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood12.pcap.csv": {
+    "sha256": "f4afbfcbc7368dd88ea7ae8fb68b806af23969fc1c5008d528bd5c7f9f9b4141",
+    "size_bytes": 48098197,
+    "n_rows": 247718,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 93832
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood13.pcap.csv": {
+    "sha256": "762458701a4ed7569ca6c6c06db3c2e773e2b18604f7b3600d86efa7b8405e95",
+    "size_bytes": 51656437,
+    "n_rows": 261752,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 82688
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood14.pcap.csv": {
+    "sha256": "07f7101c8bb766a94dd5ebba707a4d3e05ad94f4af4b7346477f75a0f5ab0b75",
+    "size_bytes": 49019219,
+    "n_rows": 255526,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 108284
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood15.pcap.csv": {
+    "sha256": "e6d4e8d075883109b8fa2642bdf270138d47639217a5dbbdbcd7a6147f216c0b",
+    "size_bytes": 52351131,
+    "n_rows": 265157,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 81913
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood16.pcap.csv": {
+    "sha256": "696978ba5f4dcee0aba24cfdc09d069ff2269c7970d831dd585cc5b185df20e0",
+    "size_bytes": 34512977,
+    "n_rows": 180914,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 75638
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood2.pcap.csv": {
+    "sha256": "c6abcdfb90e49bfb4e3b0bc05a5138eac897cdc21a40ef2a4c793da02fd33d73",
+    "size_bytes": 20474692,
+    "n_rows": 102879,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 28774
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood3.pcap.csv": {
+    "sha256": "4a123bda51ba1a919d67b27916392859dc9a2a6d5fdf65a6c08ad1db78145c50",
+    "size_bytes": 21532413,
+    "n_rows": 108557,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 8,
+    "n_duplicate_rows_within_file": 23343
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood4.pcap.csv": {
+    "sha256": "bf0f311f9e0388c96e11e1faf7451c92ea0d7fe6cdc3f7700bf093853e63ddbb",
+    "size_bytes": 26190903,
+    "n_rows": 131975,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 24656
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood5.pcap.csv": {
+    "sha256": "21b7a9cb58c0906f2945050385eae4ac64e296a897b9a28263c051b15c2cc8dc",
+    "size_bytes": 22634035,
+    "n_rows": 114208,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 34099
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood6.pcap.csv": {
+    "sha256": "dbcd7d91e4ef43be17e65fb724ab3f7e852e82f7338148e73fdde1db3e979509",
+    "size_bytes": 23871639,
+    "n_rows": 117839,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 27776
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood7.pcap.csv": {
+    "sha256": "a7a073e44053713b18938cfad4a8bf762be774a1f5331dad1c0e7bba7e8628bd",
+    "size_bytes": 35696059,
+    "n_rows": 175920,
+    "n_columns": 39,
+    "n_missing_cells": 16,
+    "n_inf_cells": 11,
+    "n_duplicate_rows_within_file": 28670
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood8.pcap.csv": {
+    "sha256": "8e24fee423564aa9622c12f6380570cb2c14331d3fcd703d9dfca102b3e7f7e1",
+    "size_bytes": 32624109,
+    "n_rows": 160835,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 28666
+  },
+  "CSV/DoS-UDP_Flood/DoS-UDP_Flood9.pcap.csv": {
+    "sha256": "eefba41ed734d8829e07a32e7189d77a11427f47b1b9653f94b1263cfbd42638",
+    "size_bytes": 25251429,
+    "n_rows": 125552,
+    "n_columns": 39,
+    "n_missing_cells": 39,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 21853
+  },
+  "CSV/MITM-ArpSpoofing/MITM-ArpSpoofing.pcap.csv": {
+    "sha256": "2637276fe7afe49833082c0a7342ca107bc4c190141ce383b7322e2f3fc37894",
+    "size_bytes": 50593720,
+    "n_rows": 247706,
+    "n_columns": 39,
+    "n_missing_cells": 26,
+    "n_inf_cells": 13,
+    "n_duplicate_rows_within_file": 19294
+  },
+  "CSV/MITM-ArpSpoofing/MITM-ArpSpoofing1.pcap.csv": {
+    "sha256": "6d2c6d15b157e9349d638bd9baf54bca243af49f755eee916a295d55f8dad955",
+    "size_bytes": 12312129,
+    "n_rows": 59854,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 6600
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood.pcap.csv": {
+    "sha256": "d8b068a4f2002bdf438423cf950ac84bdb643836872d6f1a4046bfc3dde42eb6",
+    "size_bytes": 6743677,
+    "n_rows": 33597,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 182
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood1.pcap.csv": {
+    "sha256": "405809c151dc8a5a8305282739e8e4e2c4ec23890a2fc38c2cecce6a1851c3c3",
+    "size_bytes": 6899287,
+    "n_rows": 34113,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 115
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood10.pcap.csv": {
+    "sha256": "fec350b6d18385ad1f6ba1e348bf96ece09335b987015d4295c73a43161b8452",
+    "size_bytes": 7106174,
+    "n_rows": 34499,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 74
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood11.pcap.csv": {
+    "sha256": "8580a08553b634f4e5daee235764a4ad2bb4ee3cf99cc1fc5fc8458b9f19f4f3",
+    "size_bytes": 7097244,
+    "n_rows": 34551,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 61
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood12.pcap.csv": {
+    "sha256": "b66283025f08ba24e3b0a4a30a0dbc2e541a17eb025d0ab3d94625171bf20fee",
+    "size_bytes": 7039185,
+    "n_rows": 34240,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 54
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood13.pcap.csv": {
+    "sha256": "53209553614dac348b1c03c965e3a19dd92a54fa95227708819f499feb3974f9",
+    "size_bytes": 7138032,
+    "n_rows": 34451,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 49
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood14.pcap.csv": {
+    "sha256": "bdc2f06bd89c18abd1085b99ae66c80117a8982ba34f601f4895accb59ade1ac",
+    "size_bytes": 6772502,
+    "n_rows": 34058,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 160
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood15.pcap.csv": {
+    "sha256": "301d79f3a9ede60a8c83b73ae8f8ca6985a96e287d8e6a33d2817ce0b570cf8d",
+    "size_bytes": 6899264,
+    "n_rows": 34137,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 125
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood16.pcap.csv": {
+    "sha256": "d6251dd284e73ffc5719da43a3dcc5310462b907e87cdf369362fba12057803a",
+    "size_bytes": 6861619,
+    "n_rows": 34081,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 152
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood17.pcap.csv": {
+    "sha256": "0b8c6cb813f405f23f69112c6701b450be3dcfd6d5a9841a06683acf572d2b71",
+    "size_bytes": 6796981,
+    "n_rows": 34054,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 136
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood18.pcap.csv": {
+    "sha256": "5eab3b8b74c3399041d5353e267cb4f69bc205949ce3cd77cdca50a326d5b4c3",
+    "size_bytes": 6801605,
+    "n_rows": 34101,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 122
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood19.pcap.csv": {
+    "sha256": "a55e277945861a608214738712e6893e73cab204cac216e41626a691b8907b34",
+    "size_bytes": 6909182,
+    "n_rows": 34136,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 203
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood2.pcap.csv": {
+    "sha256": "d9cc4655b67be619ce5e2e5e1a13b7b46e4401020cfdff75253f74d495ed49b3",
+    "size_bytes": 6808690,
+    "n_rows": 34054,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 147
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood20.pcap.csv": {
+    "sha256": "848d546b133acc680df311ee11aa967f0cc3ddd88d08b0099bc22f13e4d84887",
+    "size_bytes": 6953239,
+    "n_rows": 34235,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 139
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood21.pcap.csv": {
+    "sha256": "590f3a551483e37f713d48260345a6d143a64da6d84984150e96b38592d9b31f",
+    "size_bytes": 7086127,
+    "n_rows": 34752,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 125
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood22.pcap.csv": {
+    "sha256": "1918b93cc9e7b629e02489694989ed8dda6a71cbc8969f6e0fed116fbb920488",
+    "size_bytes": 6991213,
+    "n_rows": 34247,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 136
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood23.pcap.csv": {
+    "sha256": "f10755b879359e9d8042e720e392f765f2847b09f3a598fcf7210fdca02c4ff9",
+    "size_bytes": 6952155,
+    "n_rows": 34493,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 215
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood24.pcap.csv": {
+    "sha256": "a747b94cc9bf656c683c318e4532e1749d5cb91e77b219b7f924cc375f625a31",
+    "size_bytes": 6753823,
+    "n_rows": 34071,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 360
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood25.pcap.csv": {
+    "sha256": "52c14231dee4d7235dda552d58db9297eb69f32e29d8e0174600381a1fd96856",
+    "size_bytes": 6800333,
+    "n_rows": 34080,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 341
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood26.pcap.csv": {
+    "sha256": "a3c1e019a7bea68474305131ca7fa8c2cae2d2aa7ea10de1e54ae57a1611442e",
+    "size_bytes": 7018295,
+    "n_rows": 34518,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 103
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood27.pcap.csv": {
+    "sha256": "1964b5379e020f4ea4e3332773990628ddd89a7ba53034e42f36a813f61ee609",
+    "size_bytes": 6942289,
+    "n_rows": 34201,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 65
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood28.pcap.csv": {
+    "sha256": "f8246495bceabbdce84f26a4162023324aa0f987be6ff3425370b3e218c0cf0d",
+    "size_bytes": 6916207,
+    "n_rows": 33979,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 68
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood3.pcap.csv": {
+    "sha256": "08dcd5f8dc4c309d468764812aff4d5cf2a524bbe82c66d91a3faac0b4a92cb3",
+    "size_bytes": 6804724,
+    "n_rows": 34066,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 176
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood4.pcap.csv": {
+    "sha256": "2224ce05097560b9a63d34f6e6a7b0c10d20b9c2a8c395e0bf22d50abb9ed976",
+    "size_bytes": 6851691,
+    "n_rows": 34025,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 124
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood5.pcap.csv": {
+    "sha256": "7c6d03666667be32475c2ede603c6cb73f217241ae137011e577787674b575c0",
+    "size_bytes": 6817261,
+    "n_rows": 34016,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 171
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood6.pcap.csv": {
+    "sha256": "21464f497f88a56f7c19ee776d3e615878b3d78e3f7a7a98eb22808448744f97",
+    "size_bytes": 6888069,
+    "n_rows": 34146,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 124
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood7.pcap.csv": {
+    "sha256": "e7a1f790df1bf983c994d573aee49e4ca5cd6171b1d8c20a86e1a8b6bbe16d74",
+    "size_bytes": 6889051,
+    "n_rows": 34186,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 126
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood8.pcap.csv": {
+    "sha256": "d57e93aa777e84cc99d53364193efd87838ba4c234f319e9daf49dfc205fab11",
+    "size_bytes": 6865224,
+    "n_rows": 34067,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 170
+  },
+  "CSV/Mirai-greeth_flood/Mirai-greeth_flood9.pcap.csv": {
+    "sha256": "97305051129f8d305bc34ca28496449e6292417f3cd073c8bc81ba4dbbdc7ff3",
+    "size_bytes": 7251251,
+    "n_rows": 34680,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 37
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood.pcap.csv": {
+    "sha256": "cac28e335a6dd277d274841313216c4f3bf6a57b34671c4d47f11507c4dd73af",
+    "size_bytes": 7247302,
+    "n_rows": 35073,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 44
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood1.pcap.csv": {
+    "sha256": "34b203d7d460df2a6fcfaeea691800eb97eb115eb7a8c9af3b3a00ca6910345c",
+    "size_bytes": 7176408,
+    "n_rows": 35128,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 78
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood10.pcap.csv": {
+    "sha256": "2007ee3719c26a6f18d9d006eb373cc668abbd1b681d4db2d09c1b00f98a1bcd",
+    "size_bytes": 7135338,
+    "n_rows": 35292,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 192
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood11.pcap.csv": {
+    "sha256": "c8f282a23f17af52d8d9b792aa14a437a9418cc113ba3915490dac594a859ff2",
+    "size_bytes": 7012998,
+    "n_rows": 35019,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 234
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood12.pcap.csv": {
+    "sha256": "6cef19108f71897eb2b2d6243c50c5c66fa16c9150b7a476969bcb6cea446603",
+    "size_bytes": 7134535,
+    "n_rows": 35339,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 234
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood13.pcap.csv": {
+    "sha256": "a2c9d138e5f7bb8b29a942e64dcf06309093d5c16aa8bb6b96dd01ee43ca35aa",
+    "size_bytes": 7122045,
+    "n_rows": 35251,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 203
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood14.pcap.csv": {
+    "sha256": "94cea99ba9af2a9faae0c2df4306c46dfbcffc7069e2f9c72085e5b840e370dd",
+    "size_bytes": 7213409,
+    "n_rows": 35098,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 69
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood15.pcap.csv": {
+    "sha256": "7d248e3fc773a34233ec681f1495099887cb27a7a09a3b27b8d25d35fefbe3a2",
+    "size_bytes": 7138745,
+    "n_rows": 35105,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 105
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood16.pcap.csv": {
+    "sha256": "3be08e803ab8c108c92cf17975596b60ddd35bf22ee32b1f7b22c87110506dc6",
+    "size_bytes": 6908251,
+    "n_rows": 34920,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 271
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood17.pcap.csv": {
+    "sha256": "6de9cb8a466dddd99e52050eb466b7e2f2cc4141211a8f9d18738fb8f5e2f1a4",
+    "size_bytes": 7416420,
+    "n_rows": 35948,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 76
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood18.pcap.csv": {
+    "sha256": "316b37b4cbbe3ee95bf77b72c34a1e505f5cd7f34486ff316993323b8acfc954",
+    "size_bytes": 7045526,
+    "n_rows": 33982,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 61
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood19.pcap.csv": {
+    "sha256": "9c1670485449657e936415f3ec6ace513457a9d63dbbbe199add153ce0bbf4db",
+    "size_bytes": 7154894,
+    "n_rows": 34844,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 62
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood2.pcap.csv": {
+    "sha256": "931b1dceb92437faa271331ab89e2d0981bfd678de40e1225453ca0f2dee0e1b",
+    "size_bytes": 6985338,
+    "n_rows": 34846,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 95
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood20.pcap.csv": {
+    "sha256": "7a1407d4b2c501277aed65280723e09a82c206d247e22b4171bc7cf5097d9c96",
+    "size_bytes": 7186283,
+    "n_rows": 35089,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 89
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood21.pcap.csv": {
+    "sha256": "216ec2f982fddd039d8a1d2e26fcb9bb03e6e00bf7ddccbeb1c198d880729aab",
+    "size_bytes": 2422081,
+    "n_rows": 11991,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 13
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood3.pcap.csv": {
+    "sha256": "a3318b300599a758b121fd6cefbbf85c991158e5d16d21235afdaddf73710887",
+    "size_bytes": 7183446,
+    "n_rows": 35168,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 115
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood4.pcap.csv": {
+    "sha256": "c5be92afec15b7a06ab07ac735b3aabdcdb8ed14101a5196d28579d02d3635b5",
+    "size_bytes": 7392607,
+    "n_rows": 35784,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 63
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood5.pcap.csv": {
+    "sha256": "0b38dd31aa921367e9ca02b9aad49e53fd182c94a13280e572c0a16d4d2bb39b",
+    "size_bytes": 7312382,
+    "n_rows": 35456,
+    "n_columns": 39,
+    "n_missing_cells": 14,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 51
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood6.pcap.csv": {
+    "sha256": "0f3857a7853cf3bfbb354aa3fffd534eab23f971bf14108e61e1369b01a24a4c",
+    "size_bytes": 7539798,
+    "n_rows": 36052,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 34
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood7.pcap.csv": {
+    "sha256": "f9ee3e11236613907f56d1cbeaf2ce5e3498dedad29a042f44c938f4a422d998",
+    "size_bytes": 7369571,
+    "n_rows": 35462,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 37
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood8.pcap.csv": {
+    "sha256": "a0a0843b544b28668869ccf52ac9252bfd702d689bb894e350e14d20620e3f71",
+    "size_bytes": 7430602,
+    "n_rows": 35755,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 31
+  },
+  "CSV/Mirai-greip_flood/Mirai-greip_flood9.pcap.csv": {
+    "sha256": "c6d6cec46ab4f07645de3686dd0b5546f09404e932a0095ca2288ad38e81298b",
+    "size_bytes": 7131083,
+    "n_rows": 35044,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 157
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain.pcap.csv": {
+    "sha256": "f423e8c2558b453b1e1f8e5aeb1a8479c61be78ecc7cc32a767f0e833fde1676",
+    "size_bytes": 7371385,
+    "n_rows": 36481,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 111
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain1.pcap.csv": {
+    "sha256": "7264d1b906d5586afac156a18ce2a2f46c1982da891d4b0d62a26f73373307f0",
+    "size_bytes": 7393619,
+    "n_rows": 36431,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 139
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain10.pcap.csv": {
+    "sha256": "c06920077156e0a1c889d06ee5ce33b475f86ccb6c2a881a80e28952633212f1",
+    "size_bytes": 7389468,
+    "n_rows": 36603,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 273
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain11.pcap.csv": {
+    "sha256": "543bbacb236d3bb473380a35deba833c32cb1cf295d19790dfed4af4ffa26c1c",
+    "size_bytes": 7135480,
+    "n_rows": 36272,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 417
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain12.pcap.csv": {
+    "sha256": "57fa62998fac9befee39eeaea58abd5f7ab3c19f674115578c10f77eaa135521",
+    "size_bytes": 7164413,
+    "n_rows": 36270,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 384
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain13.pcap.csv": {
+    "sha256": "8df035cb3b3c0c68e79b73a6c7694f396818f915a58d15331d4f7f225d8bbe53",
+    "size_bytes": 7281461,
+    "n_rows": 36408,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 418
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain14.pcap.csv": {
+    "sha256": "db9b228cdf8f987fa4f6f29a42cbed6cd916440a2b33bbd71d29c6795c845a33",
+    "size_bytes": 7290682,
+    "n_rows": 36346,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 270
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain15.pcap.csv": {
+    "sha256": "53fab31aff1ff0542f7c2827f15fb35b752c131004d572590a59fed0ba977624",
+    "size_bytes": 7232466,
+    "n_rows": 36329,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 340
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain16.pcap.csv": {
+    "sha256": "234f93d1cbef31fac2f1479df2387e919f477861977d7973612783cc180abbed",
+    "size_bytes": 7246882,
+    "n_rows": 36333,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 412
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain17.pcap.csv": {
+    "sha256": "a7ed1f8b914019accc9ce91d6f6e8e9707324db0de403759fa579c1d72ee6b25",
+    "size_bytes": 7320218,
+    "n_rows": 36443,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 331
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain18.pcap.csv": {
+    "sha256": "4021deb5b4dff3ab9e922e7a044b5fc439b51ef68939e649d4352a45e96122f6",
+    "size_bytes": 7235592,
+    "n_rows": 36410,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 434
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain19.pcap.csv": {
+    "sha256": "6450b17f9e99e40cdcdc263f3fa97888ae29d8fa38f1c160939c94a3d33c2878",
+    "size_bytes": 7280257,
+    "n_rows": 36515,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 435
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain2.pcap.csv": {
+    "sha256": "eb43e40eb81018fef67baf9007d72beddac8402d42695ceda2f88b87df5acbbf",
+    "size_bytes": 7284688,
+    "n_rows": 36214,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 139
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain20.pcap.csv": {
+    "sha256": "9a0572a21655d572e07feeb8bee82e02d8f7e4ecf8ec7c9259e03ce29b992951",
+    "size_bytes": 7316309,
+    "n_rows": 36305,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 287
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain21.pcap.csv": {
+    "sha256": "8c6de138671f9c789df1bdd0aebe669357e483f7073bc8f3103dc466193819b1",
+    "size_bytes": 7357220,
+    "n_rows": 36469,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 299
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain22.pcap.csv": {
+    "sha256": "4a533a2436e1fb9a43179d803ecfc738ba6b2e24ac4ab3746ce1b97b9ec6172f",
+    "size_bytes": 7433323,
+    "n_rows": 36611,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 192
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain23.pcap.csv": {
+    "sha256": "8de72ae12b7adfcce368663314786da1d4dd60176b851ce44517ff0e0c8d1e89",
+    "size_bytes": 7326904,
+    "n_rows": 36785,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 388
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain24.pcap.csv": {
+    "sha256": "33d7383c3e8785f7f4e949078498ac4776cc16187ee56ca8e4107b3e58d87f20",
+    "size_bytes": 2976645,
+    "n_rows": 15090,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 87
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain3.pcap.csv": {
+    "sha256": "fb93e002f7f891a4e68d063af28dd9366ebb58cc85b4476c1702e40753e930c2",
+    "size_bytes": 7450169,
+    "n_rows": 36699,
+    "n_columns": 39,
+    "n_missing_cells": 4,
+    "n_inf_cells": 2,
+    "n_duplicate_rows_within_file": 157
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain4.pcap.csv": {
+    "sha256": "f24e9127af5152fe32d0e9583dddff2e1b6247bd18ffb45a00459044814a8377",
+    "size_bytes": 7247149,
+    "n_rows": 36315,
+    "n_columns": 39,
+    "n_missing_cells": 18,
+    "n_inf_cells": 10,
+    "n_duplicate_rows_within_file": 1048
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain5.pcap.csv": {
+    "sha256": "67473d9a998651219d1824c878ba83f94f50fde2a979481a3a0421a1da1506f5",
+    "size_bytes": 7421005,
+    "n_rows": 36503,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 751
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain6.pcap.csv": {
+    "sha256": "498090b89c71992052b7e950cb47255e21a2bb0dbc44af7fb519531ed66b9caa",
+    "size_bytes": 7383877,
+    "n_rows": 36503,
+    "n_columns": 39,
+    "n_missing_cells": 12,
+    "n_inf_cells": 6,
+    "n_duplicate_rows_within_file": 712
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain7.pcap.csv": {
+    "sha256": "617821ce329f0a9ca41ca42b0cef800733ad7f93cfe5222c6442c018b8687100",
+    "size_bytes": 7466803,
+    "n_rows": 36573,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 509
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain8.pcap.csv": {
+    "sha256": "b857cdf66ea3e32d5d91bbebbee6a95cd9d30eed5f209187b6e5df313ac490cf",
+    "size_bytes": 7490189,
+    "n_rows": 36679,
+    "n_columns": 39,
+    "n_missing_cells": 6,
+    "n_inf_cells": 3,
+    "n_duplicate_rows_within_file": 242
+  },
+  "CSV/Mirai-udpplain/Mirai-udpplain9.pcap.csv": {
+    "sha256": "c5dd5abfe5346beb19c613c0448d8f255af851ab26cb8e5a4184c463add1ca8f",
+    "size_bytes": 7602368,
+    "n_rows": 36987,
+    "n_columns": 39,
+    "n_missing_cells": 10,
+    "n_inf_cells": 5,
+    "n_duplicate_rows_within_file": 204
+  },
+  "CSV/Recon-HostDiscovery/Recon-HostDiscovery.pcap.csv": {
+    "sha256": "50f8cc3832dcc171b05472b5f768485817796cb7c9bcffdc4747d95b06359990",
+    "size_bytes": 26360058,
+    "n_rows": 134378,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 846
+  },
+  "CSV/Recon-OSScan/Recon-OSScan.pcap.csv": {
+    "sha256": "830b0bf24e542cfff04db1c42338df9bcc3b862f0fcdda8ea192f4fbb064c37c",
+    "size_bytes": 19880307,
+    "n_rows": 98259,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 4,
+    "n_duplicate_rows_within_file": 1756
+  },
+  "CSV/Recon-PingSweep/Recon-PingSweep.pcap.csv": {
+    "sha256": "e786539fdf48b954d76128facd82f064e82b9d11855fabee56ead7b8ae827f81",
+    "size_bytes": 466700,
+    "n_rows": 2262,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/Recon-PortScan/Recon-PortScan.pcap.csv": {
+    "sha256": "7416087ada9515c67b17a59a7e386008b1710b9d2ea4d450e4b4cffafb13cf53",
+    "size_bytes": 16412654,
+    "n_rows": 82284,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 2040
+  },
+  "CSV/SqlInjection/SqlInjection.pcap.csv": {
+    "sha256": "c0b3231d7650203b6808281b2cce5cd445ead8d6e232d6811c0e7a82736f2850",
+    "size_bytes": 1087316,
+    "n_rows": 5245,
+    "n_columns": 39,
+    "n_missing_cells": 2,
+    "n_inf_cells": 1,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/Uploading_Attack/Uploading_Attack.pcap.csv": {
+    "sha256": "ea5334870cfe3c8aef246fad916fb7988508520e8510d47e6c0f7c8ed78e4f41",
+    "size_bytes": 260216,
+    "n_rows": 1252,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 0
+  },
+  "CSV/VulnerabilityScan/VulnerabilityScan.pcap.csv": {
+    "sha256": "1991dc6c1d0989101639cf537c4e335a0af6c13af64c6efcc6a4b8845b791f5a",
+    "size_bytes": 77235466,
+    "n_rows": 373351,
+    "n_columns": 39,
+    "n_missing_cells": 8,
+    "n_inf_cells": 7,
+    "n_duplicate_rows_within_file": 1351
+  },
+  "CSV/XSS/XSS.pcap.csv": {
+    "sha256": "696a998255347b2cdb595e2d539ebd5b5ceb2701fe03721cdbb3f4f360450dcb",
+    "size_bytes": 796883,
+    "n_rows": 3846,
+    "n_columns": 39,
+    "n_missing_cells": 0,
+    "n_inf_cells": 0,
+    "n_duplicate_rows_within_file": 0
+  }
+}

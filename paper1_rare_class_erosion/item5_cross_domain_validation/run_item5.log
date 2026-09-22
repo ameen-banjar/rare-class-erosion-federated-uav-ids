@@ -1,0 +1,167 @@
+Device: mps
+Fitted scaler + 39 feature columns on 14420864 TRAIN rows across 34 classes. Validation/test untouched.
+
+Rare-tail evaluation support check (Section 4 fallback rule):
+  Uploading_Attack     val=   188 test=   188 -> OK
+  Recon-PingSweep      val=   339 test=   338 -> OK
+  Backdoor_Malware     val=   479 test=   479 -> OK
+  XSS                  val=   576 test=   575 -> OK
+  SqlInjection         val=   787 test=   786 -> OK
+  [FedAvg p101 s11] round 1/20 logged
+  [FedAvg p101 s11] round 5/20 logged
+  [FedAvg p101 s11] round 10/20 logged
+  [FedAvg p101 s11] round 15/20 logged
+  [FedAvg p101 s11] round 20/20 logged
+  [FedNova p101 s11] round 1/20 logged
+  [FedNova p101 s11] round 5/20 logged
+  [FedNova p101 s11] round 10/20 logged
+  [FedNova p101 s11] round 15/20 logged
+  [FedNova p101 s11] round 20/20 logged
+  [FedAvg p101 s22] round 1/20 logged
+  [FedAvg p101 s22] round 5/20 logged
+  [FedAvg p101 s22] round 10/20 logged
+  [FedAvg p101 s22] round 15/20 logged
+  [FedAvg p101 s22] round 20/20 logged
+  [FedNova p101 s22] round 1/20 logged
+  [FedNova p101 s22] round 5/20 logged
+  [FedNova p101 s22] round 10/20 logged
+  [FedNova p101 s22] round 15/20 logged
+  [FedNova p101 s22] round 20/20 logged
+  [FedAvg p101 s33] round 1/20 logged
+  [FedAvg p101 s33] round 5/20 logged
+  [FedAvg p101 s33] round 10/20 logged
+  [FedAvg p101 s33] round 15/20 logged
+  [FedAvg p101 s33] round 20/20 logged
+  [FedNova p101 s33] round 1/20 logged
+  [FedNova p101 s33] round 5/20 logged
+  [FedNova p101 s33] round 10/20 logged
+  [FedNova p101 s33] round 15/20 logged
+  [FedNova p101 s33] round 20/20 logged
+[partition_seed=101] all model_seeds/algorithms done. elapsed=17808s
+  [FedAvg p102 s11] round 1/20 logged
+  [FedAvg p102 s11] round 5/20 logged
+  [FedAvg p102 s11] round 10/20 logged
+  [FedAvg p102 s11] round 15/20 logged
+  [FedAvg p102 s11] round 20/20 logged
+  [FedNova p102 s11] round 1/20 logged
+  [FedNova p102 s11] round 5/20 logged
+  [FedNova p102 s11] round 10/20 logged
+  [FedNova p102 s11] round 15/20 logged
+  [FedNova p102 s11] round 20/20 logged
+  [FedAvg p102 s22] round 1/20 logged
+  [FedAvg p102 s22] round 5/20 logged
+  [FedAvg p102 s22] round 10/20 logged
+  [FedAvg p102 s22] round 15/20 logged
+  [FedAvg p102 s22] round 20/20 logged
+  [FedNova p102 s22] round 1/20 logged
+  [FedNova p102 s22] round 5/20 logged
+  [FedNova p102 s22] round 10/20 logged
+  [FedNova p102 s22] round 15/20 logged
+  [FedNova p102 s22] round 20/20 logged
+  [FedAvg p102 s33] round 1/20 logged
+  [FedAvg p102 s33] round 5/20 logged
+  [FedAvg p102 s33] round 10/20 logged
+  [FedAvg p102 s33] round 15/20 logged
+  [FedAvg p102 s33] round 20/20 logged
+  [FedNova p102 s33] round 1/20 logged
+  [FedNova p102 s33] round 5/20 logged
+  [FedNova p102 s33] round 10/20 logged
+  [FedNova p102 s33] round 15/20 logged
+  [FedNova p102 s33] round 20/20 logged
+[partition_seed=102] all model_seeds/algorithms done. elapsed=35585s
+  [FedAvg p103 s11] round 1/20 logged
+  [FedAvg p103 s11] round 5/20 logged
+  [FedAvg p103 s11] round 10/20 logged
+  [FedAvg p103 s11] round 15/20 logged
+  [FedAvg p103 s11] round 20/20 logged
+  [FedNova p103 s11] round 1/20 logged
+  [FedNova p103 s11] round 5/20 logged
+  [FedNova p103 s11] round 10/20 logged
+  [FedNova p103 s11] round 15/20 logged
+  [FedNova p103 s11] round 20/20 logged
+  [FedAvg p103 s22] round 1/20 logged
+  [FedAvg p103 s22] round 5/20 logged
+  [FedAvg p103 s22] round 10/20 logged
+  [FedAvg p103 s22] round 15/20 logged
+  [FedAvg p103 s22] round 20/20 logged
+  [FedNova p103 s22] round 1/20 logged
+  [FedNova p103 s22] round 5/20 logged
+  [FedNova p103 s22] round 10/20 logged
+  [FedNova p103 s22] round 15/20 logged
+  [FedNova p103 s22] round 20/20 logged
+  [FedAvg p103 s33] round 1/20 logged
+  [FedAvg p103 s33] round 5/20 logged
+  [FedAvg p103 s33] round 10/20 logged
+  [FedAvg p103 s33] round 15/20 logged
+  [FedAvg p103 s33] round 20/20 logged
+  [FedNova p103 s33] round 1/20 logged
+  [FedNova p103 s33] round 5/20 logged
+  [FedNova p103 s33] round 10/20 logged
+  [FedNova p103 s33] round 15/20 logged
+  [FedNova p103 s33] round 20/20 logged
+[partition_seed=103] all model_seeds/algorithms done. elapsed=96818s
+  [FedAvg p104 s11] round 1/20 logged
+  [FedAvg p104 s11] round 5/20 logged
+  [FedAvg p104 s11] round 10/20 logged
+  [FedAvg p104 s11] round 15/20 logged
+  [FedAvg p104 s11] round 20/20 logged
+  [FedNova p104 s11] round 1/20 logged
+  [FedNova p104 s11] round 5/20 logged
+  [FedNova p104 s11] round 10/20 logged
+  [FedNova p104 s11] round 15/20 logged
+  [FedNova p104 s11] round 20/20 logged
+  [FedAvg p104 s22] round 1/20 logged
+  [FedAvg p104 s22] round 5/20 logged
+  [FedAvg p104 s22] round 10/20 logged
+  [FedAvg p104 s22] round 15/20 logged
+  [FedAvg p104 s22] round 20/20 logged
+  [FedNova p104 s22] round 1/20 logged
+  [FedNova p104 s22] round 5/20 logged
+  [FedNova p104 s22] round 10/20 logged
+  [FedNova p104 s22] round 15/20 logged
+  [FedNova p104 s22] round 20/20 logged
+  [FedAvg p104 s33] round 1/20 logged
+  [FedAvg p104 s33] round 5/20 logged
+  [FedAvg p104 s33] round 10/20 logged
+  [FedAvg p104 s33] round 15/20 logged
+  [FedAvg p104 s33] round 20/20 logged
+  [FedNova p104 s33] round 1/20 logged
+  [FedNova p104 s33] round 5/20 logged
+  [FedNova p104 s33] round 10/20 logged
+  [FedNova p104 s33] round 15/20 logged
+  [FedNova p104 s33] round 20/20 logged
+[partition_seed=104] all model_seeds/algorithms done. elapsed=115099s
+  [FedAvg p105 s11] round 1/20 logged
+  [FedAvg p105 s11] round 5/20 logged
+  [FedAvg p105 s11] round 10/20 logged
+  [FedAvg p105 s11] round 15/20 logged
+  [FedAvg p105 s11] round 20/20 logged
+  [FedNova p105 s11] round 1/20 logged
+  [FedNova p105 s11] round 5/20 logged
+  [FedNova p105 s11] round 10/20 logged
+  [FedNova p105 s11] round 15/20 logged
+  [FedNova p105 s11] round 20/20 logged
+  [FedAvg p105 s22] round 1/20 logged
+  [FedAvg p105 s22] round 5/20 logged
+  [FedAvg p105 s22] round 10/20 logged
+  [FedAvg p105 s22] round 15/20 logged
+  [FedAvg p105 s22] round 20/20 logged
+  [FedNova p105 s22] round 1/20 logged
+  [FedNova p105 s22] round 5/20 logged
+  [FedNova p105 s22] round 10/20 logged
+  [FedNova p105 s22] round 15/20 logged
+  [FedNova p105 s22] round 20/20 logged
+  [FedAvg p105 s33] round 1/20 logged
+  [FedAvg p105 s33] round 5/20 logged
+  [FedAvg p105 s33] round 10/20 logged
+  [FedAvg p105 s33] round 15/20 logged
+  [FedAvg p105 s33] round 20/20 logged
+  [FedNova p105 s33] round 1/20 logged
+  [FedNova p105 s33] round 5/20 logged
+  [FedNova p105 s33] round 10/20 logged
+  [FedNova p105 s33] round 15/20 logged
+  [FedNova p105 s33] round 20/20 logged
+[partition_seed=105] all model_seeds/algorithms done. elapsed=139252s
+
+Saved -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item5_cross_domain_validation/results/item5_raw.csv
+Saved -> /Users/abanjar/All Project/UAV-FL/uav-federated-ids/repositories/paper-01-rare-class-erosion/paper1_rare_class_erosion/item5_cross_domain_validation/results/item5_no_holder_log.csv

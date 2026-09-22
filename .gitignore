@@ -8,6 +8,16 @@ __pycache__/
 /isot_drone_dataset/
 **/isot_drone_dataset/
 
+# Item 5: cleaned/split CICIoT2023 parquet files (622MB, incl. a 435MB file --
+# over GitHub's 100MB hard limit) and Item 4's intermediate per-round pass-A
+# checkpoints (32MB) are derived/intermediate artifacts, not redistributed,
+# per Section 13 (Data and Code Availability) of the manuscript -- the
+# manifests, SHA-256 hashes, and generation scripts needed to reproduce them
+# byte-for-byte from an independently-obtained copy of the official
+# CICIoT2023 release ARE committed.
+paper1_rare_class_erosion/item5_cross_domain_validation/prepared_data/
+paper1_rare_class_erosion/item4_mechanistic_localization/pass_a_checkpoints/
+
 # Local environment / editor
 .venv/
 venv/
