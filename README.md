@@ -6,7 +6,7 @@ Reproducibility package for the manuscript below. This repository receives its o
 
 ## Manuscript
 
-**Rare-Class Knowledge Retention in Federated Intrusion Detection: A Session-Level UAV Diagnostic with Mechanistic Localization and Cross-Domain Validation**
+**Rare-Class Knowledge Retention in Federated Intrusion Detection: A Session-Level UAV Diagnostic with Mechanistic Localization Tests and Cross-Domain Validation**
 
 Federated parameter averaging can erase rare-attack-class knowledge that individual clients demonstrably learn locally, even while the aggregated model shows strong overall accuracy. This package provides:
 
