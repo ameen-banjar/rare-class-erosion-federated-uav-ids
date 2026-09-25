@@ -1,6 +1,6 @@
 """
-Mechanism-targeted baseline test, added to strengthen the RQ1 mechanistic
-claim before submission.
+Mechanism-targeted baseline test, added post-AEJ-rejection to strengthen the
+RQ1 mechanistic claim before resubmission to JNCA.
 
 Section 5 of the manuscript proposes a "plausible, non-exclusive mechanistic
 candidate": with 12-13 of 15 clients holding zero examples of a rare class,
