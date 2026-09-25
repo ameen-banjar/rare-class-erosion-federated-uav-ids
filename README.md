@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22114156.svg)](https://doi.org/10.5281/zenodo.22114156)
 
-Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself. The badge above is Zenodo's **concept DOI** (always resolves to the latest version); individual versions are independently citable at their own DOI — see [`CITATION.cff`](CITATION.cff) for the current version's specific DOI (currently v1.2.0, `10.5281/zenodo.22899158`) and the "Versions" panel on the [Zenodo record](https://doi.org/10.5281/zenodo.22114156) for the full history, including the immutable v1.1.1 (`10.5281/zenodo.22236554`) that Sections 5, 7, and 8 of the manuscript correspond to.
+Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself. The badge above is Zenodo's **concept DOI** (always resolves to the latest version); individual versions are independently citable at their own DOI — see [`CITATION.cff`](CITATION.cff) for the version-specific DOIs (v1.2.1 is a metadata-only release; its own DOI is shown in the Versions panel; the evidence for Sections 6 and 9 of the manuscript is v1.2.0, `10.5281/zenodo.22899158`) and the "Versions" panel on the [Zenodo record](https://doi.org/10.5281/zenodo.22114156) for the full history, including the immutable v1.1.1 (`10.5281/zenodo.22236554`) that Sections 5, 7, and 8 of the manuscript correspond to.
 
 ## Manuscript
 
@@ -11,7 +11,7 @@ Reproducibility package for the manuscript below. This repository receives its o
 Federated parameter averaging can erase rare-attack-class knowledge that individual clients demonstrably learn locally, even while the aggregated model shows strong overall accuracy. This package provides:
 
 - **Items 1–3** (mechanism, five-algorithm comparison, heterogeneity sensitivity): the full session-level (never row-level) non-IID partition protocol over the ISOT Drone Dataset, five federated aggregation algorithm implementations (FedAvg, FedNova, SCAFFOLD-uniform, SCAFFOLD-weighted, FedAdam), a mechanism-targeted FedRS restricted-softmax intervention (`fedrs_baseline_mechanism.py`), and a Dirichlet-α/client-count sensitivity study.
-- **Item 4** (mechanistic localization): a pre-registered counterfactual-aggregation design (`item4_mechanistic_localization/`) testing whether rare-class erosion localizes to the target classifier row, the full classifier head, or the shared representation, with a mandatory determinism gate passed exactly (150/150 checks, parameter-wise identity) before any result is interpreted.
+- **Item 4** (mechanistic localization): a counterfactual-aggregation design, pre-specified and frozen in version control before execution (`item4_mechanistic_localization/`), testing whether rare-class erosion localizes to the target classifier row, the full classifier head, or the shared representation, with a mandatory determinism gate passed exactly (150/150 checks, parameter-wise identity) before any result is interpreted.
 - **Item 5** (cross-domain external validation): the retention-measurement framework re-tested on CICIoT2023 (`item5_cross_domain_validation/`) — an independent, real-device IoT intrusion-detection benchmark — under a row-level synthetic non-IID federation protocol, including the full dataset audit, deduplication/cleaning pipeline, and Dirichlet partitioning code.
 
 Every reported number is traceable to a SHA-256-hashed, locked results document.
@@ -21,8 +21,8 @@ Every reported number is traceable to a SHA-256-hashed, locked results document.
 Locked scientific results (do not treat as a preprint — the manuscript itself is not published here, only the code/data/results package. See below):
 - [`RESULTS_ITEM1_ITEM2_LOCKED.md`](paper1_rare_class_erosion/RESULTS_ITEM1_ITEM2_LOCKED.md) — mechanism (RQ1) and five-algorithm comparison (RQ2).
 - [`item3_sensitivity/RESULTS_ITEM3_LOCKED.md`](paper1_rare_class_erosion/item3_sensitivity/RESULTS_ITEM3_LOCKED.md) — Dirichlet α / client-count sensitivity (RQ3).
-- [`item4_mechanistic_localization/DESIGN_FROZEN.md`](paper1_rare_class_erosion/item4_mechanistic_localization/DESIGN_FROZEN.md) — mechanistic localization design (frozen pre-registration, change log, and result summary).
-- [`item5_cross_domain_validation/DESIGN_FROZEN.md`](paper1_rare_class_erosion/item5_cross_domain_validation/DESIGN_FROZEN.md) — CICIoT2023 cross-domain validation design (frozen pre-registration, dataset audit, change log).
+- [`item4_mechanistic_localization/DESIGN_FROZEN.md`](paper1_rare_class_erosion/item4_mechanistic_localization/DESIGN_FROZEN.md) — mechanistic localization design (design frozen before execution, change log, and result summary).
+- [`item5_cross_domain_validation/DESIGN_FROZEN.md`](paper1_rare_class_erosion/item5_cross_domain_validation/DESIGN_FROZEN.md) — CICIoT2023 cross-domain validation design (design frozen before execution, dataset audit, change log).
 - [`EVIDENCE_MAP.md`](paper1_rare_class_erosion/EVIDENCE_MAP.md) — traces every manuscript claim to its locked source.
 
 ## Repository layout

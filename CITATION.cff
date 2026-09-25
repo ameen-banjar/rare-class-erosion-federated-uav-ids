@@ -1,11 +1,11 @@
-# CITATION.cff — repository-code/date-released/doi below are filled in at
-# publish/release time (GitHub URL, release date, Zenodo DOI respectively).
-# GitHub renders this automatically as a "Cite this repository" button once published.
+# CITATION.cff — GitHub renders this automatically as a "Cite this repository" button.
+# `doi` below is the Zenodo CONCEPT DOI (always resolves to the latest version); the
+# version-specific DOIs of earlier releases are listed under `identifiers`.
 # See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
 cff-version: 1.2.0
 message: "If you use this code, partition protocol, or derived results, please cite both the software (below) and the associated paper once published (see preferred-citation)."
 type: software
-title: "Reproducibility Package: Rare-Class Knowledge Erosion in Federated UAV Intrusion Detection"
+title: "Reproducibility Package: Rare-Class Knowledge Retention in Federated Intrusion Detection (Session-Level UAV Diagnostic)"
 authors:
   - family-names: Banjar
     given-names: Ameen
@@ -14,9 +14,16 @@ authors:
     orcid: "https://orcid.org/0000-0002-0871-5153"
 license: MIT
 repository-code: "https://github.com/ameen-banjar/rare-class-erosion-federated-uav-ids"
-version: "1.2.0"
-date-released: "2026-09-22"
-doi: "10.5281/zenodo.22899158"
+version: "1.2.1"
+date-released: "2026-09-25"
+doi: "10.5281/zenodo.22114156"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22899158"
+    description: "Version 1.2.0 - the release the manuscript's Sections 6 and 9 (Items 4 and 5) correspond to"
+  - type: doi
+    value: "10.5281/zenodo.22236554"
+    description: "Version 1.1.1 - the release the manuscript's Sections 5, 7 and 8 (Items 1-3) correspond to"
 keywords:
   - federated learning
   - intrusion detection
@@ -34,6 +41,6 @@ preferred-citation:
       given-names: Ameen
       email: abanjar@uj.edu.sa
       affiliation: "University of Jeddah, College of Computer Science and Engineering, Department of Information Systems and Technology"
-  journal: "Computer Networks"  # [TO CONFIRM] update if venue changes
-  year: 2026                                               # [TO CONFIRM] update to actual publication year
-  status: "in-preparation"                                 # [TO UPDATE] -> "submitted" / "in-review" / "published" as the process advances
+  journal: "Computer Networks"
+  year: 2026
+  status: "submitted"   # update to "in-press" / "advance-online" as the process advances
