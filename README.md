@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22114156.svg)](https://doi.org/10.5281/zenodo.22114156)
 
-Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself. The badge above is Zenodo's **concept DOI** (always resolves to the latest version); individual versions are independently citable at their own DOI — see [`CITATION.cff`](CITATION.cff) for the version-specific DOIs (v1.2.1 is a metadata-only release; its own DOI is shown in the Versions panel; the evidence for Sections 6 and 9 of the manuscript is v1.2.0, `10.5281/zenodo.22899158`) and the "Versions" panel on the [Zenodo record](https://doi.org/10.5281/zenodo.22114156) for the full history, including the immutable v1.1.1 (`10.5281/zenodo.22236554`) that Sections 5, 7, and 8 of the manuscript correspond to.
+Reproducibility package for the manuscript below. This repository receives its own independent release history and Zenodo DOI, version-addressable and separate from the manuscript text itself. The badge above is Zenodo's **concept DOI** (always resolves to the latest version); individual versions are independently citable at their own DOI — see [`CITATION.cff`](CITATION.cff) for the version-specific DOIs (v1.2.1 is a metadata-only release, `10.5281/zenodo.22963287`; the evidence for Sections 6 and 9 of the manuscript is v1.2.0, `10.5281/zenodo.22899158`) and the "Versions" panel on the [Zenodo record](https://doi.org/10.5281/zenodo.22114156) for the full history, including the immutable v1.1.1 (`10.5281/zenodo.22236554`) that Sections 5, 7, and 8 of the manuscript correspond to.
 
 ## Manuscript
 

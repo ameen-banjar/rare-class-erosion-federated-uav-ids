@@ -19,6 +19,9 @@ date-released: "2026-09-25"
 doi: "10.5281/zenodo.22114156"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.22963287"
+    description: "Version 1.2.1 (this release; metadata-only re-release of v1.2.0)"
+  - type: doi
     value: "10.5281/zenodo.22899158"
     description: "Version 1.2.0 - the release the manuscript's Sections 6 and 9 (Items 4 and 5) correspond to"
   - type: doi
